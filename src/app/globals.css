@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.horizontal-scroll-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrolling-content {
+  display: flex;
+  width: 200%;
+  /* Double the width to accommodate the duplicated content */
+  animation: scroll 20s linear infinite;
+}
+
+.scrolling-text {
+  display: flex;
+  flex-shrink: 0;
+  white-space: nowrap;
+  width: 90%;
+  /* Each text block takes up half the width */
+}
+
+@media (max-width: 640px) {
+  .scrolling-content {
+    width: 300%;
+  }
+
+  .scrolling-text {
+    width: 200%;
+  }
+}
+
+.horizontal-scroll-container:hover .scrolling-content {
+  animation-play-state: paused;
+}
+
+/* Width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  /* Light gray */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  /* Medium gray */
+  border-radius: 4px;
+  /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+  /* Darker gray */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.marquee {
+  display: flex;
+  width: 200%;
+  /* Double the width to accommodate duplicate images */
+  animation: marquee 15s linear infinite;
+}
+
+.marquee>.flex {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  /* Each set of images takes up 100% of the container width */
+}

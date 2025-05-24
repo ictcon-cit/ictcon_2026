@@ -1,0 +1,159 @@
+import { useState } from "react";
+import { FaFilePdf } from "react-icons/fa6";
+
+// All possible about section contents
+const aboutContents = {
+  cit: {
+    title: "ABOUT CIT KOKRAJHAR",
+    image: "/images/cit.png",
+    imageAlt: "CIT Kokrajhar Logo",
+    description: `Central Institute of Technology (CIT), Kokrajhar is situated in
+      Kokrajhar District of Bodoland Territorial Region (BTR) in Assam.
+      CIT has been established for the basic objective of fulfilling the
+      aspirations of the Bodo People relating to their cultural identity,
+      language, education and overall economic development of the region
+      and to impart Bodo youths with requisite technological and
+      vocational training to produce the required manpower to give the
+      impetus to economic growth of this area and to integrate the Bodo
+      People into the mainstream of Technical and Vocational Education. It
+      is a Centrally Funded Institute under the Ministry of Human Resource
+      Development, Government of India.The Institute was established on
+      the 19th of December 2006.`,
+  },
+  conference: {
+    title: "ABOUT THE CONFERENCE",
+    image: "/images/ict.jpg",
+    imageAlt: "ICTCon Conference Banner",
+    description: `The 2nd International Intelligent Computing and Technology Conference (ICTCon 2024) being organized by Central Institute of Technology Kokrajhar during 2nd-3rd December, 2024. The aim of the conference ICTCon-2024 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+  },
+  btr: {
+    title: "ABOUT BTR, ASSAM",
+    image: "/images/gate2.jpg",
+    imageAlt: "Bodoland Territorial Region",
+    description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
+  },
+};
+
+type AboutSectionKey = keyof typeof aboutContents;
+
+export default function AboutSection() {
+  const [currentSection, setCurrentSection] =
+    useState<AboutSectionKey>("conference");
+  const aboutContent = aboutContents[currentSection];
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex gap-6">
+        <div className="flex flex-col flex-[4] bg-white overflow-hidden shadow-sm rounded-lg">
+          {/* Section tab indicator inside the content container */}
+          <div className="flex items-center justify-center gap-2 bg-blue-600 py-4 rounded-t-lg mb-2">
+            {Object.entries(aboutContents).map(([key, value]) => (
+              <button
+                key={key}
+                onClick={() => setCurrentSection(key as AboutSectionKey)}
+                className={`px-5 py-2 rounded-lg font-bold transition-colors duration-200 focus:outline-none tracking-wide
+                  ${
+                    currentSection === key
+                      ? "bg-white text-blue-600 shadow border-2 border-blue-600 scale-105"
+                      : "bg-blue-600 text-white hover:bg-blue-800 border-2 border-transparent"
+                  }`}
+                style={{ minWidth: 0 }}
+              >
+                {value.title}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-col gap-2 items-center justify-start text-center text-xl text-black px-5">
+            <img
+              src={aboutContent.image}
+              className={
+                currentSection === "cit"
+                  ? "w-48 object-fill"
+                  : "object-cover h-72 w-full"
+              }
+              alt={aboutContent.imageAlt}
+            />
+            <p className="text-left text-md text-justify-start leading-relaxed mb-2">
+              {aboutContent.description}
+            </p>
+          </div>
+        </div>
+        <div className="w-[40%] shadow-lg bg-white overflow-hidden rounded-lg">
+          <div className="p-5">
+            <div className="text-center w-full mb-4">
+              <a
+                href="/CFP ICTCon 2024.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-4 px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase"
+                download
+              >
+                <FaFilePdf className="mr-2 text-lg" />
+                Call for Papers
+              </a>
+            </div>
+            <h2 className="text-3xl font-bold mb-6 text-center">
+              Proceedings By
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10 justify-items-center">
+              <a
+                href="https://www.springer.com/series/7899"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transform transition-transform duration-300 hover:scale-105"
+              >
+                <img
+                  src="/images/springer.webp"
+                  alt="springer"
+                  className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
+                />
+              </a>
+              <a
+                href="https://www.springer.com/series/7899"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transform transition-transform duration-300 hover:scale-105"
+              >
+                <img
+                  src="/images/ccis.webp"
+                  alt="scopus"
+                  className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
+                />
+              </a>
+            </div>
+            <div className="mb-6 text-center">
+              <h3 className="text-2xl font-semibold mb-2">
+                Last Date of Paper Submission
+              </h3>
+              <p className="font-bold text-gray-500 line-through">
+                30th September, 2024
+              </p>
+              <p className="font-bold text-gray-500 line-through">
+                10th October, 2024 (Extended)
+              </p>
+              <p className="font-bold text-gray-500 line-through">
+                17th October, 2024 (Hard Deadline)
+              </p>
+              <a
+                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2024"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 hover:underline"
+              >
+                <span className="mr-2">&#9755;</span>
+                Submit your paper here
+              </a>
+            </div>
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold">Date of Conference</h3>
+              <p className="font-semibold">(Hybrid mode)</p>
+              <p className="text-lg font-bold text-red-600 mb-4">
+                2nd-3rd December, 2024
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
