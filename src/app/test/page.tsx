@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="flex gap-6 mt-6 ">
         <div className="flex flex-col flex-[4] bg-white  overflow-hidden shadow-sm">
           <div className="bg-blue-600 text-center text-xl text-white font-semibold p-4 mb-4">
-            ABOUT CIT KOKRAJHAR test
+            ABOUT CIT KOKRAJHAR
           </div>
           <div className=" flex-1 flex flex-col items-center justify-start text-center text-xl text-black ">
             <img
