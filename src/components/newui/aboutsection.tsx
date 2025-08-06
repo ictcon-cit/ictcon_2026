@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaFilePdf } from "react-icons/fa6";
+import { FaFilePdf, FaHandPointRight } from "react-icons/fa6";
 
 // All possible about section contents
 const aboutContents = {
@@ -24,7 +24,7 @@ const aboutContents = {
     title: "ABOUT THE CONFERENCE",
     image: "/images/ict.jpg",
     imageAlt: "ICTCon Conference Banner",
-    description: `The 2nd International Intelligent Computing and Technology Conference (ICTCon 2024) being organized by Central Institute of Technology Kokrajhar during 2nd-3rd December, 2024. The aim of the conference ICTCon-2024 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+    description: `The 3rd International Intelligent Computing and Technology Conference (ICTCon 2025) being organized by Central Institute of Technology Kokrajhar during 2nd-3rd December, 2025. The aim of the conference ICTCon-2025 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
   btr: {
     title: "ABOUT BTR, ASSAM",
@@ -95,8 +95,8 @@ export default function AboutSection() {
             <h2 className="text-3xl font-bold mb-6 text-center">
               Proceedings By
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10 justify-items-center">
-              <a
+            <div className="flex justify-center mb-10">
+              {/* <a
                 href="https://www.springer.com/series/7899"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export default function AboutSection() {
                   alt="springer"
                   className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
                 />
-              </a>
+              </a> */}
               <a
                 href="https://www.springer.com/series/7899"
                 target="_blank"
@@ -125,22 +125,16 @@ export default function AboutSection() {
               <h3 className="text-2xl font-semibold mb-2">
                 Last Date of Paper Submission
               </h3>
-              <p className="font-bold text-gray-500 line-through">
-                30th September, 2024
-              </p>
-              <p className="font-bold text-gray-500 line-through">
-                10th October, 2024 (Extended)
-              </p>
-              <p className="font-bold text-gray-500 line-through">
-                17th October, 2024 (Hard Deadline)
+              <p className="font-bold text-lg text-red-600 mb-4">
+                30th August, 2025
               </p>
               <a
-                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2024"
+                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2025"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 hover:underline"
               >
-                <span className="mr-2">&#9755;</span>
+                <FaHandPointRight className="mr-2" />
                 Submit your paper here
               </a>
             </div>
@@ -148,7 +142,7 @@ export default function AboutSection() {
               <h3 className="text-2xl font-semibold">Date of Conference</h3>
               <p className="font-semibold">(Hybrid mode)</p>
               <p className="text-lg font-bold text-red-600 mb-4">
-                2nd-3rd December, 2024
+                2nd-3rd December, 2025
               </p>
             </div>
           </div>

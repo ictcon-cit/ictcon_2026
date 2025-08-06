@@ -9,7 +9,7 @@ const SubmissionPage = () => {
       <div className="md:text-xl text-md  text-black md:px-44 px-5 space-y-5">
         <div className="mt-10">
           Prospective authors are invited to submit full-length original
-          research papers. In submitting a manuscript to ICTCon 2024, authors
+          research papers. In submitting a manuscript to ICTCon 2025, authors
           acknowledge that no paper substantially similar in content has been or
           will be submitted to another journal, conference or workshop during
           the review period. In such a case, the paper will be rejected without
@@ -25,7 +25,7 @@ const SubmissionPage = () => {
           Authors should prepare their manuscripts of 12-15 pages (including all
           text, figures, and references). The manuscript must be submitted in
           pdf format only and the file size of your manuscript should not exceed
-          10 MB as per guidelines of Springer-CCIS Series{" "}
+          10 MB as per guidelines of Springer proceedings{" "}
           <span className="text-rose-600">
             (
             <Link
@@ -60,18 +60,8 @@ const SubmissionPage = () => {
 
         <div className="space-y-1">
           <div className="font-bold">Proceedings:</div>
-          The proceedings of the conference will be published by Scopus Indexed
-          ‐ Springer in{" "}
-          <Link
-            target="_blank"
-            className="text-rose-600 underline"
-            href={"https://www.springer.com/series/7899"}
-          >
-            Communications in Computer and Information Science series{" "}
-          </Link>
-          . CCIS is abstracted/ indexed in DBLP, Google Scholar, EI-Compendex,
-          Mathematical Reviews, SCImago, Scopus. CCIS volumes are also submitted
-          for the inclusion in ISI Proceedings.
+          The proceedings of the conference will be published by Springer Nature
+          book series.
         </div>
 
         <div className="space-y-1">
@@ -101,15 +91,15 @@ const SubmissionPage = () => {
           <ul className="list-disc ml-10">
             <li>
               <DownloadButton
-                href={"/LaTeX2e_ICTCon-2024.zip"}
-                filename={"LaTeX2e_ICTCon-2024.zip"}
+                href={"/LaTeX2e_ICTCon-2025.zip"}
+                filename={"LaTeX2e_ICTCon-2025.zip"}
                 text={"LaTeX Template"}
               />
             </li>
             <li>
               <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2024.zip"}
-                filename={"Microsoft_Word_ICTCON-2024.zip"}
+                href={"/Microsoft_Word_ICTCON-2025.zip"}
+                filename={"Microsoft_Word_ICTCON-2025.zip"}
                 text={"Word Template"}
               />
             </li>
@@ -133,17 +123,25 @@ const SubmissionPage = () => {
           <div className="font-bold">
             Instruction for Manuscript Submission:
           </div>
-          The manuscript has to be uploaded online at the ICTCON 2024 Microsoft
+          The manuscript has to be uploaded online at the ICTCON 2025 Microsoft
           Research paper submission portal at the following link:
           {/* <div> */}
           <Link
             target="_blank"
             className="text-rose-600 underline flex"
-            href={"https://cmt3.research.microsoft.com/ICTCon2024"}
+            href={"https://cmt3.research.microsoft.com/ICTCon2025"}
           >
-            https://cmt3.research.microsoft.com/ICTCon2024
+            https://cmt3.research.microsoft.com/ICTCon2025
           </Link>
           {/* </div> */}
+        </div>
+
+        <div className="space-y-1 border border-gray-300 p-4 rounded-lg bg-gray-50">
+          <div className="font-bold">Acknowledgement:</div>
+          The Microsoft CMT service is used for managing the peer-reviewing
+          process for this conference. This service was provided for free by
+          Microsoft and they bore all expenses, including costs for Azure cloud
+          services as well as for software development and support.
         </div>
       </div>
       <div className="h-32"></div>

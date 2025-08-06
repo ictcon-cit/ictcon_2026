@@ -6,7 +6,7 @@ const PaperPage = () => {
       <SecondHeader title={"CALL FOR PAPERS"} />
       <div>
         <div className="w-full md:text-3xl text-lg text-center md:p-20 p-5 text-black font-bold">
-          The topics of ICTCON 2024 will cover all aspects of research and
+          The topics of ICTCON 2025 will cover all aspects of research and
           application in intelligent computing and technologies, including but
           not limited to:
         </div>

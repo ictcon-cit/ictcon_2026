@@ -11,7 +11,7 @@ const ImportantDates = () => {
               Paper Submission starts
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              To be notified.
+              15th June, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
@@ -22,7 +22,7 @@ const ImportantDates = () => {
               Last Date of Paper Submission
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              To be notified.
+              30th August, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
@@ -30,10 +30,10 @@ const ImportantDates = () => {
               scope="row"
               className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
             >
-               Notification of Acceptance
+              Notification of Acceptance
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              To be notified.
+              10th October, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
@@ -44,7 +44,7 @@ const ImportantDates = () => {
               Registration
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              To be notified.
+              15th November, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
@@ -55,7 +55,7 @@ const ImportantDates = () => {
               Date of Conference (Hybrid mode)
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              To be notified.
+              2-3 December, 2025
             </td>
           </tr>
         </tbody>
