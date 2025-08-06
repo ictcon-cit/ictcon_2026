@@ -5,17 +5,18 @@ const RegistrationPage = () => {
   return (
     <div>
       <SecondHeader title={"REGISTRATION"} />
- <div className="flex min-h-screen justify-center items-center">
-  <div className="w-full flex justify-center">
-    <div className="w-full h-24 flex flex-col justify-center items-center border-2 border-blue-400 rounded-lg bg-white shadow-lg">
-      <span className="text-l font-semibold text-blue-600 text-center">
-        The necessary guidelines for registration will be notified soon.  Further information and instructions regarding the registration process will be notified shortly.
-      </span>
-      </div>
-  </div>
-</div>
-      {/*
-      {/*
+      {/* <div className="flex min-h-screen justify-center items-center">
+        <div className="w-full flex justify-center">
+          <div className="w-full h-24 flex flex-col justify-center items-center border-2 border-blue-400 rounded-lg bg-white shadow-lg">
+            <span className="text-l font-semibold text-blue-600 text-center">
+              The necessary guidelines for registration will be notified soon.
+              Further information and instructions regarding the registration
+              process will be notified shortly.
+            </span>
+          </div>
+        </div>
+      </div> */}
+
       <div>
         <div className="relative overflow-x-auto md:px-20 md:py-5 px-5 py-1">
           <div className="w-full text-center text-black md:text-3xl text-xl font-bold p-5">
@@ -42,10 +43,10 @@ const RegistrationPage = () => {
                     Student
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹3500
+                    ₹4500
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    $100
+                    $120
                   </td>
                 </tr>
                 <tr>
@@ -53,10 +54,10 @@ const RegistrationPage = () => {
                     Faculty/Academia
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹5500
+                    ₹6500
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    $150
+                    $180
                   </td>
                 </tr>
                 <tr>
@@ -64,10 +65,10 @@ const RegistrationPage = () => {
                     Industry
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹7000
+                    ₹8000
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    $200
+                    $220
                   </td>
                 </tr>
               </tbody>
@@ -372,7 +373,6 @@ const RegistrationPage = () => {
           (paper Id number &apos;xxx&apos; like as &apos;121&apos;)
         </div>
       </div>
-      */}
     </div>
   );
 };

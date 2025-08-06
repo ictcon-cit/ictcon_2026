@@ -11,7 +11,10 @@ const CommitteePage = () => {
           </div>
           <div className="space-y-2">
             <div>Sri. Pramod Boro, President, CITK Society</div>
-            <div>Prof. A. Srinivasan, Director, CIT Kokrajhar</div>
+            <div>
+              Prof. Devendra Jalihal, Director (Additional Charge), CIT
+              Kokrajhar
+            </div>
           </div>
         </div>
 
