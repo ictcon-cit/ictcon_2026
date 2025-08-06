@@ -1,25 +1,14 @@
 import React from "react";
 
-
 const HorizontalScroll: React.FC = () => {
   const textContent = (
     <p className="text-blue-500 text-sm md:text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-      The proceedings of the conference will be published by Scopus Indexed ‐
-      Springer in{" "}
-      <a
-        href="https://www.springer.com/series/7899"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:underline hover:text-blue-800 font-bold"
-      >
-        Communications in Computer and Information Science series (CCIS), (Final
-        acceptance of springer proceedings)
-      </a>
-      .{" "}
+      <span className="font-bold">Proceedings By:</span> Conference Proceeding
+      will be published by the Springer Nature (Final Acceptance).{" "}
       <span className="font-bold text-red-500">
         [
         <a
-          href="./ICTCon2024_IDXXX.pptx"
+          href="./ICTCon2025_IDXXX.pptx"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline hover:text-red-800"
