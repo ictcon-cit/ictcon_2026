@@ -328,7 +328,7 @@ export default function Home() {
       <div className="sm:px-16 px-5 py-3">
         <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden ">
           <h1 className="text-3xl font-bold text-center py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
-            Our Speakers
+            Our Previous Keynote Speakers
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-8">
             {[

@@ -96,7 +96,7 @@ export default function AboutSection() {
               Proceedings By
             </h2>
             <div className="flex justify-center mb-10">
-              {/* <a
+              <a
                 href="https://www.springer.com/series/7899"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,8 +107,8 @@ export default function AboutSection() {
                   alt="springer"
                   className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
                 />
-              </a> */}
-              <a
+              </a>
+              {/* <a
                 href="https://www.springer.com/series/7899"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export default function AboutSection() {
                   alt="scopus"
                   className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
                 />
-              </a>
+              </a> */}
             </div>
             <div className="mb-6 text-center">
               <h3 className="text-2xl font-semibold mb-2">
