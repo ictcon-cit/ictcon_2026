@@ -344,19 +344,9 @@ export default function Home() {
                 title: "Professor, IIIT Allahabad",
               },
               {
-                name: "Prof. R.D. Garg",
-                img: "/images/speakers/Prof. R.D.Garg.jpg",
-                title: "Professor, IIT Roorkee",
-              },
-              {
                 name: "Dr. Shitala Prasad",
                 img: "/images/speakers/Dr. shitala Prasad.jpg",
                 title: "Assistant Professor, IIT Goa",
-              },
-              {
-                name: "Dr. Madhusudan Singh",
-                img: "/images/speakers/Dr. Madhusudan singh.jpg",
-                title: "Associate Professor, IIIT Delhi",
               },
               {
                 name: "Dr. Kuanhong Cheng",
