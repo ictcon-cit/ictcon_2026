@@ -76,7 +76,7 @@ const RegistrationPage = () => {
           </div>
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
-            and $15 Foreign members after the 16 November 2024.
+            and $15 Foreign members after the 16 November 2025.
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ const RegistrationPage = () => {
                 <li>A/c No.: 30495666063</li>
                 <li>IFSC: SBIN0007379</li>
                 <li>Bank: SBI, North Kokrajhar Branch</li>
-                <li>(REMARK AS ICTCon2024 #paper id)</li>
+                <li>(REMARK AS ICTCon2025 #paper id)</li>
               </ul>
             </li>
             <li className="mb-2">
@@ -114,7 +114,7 @@ const RegistrationPage = () => {
               >
                 QR code
               </a>
-              : (Remark as <strong>ICTCon2024 #paper id</strong>)
+              : (Remark as <strong>ICTCon2025 #paper id</strong>)
             </li>
           </ol>
         </div>
@@ -156,7 +156,7 @@ const RegistrationPage = () => {
             Each accepted paper must be accompanied by the author&apos;s
             registration. Papers that are not accompanied by the author
             registration will not be included in the conference proceedings and
-            will not appear in the Springer CCIS series.
+            will not appear in the Springer proceedings format.
           </h2>
           <ul className="list-decimal list-inside mb-4">
             <li>Instructions for preparing the final camera-ready paper</li>
@@ -177,7 +177,7 @@ const RegistrationPage = () => {
         <div className="border border-gray-300 p-4 rounded-lg bg-gray-50">
           <ol className="list-decimal list-inside mb-4">
             <li className="mb-2">
-              The deadline for camera-ready submission is November 15, 2024, at
+              The deadline for camera-ready submission is November 15, 2025, at
               11:59 P.M. Pacific Time. This deadline will not be extended.
               Papers submitted after the deadline may not be included in the
               conference proceedings.
@@ -194,14 +194,14 @@ const RegistrationPage = () => {
               </a>{" "}
               (
               <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2024.zip"}
-                filename={"Microsoft_Word_ICTCON-2024.zip"}
+                href={"/Microsoft_Word_ICTCON-2025.zip"}
+                filename={"Microsoft_Word_ICTCON-2025.zip"}
                 text={"Word"}
               />{" "}
               /{" "}
               <DownloadButton
-                href={"/LaTeX2e_ICTCon-2024.zip"}
-                filename={"LaTeX2e_ICTCon-2024.zip"}
+                href={"/LaTeX2e_ICTCon-2025.zip"}
+                filename={"LaTeX2e_ICTCon-2025.zip"}
                 text={"LaTeX"}
               />
               ).
@@ -255,7 +255,7 @@ const RegistrationPage = () => {
             </li>
             <li className="mb-2">
               Fill the following details as per the information submitted
-              earlier to ICTCon 2024. Any changes in the paper title and name of
+              earlier to ICTCon 2025. Any changes in the paper title and name of
               authors will not be entertained.
               <ul className="list-disc list-inside ml-5 mt-2">
                 <li>Proposed title of the contribution</li>
@@ -279,7 +279,7 @@ const RegistrationPage = () => {
         <div className="border border-gray-300 p-4 rounded-lg bg-gray-50 overflow-x-auto">
           <ol className="list-decimal list-inside mb-4">
             <li className="mb-2">
-              Followings files need to be submitted by November 15, 2024.
+              Followings files need to be submitted by November 15, 2025.
               <ul className="list-disc list-inside ml-5 mt-2">
                 <li>
                   Final Camera Ready Copy (in PDF format) of accepted manuscript
@@ -327,12 +327,12 @@ const RegistrationPage = () => {
             <li className="mb-2">
               Login to the CMT site:{" "}
               <a
-                href="https://cmt3.research.microsoft.com/ICTCon2024"
+                href="https://cmt3.research.microsoft.com/ICTCon2025"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 font-semibold underline"
               >
-                https://cmt3.research.microsoft.com/ICTCon2024
+                https://cmt3.research.microsoft.com/ICTCon5
               </a>
             </li>
             <li className="mb-2">
@@ -361,14 +361,14 @@ const RegistrationPage = () => {
           </ol>
         </div>
         <div className="text-center text-black font-semibold mt-4 flex flex-col">
-          Oral PowerPoint presentation slides template for ICTCon 2024
+          Oral PowerPoint presentation slides template for ICTCon 2025
           conference:
           <a
-            href="/ICTCon2024_IDXXX.pptx"
+            href="/ICTCon2025_IDXXX.pptx"
             download
             className="text-blue-500 underline font-bold"
           >
-            ICTCon2024_IDXXX.pptx
+            ICTCon2025_IDXXX.pptx
           </a>
           (paper Id number &apos;xxx&apos; like as &apos;121&apos;)
         </div>
