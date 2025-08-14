@@ -17,11 +17,11 @@ interface PopupProps {
 
 function Popup({ onClose, children }: PopupProps) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 min-h-screen">
-      <div className="bg-white md:w-1/2 p-6 rounded-lg shadow-lg relative overflow-y-auto max-h-full">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 min-h-screen p-4">
+      <div className="bg-white w-full max-w-4xl max-h-[90vh] p-4 sm:p-6 rounded-lg shadow-lg relative overflow-y-auto">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-gray-600 hover:text-gray-900 text-4xl"
+          className="absolute top-2 right-2 text-gray-600 hover:text-gray-900 text-2xl sm:text-4xl z-10 bg-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center"
         >
           &times;
         </button>
@@ -116,7 +116,7 @@ export default function Home() {
       <div className="sm:mb-3">
         <HomeCara />
       </div>
-      <div className="mb-3 sm:px-16">
+      <div className="mb-3 px-4 sm:px-16">
         <HorizontalScroll />
       </div>
       {/* <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
@@ -233,7 +233,7 @@ export default function Home() {
           </ul>
         </Popup>
       )} */}
-      <div className="mb-3 sm:px-16">
+      <div className="mb-3 px-4 sm:px-16">
         <AboutSection />
       </div>
       {/* 
@@ -325,12 +325,12 @@ export default function Home() {
         </div>
       </div> */}
       {/* Our Speakers Section */}
-      <div className="sm:px-16 px-5 py-3">
-        <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden ">
-          <h1 className="text-3xl font-bold text-center py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
+      <div className="px-4 sm:px-16 py-3">
+        <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden rounded-lg">
+          <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
             Our Previous Keynote Speakers
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8">
             {[
               {
                 name: "Prof. Dhananjay Singh",
@@ -357,17 +357,17 @@ export default function Home() {
             ].map((speaker, idx) => (
               <div
                 key={idx}
-                className="flex flex-col items-center bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all"
+                className="flex flex-col items-center bg-white rounded-xl shadow-md p-4 sm:p-6 hover:shadow-xl transition-all"
               >
                 <img
                   src={speaker.img}
                   alt={speaker.name}
-                  className="w-32 h-32 object-cover rounded-full border-4 border-blue-200 mb-4 shadow-lg"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full border-4 border-blue-200 mb-3 sm:mb-4 shadow-lg"
                 />
-                <div className="text-xl font-bold text-blue-800 text-center mb-1">
+                <div className="text-lg sm:text-xl font-bold text-blue-800 text-center mb-1">
                   {speaker.name}
                 </div>
-                <div className="text-base text-gray-600 text-center">
+                <div className="text-sm sm:text-base text-gray-600 text-center">
                   {speaker.title}
                 </div>
               </div>
@@ -376,14 +376,14 @@ export default function Home() {
         </div>
       </div>
       {/* Address Section */}
-      <div className="sm:px-16 px-5 py-3 mb-2">
-        <div className="relative rounded-2xl shadow-sm bg-gradient-to-br from-white via-blue-50 to-blue-100 overflow-hidden border border-blue-200 flex flex-col md:flex-row items-stretch">
-          <div className="flex-1 flex flex-col justify-center items-center p-10 bg-gradient-to-br from-blue-100 to-white border-b md:border-b-0 md:border-r border-blue-200">
-            <h2 className="text-3xl font-extrabold text-blue-800 text-center tracking-wider drop-shadow-lg mb-4">
+      <div className="px-4 sm:px-16 py-3 mb-2">
+        <div className="relative rounded-2xl shadow-sm bg-gradient-to-br from-white via-blue-50 to-blue-100 overflow-hidden border border-blue-200 flex flex-col lg:flex-row items-stretch">
+          <div className="flex-1 flex flex-col justify-center items-center p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-blue-100 to-white border-b lg:border-b-0 lg:border-r border-blue-200">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-blue-800 text-center tracking-wider drop-shadow-lg mb-4">
               Address
             </h2>
-            <p className="text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
-              <span className="block text-blue-900 text-2xl mb-2 font-bold">
+            <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
+              <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
                 Central Institute of Technology, Kokrajhar
               </span>
               Balagaon, PO: Kokrajhar, Dist: Kokrajhar, BTAD
@@ -394,14 +394,16 @@ export default function Home() {
             </p>
             <a
               href="mailto:ictcon@cit.ac.in"
-              className="inline-flex items-center gap-2 mt-4 px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-800 transition-colors text-lg underline decoration-2 decoration-blue-400"
+              className="inline-flex items-center gap-2 mt-4 px-4 sm:px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-800 transition-colors text-base sm:text-lg underline decoration-2 decoration-blue-400"
             >
-              <FaEnvelope className="text-xl" />
-              ictcon@cit.ac.in
+              <FaEnvelope className="text-lg sm:text-xl" />
+              <span className="break-all sm:break-normal">
+                ictcon@cit.ac.in
+              </span>
             </a>
           </div>
-          <div className="flex-1 w-full h-full p-6 bg-blue-50 flex items-center justify-center">
-            <div className="w-full h-72 rounded-xl overflow-hidden border border-blue-100">
+          <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex items-center justify-center">
+            <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100">
               <iframe
                 width="100%"
                 height="100%"
@@ -432,8 +434,8 @@ export default function Home() {
           )}
         </div>
       </div> */}
-      <div className="w-full py-5 bg-gradient-to-br from-blue-300 via-blue-200/80 to-blue-300 flex flex-col items-center">
-        <h5 className="text-3xl font-extrabold text-center mb-8 text-blue-900 drop-shadow-lg tracking-wide">
+      <div className="w-full py-4 sm:py-5 bg-gradient-to-br from-blue-300 via-blue-200/80 to-blue-300 flex flex-col items-center px-4">
+        <h5 className="text-2xl sm:text-3xl font-extrabold text-center mb-6 sm:mb-8 text-blue-900 drop-shadow-lg tracking-wide">
           Our Sponsors
         </h5>
         <HorizontalScrollA />

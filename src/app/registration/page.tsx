@@ -190,7 +190,7 @@ const RegistrationPage = () => {
                 rel="noopener noreferrer"
                 className="text-blue-500 underline font-bold"
               >
-                Springer CCIS format
+                Springer Proceedings
               </a>{" "}
               (
               <DownloadButton
