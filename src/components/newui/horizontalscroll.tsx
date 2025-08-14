@@ -8,40 +8,40 @@ const images = [
 
 export default function HorizontalScrollA() {
   return (
-    <div className="overflow-hidden py-5 flex items-center">
+    <div className="overflow-hidden py-3 sm:py-5 flex items-center w-full">
       <div className="marquee">
-        <div className="flex space-x-10">
+        <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
           {images.map((src, index) => (
             <div
               key={index}
-              className={`h-20 w-auto ${
+              className={`h-12 sm:h-16 lg:h-20 w-auto ${
                 src.includes("hplogo")
                   ? "bg-white rounded-full"
                   : "bg-transparent"
-              } flex items-center justify-center`}
+              } flex items-center justify-center flex-shrink-0`}
             >
               <img
                 src={src}
-                alt={`Image ${index + 1}`}
-                className="h-full w-auto object-contain"
+                alt={`Sponsor ${index + 1}`}
+                className="h-full w-auto object-contain max-w-[120px] sm:max-w-[150px] lg:max-w-none"
               />
             </div>
           ))}
         </div>
-        <div className="flex space-x-10">
+        <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
           {images.map((src, index) => (
             <div
               key={`duplicate-${index}`}
-              className={`h-20 w-auto ${
+              className={`h-12 sm:h-16 lg:h-20 w-auto ${
                 src.includes("hplogo")
                   ? "bg-white rounded-full"
                   : "bg-transparent"
-              } flex items-center justify-center`}
+              } flex items-center justify-center flex-shrink-0`}
             >
               <img
                 src={src}
-                alt={`Image ${index + 1}`}
-                className="h-full w-auto object-contain"
+                alt={`Sponsor ${index + 1}`}
+                className="h-full w-auto object-contain max-w-[120px] sm:max-w-[150px] lg:max-w-none"
               />
             </div>
           ))}
