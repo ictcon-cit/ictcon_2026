@@ -138,7 +138,7 @@ const SubmissionPage = () => {
 
         <div className="space-y-1 border border-gray-300 p-4 rounded-lg bg-gray-50">
           <div className="font-bold">Acknowledgement:</div>
-          The Microsoft CMT service is used for managing the peer-reviewing
+          The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
           Microsoft and they bore all expenses, including costs for Azure cloud
           services as well as for software development and support.
