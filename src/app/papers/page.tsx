@@ -92,6 +92,7 @@ const PaperPage = () => {
                     <li>IoT</li>
                     <li>5G/6G Network Evolutions</li>
                     <li>Mobile Applications</li>
+                    <li>Drone applications</li>
                   </ul>
                 </td>
               </tr>

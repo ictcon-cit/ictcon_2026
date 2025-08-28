@@ -1,9 +1,9 @@
 const images = [
-  "/images/sponsors/IndianOil.png",
+  // "/images/sponsors/IndianOil.png",
   "/images/sponsors/doma.png",
   "/images/sponsors/stihub.jpg",
-  "/images/sponsors/ntpc.jpg",
-  "/images/sponsors/hplogo.png",
+  // "/images/sponsors/ntpc.jpg",
+  // "/images/sponsors/hplogo.png",
 ];
 
 export default function HorizontalScrollA() {

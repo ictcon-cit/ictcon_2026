@@ -4,8 +4,8 @@ const HorizontalScroll: React.FC = () => {
   const textContent = (
     <p className="text-blue-500 text-sm md:text-lg whitespace-nowrap overflow-hidden text-ellipsis">
       <span className="font-bold">Proceedings By:</span> Conference Proceeding
-      will be published by the Springer Nature (Final Acceptance).{" "}
-      <span className="font-bold text-red-500">
+      will be published by the Springer Nature (Final Acceptance).
+      {/* <span className="font-bold text-red-500">
         [
         <a
           href="./ICTCon2025_IDXXX.pptx"
@@ -16,7 +16,7 @@ const HorizontalScroll: React.FC = () => {
           Oral power point presentation template available
         </a>
         ]
-      </span>
+      </span> */}
     </p>
   );
 
