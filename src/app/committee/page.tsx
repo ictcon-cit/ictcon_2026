@@ -10,7 +10,7 @@ const CommitteePage = () => {
             Patron
           </div>
           <div className="space-y-2">
-            <div>Sri. Pramod Boro, President, CITK Society</div>
+            {/* <div>Sri. Pramod Boro, President, CITK Society</div> */}
             <div>
               Prof. Devendra Jalihal, Director (Additional Charge), CIT
               Kokrajhar
@@ -23,6 +23,7 @@ const CommitteePage = () => {
             General Chairs
           </div>
           <div className="space-y-2">
+            <div> Prof. Mahesh Chandra Govil, Director, NIT Sikkim</div>
             <div>
               Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of
               technology Sydney, Australia
