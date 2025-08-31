@@ -79,12 +79,13 @@ export default function HomeCara() {
                 </div>
                 <div className="font-bold md:text-xl sm:text-base text-xs sm:mt-5 ">
                   {" "}
-                  Organised by:
+                  Jointly Organised by:
                 </div>
 
                 <div className="font-bold md:text-xl sm:text-base text-xs">
                   {" "}
-                  Central Institute of Technology Kokrajhar(CITK)
+                  Central Institute of Technology Kokrajhar, Assam, India
+                  <br />&<br /> IIT Goa, India
                 </div>
               </div>
             </div>

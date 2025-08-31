@@ -11,7 +11,7 @@ const ImportantDates = () => {
               Paper Submission starts
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              15th June, 2025
+              15th August, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
@@ -22,7 +22,7 @@ const ImportantDates = () => {
               Last Date of Paper Submission
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              5th September, 2025
+              15th September, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
