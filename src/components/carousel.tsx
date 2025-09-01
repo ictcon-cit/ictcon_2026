@@ -5,6 +5,21 @@ interface CarouselImageData {
   stringValue: string; // Update this to the actual data type
 }
 
+const universities = [
+  {
+    name: "Central Institute of Technology Kokrajhar, Assam, India",
+    short: "CIT Kokrajhar",
+    logo: "/images/cit.png",
+    alt: "CIT Kokrajhar Logo",
+  },
+  {
+    name: "IIT Goa, India",
+    short: "IIT Goa",
+    logo: "/images/iit_goa.jpg",
+    alt: "IIT Goa Logo",
+  },
+];
+
 export default function HomeCara() {
   const [activeSlide, setActiveSlide] = useState(0);
   // auto change after 5 sec
@@ -82,10 +97,33 @@ export default function HomeCara() {
                   Jointly Organised by:
                 </div>
 
-                <div className="font-bold md:text-xl sm:text-base text-xs">
-                  {" "}
-                  Central Institute of Technology Kokrajhar, Assam, India
-                  <br />&<br /> IIT Goa, India
+                <div className="flex flex-col items-center gap-4 mt-4 p-4 bg-white bg-opacity-20 rounded-xl shadow-md">
+                  <div className="flex flex-row items-center justify-center gap-8 mb-2 w-full">
+                    {/* CIT */}
+                    <div className="flex flex-col items-center flex-1">
+                      <img
+                        src="/images/cit.png"
+                        alt="CIT Kokrajhar Logo"
+                        className="h-14 md:h-24 w-auto rounded-lg shadow mb-2 bg-white"
+                      />
+                      <span className="font-bold text-xs md:text-base text-center">
+                        Central Institute of Technology Kokrajhar, Assam, India
+                      </span>
+                    </div>
+                    {/* Vertical Divider */}
+                    <div className="h-16 md:h-24 border-l-4 border-yellow-400 mx-6"></div>
+                    {/* IIT Goa */}
+                    <div className="flex flex-col items-center flex-1">
+                      <img
+                        src="/images/iit_goa.jpg"
+                        alt="IIT Goa Logo"
+                        className="h-14 md:h-24 w-auto rounded-lg shadow mb-2 bg-white"
+                      />
+                      <span className="font-bold text-xs md:text-base text-center">
+                        IIT Goa, India
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
