@@ -33,21 +33,30 @@ export default function HomeCara() {
 
   const defData: CarouselImageData[] = [
     {
-      stringValue: "/images/carousel/citt1.jpg",
+      stringValue: "/images/carousel/new/1.jpg",
     },
     {
-      stringValue: "/images/carousel/library21.jpg",
+      stringValue: "/images/carousel/new/2.jpg",
     },
     {
-      stringValue: "/images/carousel/Bagurugba.jpg",
+      stringValue: "/images/carousel/new/3.jpg",
     },
+    // {
+    //   stringValue: "/images/carousel/citt1.jpg",
+    // },
+    // {
+    //   stringValue: "/images/carousel/library21.jpg",
+    // },
+    // {
+    //   stringValue: "/images/carousel/Bagurugba.jpg",
+    // },
 
-    {
-      stringValue: "/images/carousel/buildings1.jpg",
-    },
-    {
-      stringValue: "/images/carousel/bihu.jpg",
-    },
+    // {
+    //   stringValue: "/images/carousel/buildings1.jpg",
+    // },
+    // {
+    //   stringValue: "/images/carousel/bihu.jpg",
+    // },
   ];
 
   return (
@@ -57,7 +66,7 @@ export default function HomeCara() {
         className="relative w-full"
         data-carousel="slide"
       >
-        <div className="relative overflow-hidden h-[200px] md:h-[400px]">
+        <div className="relative overflow-hidden h-[300px] md:h-[500px]">
           {defData.map((image, index) => (
             <div
               key={index}
@@ -71,7 +80,7 @@ export default function HomeCara() {
                 className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:h-fit h-full  "
                 alt="..."
               />
-              <div className="absolute w-full h-full flex flex-col justify-center items-center text-white bg-black bg-opacity-40 drop-shadow-lg shadow-black text-center">
+              <div className="absolute w-full h-full flex flex-col justify-center items-center text-white bg-black/35  drop-shadow-lg shadow-black text-center">
                 <div className="font-extrabold md:text-4xl sm:text-xl text-xs">
                   3rd
                 </div>

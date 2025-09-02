@@ -32,6 +32,12 @@ const aboutContents = {
     imageAlt: "Bodoland Territorial Region",
     description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
   },
+  iitgoa: {
+    title: "ABOUT IIT GOA",
+    image: "/images/iit_goa.jpg",
+    imageAlt: "IIT Goa Logo",
+    description: `Indian Institute of Technology (IIT) Goa is an Institution of National Importance (INI) created by an Act of Parliament of India. IIT Goa is located in Farmagudi, Ponda in the State of Goa, it is focused on higher education and research in different engineering disciplines. It accepts students from all across the country and the world for its various degree programs. IIT Goa offers various B.Tech. programs of 4 years duration and postgraduate programmes as M.Tech of 2 years and PhD. degree in various disciplines. The High Performance Computing Nodal Center (HPC-NC) at the Indian Institute of Technology Goa (IIT Goa) is established in 2020 under the National Supercomputing Mission (NSM) of India.`,
+  },
 };
 
 type AboutSectionKey = keyof typeof aboutContents;
@@ -65,7 +71,11 @@ export default function AboutSection() {
                     ? "CIT"
                     : key === "conference"
                     ? "CONFERENCE"
-                    : "BTR"}
+                    : key === "btr"
+                    ? "BTR"
+                    : key === "iitgoa"
+                    ? "IIT GOA"
+                    : key}
                 </span>
               </button>
             ))}
@@ -76,6 +86,8 @@ export default function AboutSection() {
               className={
                 currentSection === "cit"
                   ? "w-32 sm:w-48 object-fill"
+                  : currentSection === "iitgoa"
+                  ? "max-h-48 sm:max-h-64 w-auto object-contain mx-auto"
                   : "object-cover h-48 sm:h-64 lg:h-72 w-full"
               }
               alt={aboutContent.imageAlt}
