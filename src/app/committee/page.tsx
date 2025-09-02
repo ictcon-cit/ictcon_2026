@@ -75,6 +75,16 @@ const CommitteePage = () => {
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
+            Publicity Chairs
+          </div>
+          <div className="space-y-2">
+            <div>Dr. Kaushlendra Pandey, CIT Kokrajhar</div>
+            <div>Dr. Anuj Abraham, Post doc, IIT Goa</div>
+          </div>
+        </div>
+
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
             International Advisory Committee
           </div>
           <div className="space-y-2">
