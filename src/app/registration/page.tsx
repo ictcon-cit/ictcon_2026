@@ -78,6 +78,29 @@ const RegistrationPage = () => {
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
             and $15 Foreign members after the 16 November 2025.
           </div>
+          {/* Special Issue - Open Access Table */}
+          <div className="mt-6">
+            <div className="w-full text-center text-black text-xl font-bold mb-2">
+              Special Issue - Open Access
+            </div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full bg-white border border-gray-300">
+                <tbody>
+                  <tr>
+                    <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700 font-semibold">
+                      Workshop Registration
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700 font-semibold">
+                      ₹30000
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700 font-semibold">
+                      $354
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
       <div className="md:px-20 px-5 py-5 text-black">
