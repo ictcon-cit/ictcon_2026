@@ -22,7 +22,7 @@ const aboutContents = {
   },
   conference: {
     title: "ABOUT THE CONFERENCE",
-    image: "/images/ict.jpg",
+    image: "/images/icons/new_ictcon.jpg",
     imageAlt: "ICTCon Conference Banner",
     description: `The 3rd International Intelligent Computing and Technology Conference (ICTCon 2025) being organized by Central Institute of Technology Kokrajhar during 2nd-3rd December, 2025. The aim of the conference ICTCon-2025 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
@@ -88,7 +88,14 @@ export default function AboutSection() {
                   ? "w-32 sm:w-48 object-fill"
                   : currentSection === "iitgoa"
                   ? "max-h-48 sm:max-h-64 w-auto object-contain mx-auto"
+                  : currentSection === "conference"
+                  ? "object-cover w-full max-h-56 sm:max-h-72 lg:max-h-80 mx-auto"
                   : "object-cover h-48 sm:h-64 lg:h-72 w-full"
+              }
+              style={
+                currentSection === "conference"
+                  ? { objectFit: "cover" }
+                  : undefined
               }
               alt={aboutContent.imageAlt}
             />
