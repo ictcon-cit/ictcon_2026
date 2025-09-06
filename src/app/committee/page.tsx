@@ -63,13 +63,13 @@ const CommitteePage = () => {
             <div>Dr. Ranjan Maity, CIT Kokrajhar</div>
             <div>Mrs. Tania Sarkar, CIT Kokrajhar</div>
             <div>Dr. Anup Kumar Barman, CIT Kokrajhar</div>
-            <div>Mr. Ranjan Patowary, CIT Kokrajhar</div>
+            <div>Dr. Ranjan Patowary, CIT Kokrajhar</div>
             <div>Mr. Mithun Karmakar, CIT Kokrajhar</div>
             <div>Mr. Dharani Kanta Roy, CIT Kokrajhar</div>
             <div>Mr. Prasanta Baruah, CIT Kokrajhar</div>
             <div>Mr. Sanjib Narzary, CIT Kokrajhar</div>
             <div>Mr. Bikramjit Choudhury, CIT Kokrajhar</div>
-            <div>Dr. Sandeep Kumar Srivastava, CIT Kokrajhar, Assam</div>
+            
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const CommitteePage = () => {
           </div>
           <div className="space-y-2">
             <div>Dr. Kaushlendra Pandey, CIT Kokrajhar</div>
-            <div>Dr. Anuj Abraham, Post doc, IIT Goa</div>
+            <div>Dr. Anuj Abraham, IIT Goa</div>
           </div>
         </div>
 
