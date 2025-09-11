@@ -35,7 +35,7 @@ const AboutSection = () => {
           <div className="p-6">
             <div className="text-center w-full">
               <a
-                href="/CFP ICTCon 2024.pdf"
+                href="/CFP ICTCon 2025.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-2 px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase"
