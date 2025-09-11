@@ -383,6 +383,7 @@ export default function Home() {
               Address
             </h2>
             <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
+              <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold" >Department of Computer Science & Engineering</span>
               <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
                 Central Institute of Technology, Kokrajhar
               </span>
