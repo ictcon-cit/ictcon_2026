@@ -179,6 +179,7 @@ const CommitteePage = () => {
               Dr Vijanth Sagayan A/L Asirvadam, Universiti Teknologi
               PETRONAS, Malaysia
             </div>
+            <div>Dr. Anupam Kumar, NIT Patna</div>
           </div>
         </div>
       </div>

@@ -108,7 +108,7 @@ export default function AboutSection() {
           <div className="p-3 sm:p-5">
             <div className="text-center w-full mb-4">
               <a
-                href="/CFP ICTCon 2024.pdf"
+                href="/CFP ICTCon 2025.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-3 sm:py-4 px-3 sm:px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase text-sm sm:text-base"
