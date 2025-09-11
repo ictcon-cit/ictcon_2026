@@ -7,7 +7,18 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/dates", label: "Important Dates" },
-  { href: "/papers", label: "Call for Papers" },
+  {
+    dropdown: true,
+    label: "Call for Papers",
+    items: [
+      { href: "/papers", label: "Call for Papers" },
+      {
+        href: "https://ictcon2025workshop.cit.ac.in/",
+        label: "Workshop",
+        external: true,
+      },
+    ],
+  },
   { href: "/submission", label: "Paper Submission" },
   { href: "/committee", label: "Committee" },
   { href: "/speakers", label: "Speakers" },
@@ -42,21 +53,59 @@ export default function Header() {
           </div>
 
           <div className="flex font-bold md:text-base sm:text-sm text-xs justify-between items-center gap-2 justify-self-end">
-            {navLinks.map((link, index) => (
-              <Link
-                key={index}
-                className={`px-3 rounded-md text-white w-fit h-12 flex items-center justify-center ${
-                  pathname === link.href
-                    ? "bg-blue-700 border-white"
-                    : "hover:bg-blue-700 hover:border-white"
-                }`}
-                href={link.href}
-                target={link.external ? "_blank" : "_self"}
-                onClick={() => link.external && setNavbarOpen(!navbarOpen)}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link, index) => {
+              if (link.dropdown && link.items) {
+                return (
+                  <div key={index} className="relative group">
+                    <button className="px-3 rounded-md text-white w-fit h-12 flex items-center justify-center hover:bg-blue-700 hover:border-white font-bold">
+                      {link.label}
+                      <svg
+                        className="ml-1 w-3 h-3"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </button>
+                    <div className="absolute left-0 top-full w-40 bg-white rounded-md shadow-lg z-50 hidden group-hover:block">
+                      {link.items.map((item, idx) => (
+                        <Link
+                          key={idx}
+                          href={item.href}
+                          target={item.external ? "_blank" : "_self"}
+                          className="block px-4 py-2 text-black hover:bg-blue-100 hover:text-blue-700 rounded-md"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              } else if (link.href) {
+                return (
+                  <Link
+                    key={index}
+                    className={`px-3 rounded-md text-white w-fit h-12 flex items-center justify-center ${
+                      pathname === link.href
+                        ? "bg-blue-700 border-white"
+                        : "hover:bg-blue-700 hover:border-white"
+                    }`}
+                    href={link.href}
+                    target={link.external ? "_blank" : "_self"}
+                    onClick={() => link.external && setNavbarOpen(!navbarOpen)}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              }
+              return null;
+            })}
           </div>
         </div>
       </div>
@@ -84,21 +133,60 @@ export default function Header() {
         </div>
         {navbarOpen && (
           <div className="bg-gradient-linear flex flex-col fixed top-16 w-full p-5 font-bold z-50 text-white">
-            {navLinks.map((link, index) => (
-              <Link
-                key={index}
-                className={`mx-1 p-2 rounded-md text-white ${
-                  pathname === link.href
-                    ? "border-b-2 border-white"
-                    : "hover:border-b-2 hover:border-white"
-                }`}
-                href={link.href}
-                target={link.external ? "_blank" : "_self"}
-                onClick={() => setNavbarOpen(!navbarOpen)}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link, index) => {
+              if (link.dropdown && link.items) {
+                return (
+                  <div key={index} className="relative group">
+                    <button className="mx-1 p-2 rounded-md text-white w-full flex items-center justify-between font-bold">
+                      {link.label}
+                      <svg
+                        className="ml-1 w-3 h-3"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </button>
+                    <div className="absolute left-0 top-full w-40 bg-white rounded-md shadow-lg z-50 hidden group-hover:block">
+                      {link.items.map((item, idx) => (
+                        <Link
+                          key={idx}
+                          href={item.href}
+                          target={item.external ? "_blank" : "_self"}
+                          className="block px-4 py-2 text-black hover:bg-blue-100 hover:text-blue-700 rounded-md"
+                          onClick={() => setNavbarOpen(false)}
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              } else if (link.href) {
+                return (
+                  <Link
+                    key={index}
+                    className={`mx-1 p-2 rounded-md text-white ${
+                      pathname === link.href
+                        ? "border-b-2 border-white"
+                        : "hover:border-b-2 hover:border-white"
+                    }`}
+                    href={link.href}
+                    target={link.external ? "_blank" : "_self"}
+                    onClick={() => setNavbarOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              }
+              return null;
+            })}
           </div>
         )}
       </div>
