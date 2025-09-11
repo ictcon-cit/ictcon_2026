@@ -90,14 +90,14 @@ export default function HomeCara() {
                 </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}
-                  (ICTCon, 2nd-3rd December,2025){" "}
+                  (ICTCon 2025){" "}
                 </div>
-                {/*
-                <div className="font-bold md:text-3xl sm:text-xl text-xs sm:mt-5 animate-pulse">
+                
+                <div className="font-bold md:text-2xl sm:text-xl text-xs sm:mt-5 ">
                   {" "}
-                 02-03 December, 2024
+                 2nd-3rd December, 2025
                 </div>
-                */}
+                
                 <div className="font-bold md:text-3xl sm:text-xl text-xs sm:mt-5 ">
                   Hybrid Mode
                 </div>
