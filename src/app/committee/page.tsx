@@ -29,7 +29,6 @@ const CommitteePage = () => {
               technology Sydney, Australia
             </div>
             <div>Prof. Petia Radeva, University of Barcelona, Spain</div>
-            <div>Prof. Shekhar Verma IIIT Allahabad</div>
           </div>
         </div>
 
@@ -98,6 +97,7 @@ const CommitteePage = () => {
             </div>
             <div>Dr. Brij Gupta, Asia University, Taiwan</div>
             <div>Prof. Venkataraman Lakshmi, University of Virginia, USA</div>
+            <div>Prof. Dhananjay Singh, Pennsylvania State University, PA, USA</div>
           </div>
         </div>
 
@@ -108,6 +108,7 @@ const CommitteePage = () => {
           <div className="space-y-2">
             <div>Prof. R. Balasubramanian, IIT Roorkee</div>
             <div>Prof. R. D. Garg, IIT Roorkee</div>
+            <div>Prof. Shekhar Verma, IIIT Allahabad</div>
             <div>Prof. Maheshwari Prasad Singh, NIT Patna</div>
             <div>Dr. Manish Kumar, IIIT Allahabad</div>
             <div>Dr. Sanjeev Kumar, IIT Roorkee</div>
@@ -147,7 +148,7 @@ const CommitteePage = () => {
             <div>Dr. Ranjay Hazara, NIT Silchar</div>
             <div>Dr. J. P. Singh, NIT Patna</div>
             <div>
-              Dr. Madhusudan Singh, Long Island University, Brooklyn, New York,
+              Dr. Madhusudan Singh, Pennsylvania State University, PA, New York,
               USA
             </div>
             <div>Dr. Triloki Pant, IIIT Allahabad</div>
@@ -180,6 +181,8 @@ const CommitteePage = () => {
               PETRONAS, Malaysia
             </div>
             <div>Dr. Anupam Kumar, NIT Patna</div>
+            <div>Dr. Mohd Jawed Khan, GNIOT, Greater Noida</div>
+            <div>Dr. Deep Singh, Dr. B. R. Ambedkar University Delhi</div>
           </div>
         </div>
       </div>
