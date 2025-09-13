@@ -148,8 +148,7 @@ const CommitteePage = () => {
             <div>Dr. Ranjay Hazara, NIT Silchar</div>
             <div>Dr. J. P. Singh, NIT Patna</div>
             <div>
-              Dr. Madhusudan Singh, Pennsylvania State University, PA, New York,
-              USA
+              Dr. Madhusudan Singh, Pennsylvania State University, PA, USA
             </div>
             <div>Dr. Triloki Pant, IIIT Allahabad</div>
             <div>Dr. Deepak Mishra, IISST, Trivandrum</div>
