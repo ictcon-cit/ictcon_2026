@@ -91,14 +91,14 @@ const SubmissionPage = () => {
           <ul className="list-disc ml-10">
             <li>
               <DownloadButton
-                href={"/LaTeX2e_ICTCon-2025.zip"}
+                href={"/images/LaTeX2e_ICTCon-2025.zip"}
                 filename={"LaTeX2e_ICTCon-2025.zip"}
                 text={"LaTeX Template"}
               />
             </li>
             <li>
               <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2025.zip"}
+                href={"/images/Microsoft_Word_ICTCON-2025.zip"}
                 filename={"Microsoft_Word_ICTCON-2025.zip"}
                 text={"Word Template"}
               />
