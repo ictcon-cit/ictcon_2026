@@ -22,7 +22,13 @@ const ImportantDates = () => {
               Last Date of Paper Submission
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              15th September, 2025
+              <span className="line-through text-red-600">
+                15th September, 2025
+              </span>
+              <br />
+              <span className="text-green-700">
+                30th September, 2025 <span className="text-xs">(Extended)</span>
+              </span>
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
