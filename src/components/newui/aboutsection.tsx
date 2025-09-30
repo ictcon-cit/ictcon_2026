@@ -142,8 +142,11 @@ export default function AboutSection() {
               <p className="font-bold text-base sm:text-lg text-red-600 mb-1 sm:mb-2">
                 <span className="line-through">15th September, 2025</span>
               </p>
+              <p className="font-bold text-base sm:text-lg text-red-600 mb-1 sm:mb-2">
+                <span className="line-through">30th September, 2025 (Extended)</span>
+              </p>
               <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-                30th September, 2025 <span className="text-xs">(Extended)</span>
+                12th October, 2025 <span className="text-xs">(Hard Deadline)</span>
               </p>
               <a
                 href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2025"

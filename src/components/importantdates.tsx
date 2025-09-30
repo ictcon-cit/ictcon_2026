@@ -26,8 +26,12 @@ const ImportantDates = () => {
                 15th September, 2025
               </span>
               <br />
+              <span className="line-through text-red-600">
+                30th September, 2025 (  Extended )
+              </span>
+              <br />
               <span className="text-green-700">
-                30th September, 2025 <span className="text-xs">(Extended)</span>
+                12th October, 2025 <span className="text-xs">(Hard Deadline)</span>
               </span>
             </td>
           </tr>
