@@ -91,10 +91,10 @@ const RegistrationPage = () => {
                       Workshop Registration
                     </td>
                     <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700 font-semibold">
-                      TBD
+                      ₹25000 + 18% GST
                     </td>
                     <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700 font-semibold">
-                      TBD
+                      $282
                     </td>
                   </tr>
                 </tbody>
