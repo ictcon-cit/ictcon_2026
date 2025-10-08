@@ -43,7 +43,7 @@ const ImportantDates = () => {
               Notification of Acceptance
             </th>
             <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              10th October, 2025
+              25th October, 2025
             </td>
           </tr>
           <tr className="bg-white border-black outline outline-black outline-1">
