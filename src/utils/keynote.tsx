@@ -1,12 +1,12 @@
 import { KeynoteDataType } from "@/components/keynote";
 
 export const KeyNoteData: KeynoteDataType[] = [
-  {
-    name: "Prof. Shekhar Verma",
-    image: "/images/speakers/Prof. shekhar verma.jpeg",
-    organization: "IIIT Allahabad",
-    url: "#",
-  },
+ // {
+  //  name: "Prof. Shekhar Verma",
+  //  image: "/images/speakers/Prof. shekhar verma.jpeg",
+  //  organization: "IIIT Allahabad",
+  //  url: "#",
+ // },
   // {
   //   name: "Prof. Debashis De",
   //   organization: "MAKAUT Kolkata",
@@ -14,9 +14,9 @@ export const KeyNoteData: KeynoteDataType[] = [
   //   url: "#",
   // },
   {
-    name: "Dr. Dhananjay Singh",
-    image: "/images/speakers/Prof. Dhananjay  Singh.jpeg",
-    organization: "Penn State University, USA",
+    name: "Prof. Mahesh Chandra Govil",
+    image: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
+    organization: "Director - NIT Sikkim",
     url: "#",
   },
   // {
@@ -37,13 +37,13 @@ export const KeyNoteData: KeynoteDataType[] = [
   //   organization: "IIT Roorkee",
   //   url: "#",
   // },
-  {
-    name: "Dr. Kuanhong Cheng",
-    image: "/images/speakers/Dr. Kuanhong Cheng.jpg",
-    organization:
-      "School of Computer Science and Engineering, Xi'an University of Technology. Xi'an, Shaanxi Province, CHINA",
-    url: "#",
-  },
+ // {
+ //   name: "Dr. Kuanhong Cheng",
+ //   image: "/images/speakers/Dr. Kuanhong Cheng.jpg",
+ //   organization:
+ //     "School of Computer Science and Engineering, Xi'an University of Technology. Xi'an, Shaanxi Province, CHINA",
+ //   url: "#",
+//  },
   // {
   //   name: "Dr. Rakesh Tripathi",
   //   organization: "NIT Raipur",
