@@ -330,7 +330,7 @@ export default function Home() {
           <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
             ICTCon2025 keynote speakers
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8">
+          <div className="flex flex-wrap justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8 ">
             {[
               {
                 name: "Prof. Mahesh Chandra Govil",
@@ -353,7 +353,7 @@ export default function Home() {
             ].map((speaker, idx) => (
               <div
                 key={idx}
-                className="flex flex-col items-center bg-white rounded-xl shadow-md p-4 sm:p-6 hover:shadow-xl transition-all"
+                className="rounded-xl shadow-lg bg-white text-black hover:shadow-2xl transition-all duration-300 w-64 md:w-72 h-[320px] flex flex-col items-center justify-star"
               >
                 <img
                   src={speaker.img}
