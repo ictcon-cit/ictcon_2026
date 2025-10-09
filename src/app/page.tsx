@@ -347,7 +347,7 @@ export default function Home() {
               {
                 name: "Prof. Manish Kumar",
                 img: "/images/speakers/Prof. Manish Kumar.jpg",
-                title: ""
+                title: "IIIT Allahabad, India"
               }
              
             ].map((speaker, idx) => (
