@@ -26,9 +26,9 @@ export const KeyNoteData: KeynoteDataType[] = [
   //   url: "#",
   // },
   {
-    name: "Dr. Manish Kumar",
-    image: "/images/speakers/Dr. manish kumar.jpg",
-    organization: "IIIT Allahabad",
+    name: "Prof. Manish Kumar",
+    image: "/images/speakers/Prof. Manish Kumar.jpg",
+    organization: "IIIT Allahabad, India",
     url: "#",
   },
   // {
