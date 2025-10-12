@@ -123,6 +123,7 @@ const CommitteePage = () => {
               Australia
             </div>
             <div>Prof. Ningrinla Marchang, NERIST, Arunachal Pradesh</div>
+            <div>Dr. Biplab Das, NIT Silchar</div>
           </div>
         </div>
 
