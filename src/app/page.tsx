@@ -348,7 +348,12 @@ export default function Home() {
                 name: "Prof. Manish Kumar",
                 img: "/images/speakers/Prof. Manish Kumar.jpg",
                 title: "IIIT Allahabad, India"
+              },{
+                name: " Prof. Jonathan Chan",
+                img: "/images/speakers/Prof. Jonathan Chan.jpg",
+                title: "ETRO, Vrije Universiteit Brussel (VUB), Belgium"
               }
+             
              
             ].map((speaker, idx) => (
               <div
