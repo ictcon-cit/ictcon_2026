@@ -3,8 +3,10 @@ import React from "react";
 const HorizontalScroll: React.FC = () => {
   const textContent = (
     <p className="text-blue-500 text-sm md:text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-      <span className="font-bold">Proceedings By:</span> Conference Proceeding
+      <span className="font-bold ">Proceedings By:</span> Conference Proceeding
       will be published by the Springer Nature (Final Acceptance).
+      &nbsp;
+      <span className="ml-2 font-semibold text-red-600">Note: Paper Review is in under process and decision will be notified soon</span>
       {/* <span className="font-bold text-red-500">
         [
         <a
@@ -18,6 +20,7 @@ const HorizontalScroll: React.FC = () => {
         ]
       </span> */}
     </p>
+    
   );
 
   return (

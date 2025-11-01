@@ -7,12 +7,12 @@ export const KeyNoteData: KeynoteDataType[] = [
   //  organization: "IIIT Allahabad",
   //  url: "#",
  // },
-  // {
-  //   name: "Prof. Debashis De",
-  //   organization: "MAKAUT Kolkata",
-  //   image: "/images/speakers/prof debashis de.jpeg",
-  //   url: "#",
-  // },
+  {
+     name: "Prof. Jonathan Chan",
+     organization: "ETRO, Vrije Universiteit Brussel (VUB), Belgium",
+    image: "/images/speakers/Prof. Jonathan Chan.jpg",
+     url: "#",
+   },
   {
     name: "Prof. Mahesh Chandra Govil",
     image: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
