@@ -149,7 +149,7 @@ const RegistrationPage = () => {
             <li>
               Registration form is available at{" "}
               <a
-                href=""
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe6N--pXWbVpUP4i24OZ3QDtSlViDrTBkc6fdxvivmO5qG2Mw/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 font-semibold underline"
