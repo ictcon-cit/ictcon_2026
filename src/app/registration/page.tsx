@@ -76,7 +76,7 @@ const RegistrationPage = () => {
           </div>
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
-            and $15 Foreign members after the 16 November 2025.
+            and $15 Foreign members after the 15 November 2025.
           </div>
           {/* Special Issue - Open Access Table */}
           <div className="mt-6">
@@ -217,14 +217,14 @@ const RegistrationPage = () => {
               </a>{" "}
               (
               <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2025.zip"}
-                filename={"Microsoft_Word_ICTCON-2025.zip"}
+                href={"/Microsoft_Word_ICTCON-2025_Updated.zip"}
+                filename={"Microsoft_Word_ICTCON-2025_Updated.zip"}
                 text={"Word"}
               />{" "}
               /{" "}
               <DownloadButton
-                href={"/LaTeX2e_ICTCon-2025.zip"}
-                filename={"LaTeX2e_ICTCon-2025.zip"}
+                href={"/LaTeX2e_ICTCon-2025_Updated.zip"}
+                filename={"LaTeX2e_ICTCon-2025_Updated.zip"}
                 text={"LaTeX"}
               />
               ).
@@ -260,7 +260,7 @@ const RegistrationPage = () => {
             <li className="mb-2">
               Copyright form can be downloaded here (
               <a
-                href="/camera-ready-copy-right.docx"
+                href="/LaTeX2e_ICTCon-2025_Updated.zip"
                 download
                 className="text-blue-500 underline font-bold"
               >
@@ -268,7 +268,7 @@ const RegistrationPage = () => {
               </a>
               ) (
               <a
-                href="/camera-ready-copy-right.pdf"
+                href="/Microsoft_Word_ICTCON-2025_Updated.zip"
                 download
                 className="text-blue-500 underline font-bold"
               >
@@ -313,7 +313,7 @@ const RegistrationPage = () => {
                     rel="noopener noreferrer"
                     className="text-blue-500 underline font-bold"
                   >
-                    Springer CCIS format
+                   Springer proceedings format
                   </a>
                 </li>
                 <li>
