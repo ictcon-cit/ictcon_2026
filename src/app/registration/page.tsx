@@ -260,7 +260,7 @@ const RegistrationPage = () => {
             <li className="mb-2">
               Copyright form can be downloaded here (
               <a
-                href="/LaTeX2e_ICTCon-2025_Updated.zip"
+                href="/camera-ready-copy-right.docx"
                 download
                 className="text-blue-500 underline font-bold"
               >
@@ -268,7 +268,7 @@ const RegistrationPage = () => {
               </a>
               ) (
               <a
-                href="/Microsoft_Word_ICTCON-2025_Updated.zip"
+                href="/camera-ready-copy-right.pdf"
                 download
                 className="text-blue-500 underline font-bold"
               >
