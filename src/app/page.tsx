@@ -352,7 +352,13 @@ export default function Home() {
                 name: " Prof. Jonathan Chan",
                 img: "/images/speakers/Prof. Jonathan Chan.jpg",
                 title: "ETRO, Vrije Universiteit Brussel (VUB), Belgium"
+              },
+              {
+                name: "Prof. Dr. G. Kulanthaivel",
+                img: "/images/speakers/Proj Dr G.jpg",
+                title: "NITTTR, Chennai, India"
               }
+             
              
              
             ].map((speaker, idx) => (

@@ -31,6 +31,12 @@ export const KeyNoteData: KeynoteDataType[] = [
     organization: "IIIT Allahabad, India",
     url: "#",
   },
+  {
+    name: "Prof. Dr. G. Kulanthaivel",
+    image: "/images/speakers/Proj Dr G.jpg",
+    organization: "NITTTR, Chennai, India",
+    url: "#",
+  }
   // {
   //   name: "Prof. Rahul Dev Garg",
   //   image: "/images/speakers/Prof. R.D.Garg.jpg",
