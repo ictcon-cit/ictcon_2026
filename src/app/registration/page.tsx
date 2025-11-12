@@ -167,7 +167,7 @@ const RegistrationPage = () => {
               proof of being a student during the registration.
             </li>
             <li>
-              If the final manuscript in Springer format exceeds 15 pages, the additional INR 600 or USD 15 will be charged for each extra page.
+              If the final manuscript in Springer format exceeds 15 pages, then additional INR 600 or USD 15 will be charged for each extra page.
             </li>
           </ul>
         </div>
