@@ -6,7 +6,7 @@ const HorizontalScroll: React.FC = () => {
       <span className="font-bold ">Proceedings By:</span> Conference Proceeding
       will be published by the Springer Nature (Final Acceptance).
       &nbsp;
-      <span className="ml-2 font-semibold text-red-600">Note: Papers decision has been send. Kindly check the CMT portal/email.</span>
+      <span className="ml-2 font-semibold text-red-600">Note: Program schedule will be uploaded soon and late registration will be open until 20th November 2025.</span>
       {/* <span className="font-bold text-red-500">
         [
         <a
