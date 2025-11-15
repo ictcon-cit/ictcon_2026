@@ -259,7 +259,7 @@ const RegistrationPage = () => {
             <li className="mb-2">
               Copyright form can be downloaded here (
               <a
-                href="/camera-ready-copy-right.docx"
+                href="/camera-ready-copy-right_ICTCon2025_20.docx"
                 download
                 className="text-blue-500 underline font-bold"
               >
