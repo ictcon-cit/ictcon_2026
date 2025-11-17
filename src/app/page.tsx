@@ -328,7 +328,7 @@ export default function Home() {
       <div className="px-4 sm:px-16 py-3">
         <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden rounded-lg">
           <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
-            ICTCon2025 keynote speakers
+            ICTCon2025 Keynote Speakers
           </h1>
           <div className="flex flex-wrap justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8 ">
             {[
@@ -338,12 +338,13 @@ export default function Home() {
                 title:
                   "Director - NIT Sikkim",
               },
-              
-              {
-                name: "Dr. Shitala Prasad",
-                img: "/images/speakers/Dr. shitala Prasad.jpg",
-                title: "Assistant Professor, IIT Goa",
-              },
+                  {
+     name: "Prof. Sukumar Nandi",
+
+    img: "/images/speakers/Prof. Sukumar Nandi.jpg",
+     title: "Dean (Admin), IIT Guwahati",
+   },
+           
               {
                 name: "Prof. Manish Kumar",
                 img: "/images/speakers/Prof. Manish Kumar.jpg",
@@ -357,8 +358,12 @@ export default function Home() {
                 name: "Prof. Dr. G. Kulanthaivel",
                 img: "/images/speakers/Proj Dr G.jpg",
                 title: "NITTTR, Chennai, India"
-              }
-             
+              },
+                {
+                name: "Dr. Shitala Prasad",
+                img: "/images/speakers/Dr. shitala Prasad.jpg",
+                title: "Assistant Professor, IIT Goa",
+              },
              
              
             ].map((speaker, idx) => (
