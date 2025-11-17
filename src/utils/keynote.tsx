@@ -13,12 +13,20 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/Prof. Jonathan Chan.jpg",
      url: "#",
    },
+   {
+    name: "Prof. Sukumar Nandi",
+    organization: "Dean (Admin), IIT Guwahati",
+    image: "/images/speakers/Prof. Sukumar Nandi.jpg",
+    url: "#",
+  
+   },
   {
     name: "Prof. Mahesh Chandra Govil",
     image: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
     organization: "Director - NIT Sikkim",
     url: "#",
   },
+  
   // {
   //   name: "Dr. Madhusudan Singh",
   //   image: "/images/speakers/Dr. Madhusudan singh.jpg",
@@ -36,7 +44,13 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/Proj Dr G.jpg",
     organization: "NITTTR, Chennai, India",
     url: "#",
-  }
+  },
+  {
+                name: "Dr. Shitala Prasad",
+                organization: "Assistant Professor, IIT Goa",
+                image: "/images/speakers/Dr. shitala Prasad.jpg",
+                url: "#",
+              },
   // {
   //   name: "Prof. Rahul Dev Garg",
   //   image: "/images/speakers/Prof. R.D.Garg.jpg",

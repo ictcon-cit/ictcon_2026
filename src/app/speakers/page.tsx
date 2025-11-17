@@ -7,8 +7,8 @@ const SpeakersPage = () => {
     <div>
       <SecondHeader title={"SPEAKERS"} />
       <div className="text-center mt-5">
-        <h2 className="text-2xl font-bold text-gray-600 mb-2">
-          ICTCon2025 keynote speakers 
+        <h2 className="text-2xl font-bold text-gray-600 mb-2 gap-3">
+          ICTCon2025    KEYNOTE  SPEAKERS
         </h2>
       </div>
       <div>
