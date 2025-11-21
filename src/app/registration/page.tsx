@@ -386,7 +386,7 @@ const RegistrationPage = () => {
           Oral PowerPoint presentation slides template for ICTCon 2025
           conference:
           <a
-            href="/ICTCon2025_IDXXX.pptx"
+            href="/PID_xx_ICTCon_2025.pptx"
             download
             className="text-blue-500 underline font-bold"
           >
