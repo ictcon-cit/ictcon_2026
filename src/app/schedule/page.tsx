@@ -10,7 +10,7 @@ const SubmissionPage = () => {
         <div className="w-full md:text-4xl text-xl flex justify-center sm:items-center md:min-h-screen text-black pb-7">
           <div className="text-center flex flex-col gap-6 mt-10 justify-center items-center">
             <p className="text-lg font-extrabold text-6xl text-gray-600">
-              Program schedule is uploaded
+       
             </p>
             <a
             href="/ICTCon_2025_Schedule.pdf"
