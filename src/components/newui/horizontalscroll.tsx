@@ -2,6 +2,9 @@ const images = [
   // "/images/sponsors/IndianOil.png",
   "/images/sponsors/doma.png",
   "/images/sponsors/stihub.jpg",
+  "/images/sponsors/ARK.jpg",
+  "/images/sponsors/BMG.jpg"
+
   // "/images/sponsors/ntpc.jpg",
   // "/images/sponsors/hplogo.png",
 ];
