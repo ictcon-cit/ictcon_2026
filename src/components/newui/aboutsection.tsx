@@ -24,7 +24,7 @@ const aboutContents = {
     title: "ABOUT THE CONFERENCE",
     image: "/images/icons/new_ictcon.jpg",
     imageAlt: "ICTCon Conference Banner",
-    description: `The 3rd International Intelligent Computing and Technology Conference (ICTCon 2025) being organized by Central Institute of Technology Kokrajhar during 2nd-3rd December, 2025. The aim of the conference ICTCon-2025 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+    description: `The 3rd International Intelligent Computing and Technologies Conference (ICTCon 2025) is being organized by Central Institute of Technology Kokrajhar in collaboration with IIT GOA during 2-3 December, 2025. The aim of the conference ICTCon-2025 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
   btr: {
     title: "ABOUT BTR, ASSAM",
