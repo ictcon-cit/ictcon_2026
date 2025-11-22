@@ -24,7 +24,7 @@ const SubmissionPage = () => {
                 </div>
 
                 <a
-                  href="/ICTCon_2025_Schedule.pdf"
+                  href="/ICTCon_2025_Schedule_2.pdf"
                   download
                   className="inline-flex items-center gap-2 rounded-full bg-red-500 px-5 py-2.5 text-sm md:text-base font-semibold text-white shadow-md hover:bg-red-600 hover:shadow-lg transition"
                 >
@@ -36,7 +36,7 @@ const SubmissionPage = () => {
               {/* PDF preview */}
               <div className="mt-2 rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
                 <iframe
-  src="/ICTCon_2025_Schedule.pdf#toolbar=0&navpanes=0&scrollbar=0"
+  src="/ICTCon_2025_Schedule_2.pdf#toolbar=0&navpanes=0&scrollbar=0"
   title="Schedule PDF"
   className="w-full h-[70vh] rounded-xl border"
 ></iframe>
