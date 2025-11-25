@@ -3,7 +3,9 @@ const images = [
   "/images/sponsors/doma.png",
   "/images/sponsors/stihub.jpg",
   "/images/sponsors/ARK.jpg",
-  "/images/sponsors/BMG.jpg"
+  "/images/sponsors/BMG.jpg",
+  "/images/sponsors/HP.jpg",
+  "/images/sponsors/IndianOil.jpg",
 
   // "/images/sponsors/ntpc.jpg",
   // "/images/sponsors/hplogo.png",
