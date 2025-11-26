@@ -14,9 +14,9 @@ export const KeyNoteData: KeynoteDataType[] = [
      url: "#",
    },
    {
-    name: "Prof. Sukumar Nandi",
-    organization: "Dean (Admin), IIT Guwahati",
-    image: "/images/speakers/Prof. Sukumar Nandi.jpg",
+    name: " Prof. Petia Radeva",
+    organization: "University of Barcelona, Spain",
+    image: "/images/speakers/newProf.jpg",
     url: "#",
   
    },

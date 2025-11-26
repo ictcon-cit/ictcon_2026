@@ -339,10 +339,10 @@ export default function Home() {
                   "Director - NIT Sikkim",
               },
                   {
-     name: "Prof. Sukumar Nandi",
+     name: "Prof. Petia Radeva",
 
-    img: "/images/speakers/Prof. Sukumar Nandi.jpg",
-     title: "Dean (Admin), IIT Guwahati",
+    img: "/images/speakers/newProf.jpg",
+     title: "University of Barcelona, Spain",
    },
            
               {
