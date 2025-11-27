@@ -6,6 +6,7 @@ const images = [
   "/images/sponsors/BMG.jpg",
   "/images/sponsors/HP.jpg",
   "/images/sponsors/IndianOil.jpg",
+  "/images/sponsors/nt.jpg",
 
   // "/images/sponsors/ntpc.jpg",
   // "/images/sponsors/hplogo.png",
