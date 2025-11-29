@@ -34,78 +34,103 @@ function Popup({ onClose, children }: PopupProps) {
 export default function Home() {
   const [showPopup1, setShowPopup1] = useState(false);
   const [showPopup2, setShowPopup2] = useState(false);
+  const [showPopup3, setShowPopup3] = useState(false);
 
   const hall1Programs = [
     {
-      name: "Keynote Talk 3",
-      time: "8:30 AM - 9:50 AM",
-      link: "https://meet.google.com/bim-rxri-qrz",
-      details: [
-        {
-          session: "Human-Centric AI-Inspired Solutions",
-          paperIds: "",
-          sessionChairs: "Dr. Dhananjay Singh",
-        },
-      ],
-    },
-    {
-      name: "Technical Session",
-      time: "10:30 AM - 12:15 PM",
-      link: "https://meet.google.com/bim-rxri-qrz",
-      details: [
-        {
-          session: "Session 5: Computer Vision",
-          paperIds: "103, 62, 65, 49, 19, 10",
-          sessionChairs:
-            "Dr. Shitala Prasad, IIT Goa, Dr. Deep Gupta, NIT Nagpur",
-        },
-      ],
-    },
-    {
-      name: "Keynote Talk 4",
-      time: "1:45 PM - 2:45 PM",
-      link: "https://meet.google.com/bim-rxri-qrz",
+      name: "Felicitation and Inaugural Ceremony",
+      time: "9:30 AM – 11:15 AM",
+      link: "https://meet.google.com/iws-occj-jav",
       details: [
         {
           session:
-            "DroneEye: A Vision-Language Model for Drone-Based Perception",
+            "Invited Guests and General Chairs: Mr. N. K. Barua, Prof. M. C. Govil (Director, NIT Sikkim), Prof. Petia Radeva (University of Barcelona, Spain), Prof. Biswajeet Pradhan (University of Technology Sydney, Australia)",
           paperIds: "",
-          sessionChairs: "Dr. Shitala Prasad",
+          sessionChairs: "",
         },
       ],
     },
     {
-      name: "Technical Session",
-      time: "2:45 PM - 4:00 PM",
-      link: "https://meet.google.com/bim-rxri-qrz",
+      name: "Keynote Talk 1",
+      time: "11:45 AM – 12:00 PM",
+      link: "https://meet.google.com/iws-occj-jav",
       details: [
         {
-          session: "Session 7: Data Science",
-          paperIds: "60, 68, 44, 46, 8",
-          sessionChairs:
-            "Prof. Hemanta Kumar Kalita, CIT Kokrajhar, Dr. Ranjay Hazara, NIT Silchar",
+          session:
+            "Speaker: Prof. Manish Kumar (IIIT Allahabad)\nTitle - Data Analytics in Healthcare: Big Data Perspectives, Opportunities & Challenges",
+          paperIds: "",
+          sessionChairs: "",
         },
       ],
     },
     {
-      name: "Valedictory Session",
-      time: "",
-      link: "https://meet.google.com/bim-rxri-qrz",
-      details: [],
+      name: "Workshop",
+      time: "12:45 PM – 01:30 PM",
+      link: "https://meet.google.com/iws-occj-jav",
+      details: [
+        {
+          session:
+            "Workshop Speaker: Mr. Pankaj Jadhav, ARK-TSI\nTitle - AR/VR Across Industries: Preparing Future-Ready Students Through Immersive Technologies",
+          paperIds: "",
+          sessionChairs: "",
+        },
+      ],
+    },
+    {
+      name: "Invited Talk 1",
+      time: "2:30 PM – 2:55 PM",
+      link: "https://meet.google.com/iws-occj-jav",
+      details: [
+        {
+          session:
+            "Speaker: Dr. Deep Singh (Dr. B.R.Ambedkar University Delhi, New Delhi)\nTitle - Securing Visual Data: Current Advancements in Cryptography",
+          paperIds: "",
+          sessionChairs: "",
+        },
+      ],
+    },
+    {
+      name: "Technical Session: Medical & Clinical Imaging (5 papers)",
+      time: "03:00 PM – 04:15 PM",
+      link: "https://meet.google.com/iws-occj-jav",
+      details: [
+        {
+          session: "Session 1: Medical & Clinical Imaging",
+          paperIds: "105, 34, 141, 124, 114",
+          sessionChairs:
+            "Session Chair: Dr. Pankaj Pratap Singh, CIT Kokrajhar\nSession Co-Chair: Dr. Deepak Gupta, MNNIT Allahabad",
+        },
+      ],
     },
   ];
 
   const hall2Programs = [
     {
-      name: "Technical Session",
-      time: "10:30 AM - 12:15 PM",
-      link: "https://meet.google.com/mbj-jfmc-fur",
+      name: "Technical Session: Computer Vision - Detection & Segmentation (5 papers)",
+      time: "03:00 PM – 04:15 PM",
+      link: "https://meet.google.com/khi-srxw-imu",
       details: [
         {
-          session: "Session 6: Computing",
+          session: "Session 2: Computer Vision - Detection & Segmentation",
+          paperIds: "4, 139, 28, 59, 102",
+          sessionChairs:
+            "Session Chair: Dr. Shitala Prasad, IIT Goa\nSession Co-Chair: Dr. Deep Gupta, NIT Nagpur",
+        },
+      ],
+    },
+  ];
+
+  const hall3Programs = [
+    {
+      name: "Technical Session: Core AI & Generative Methods (4 papers)",
+      time: "03:00 PM – 04:15 PM",
+      link: "https://meet.google.com/ksp-bygr-aom",
+      details: [
+        {
+          session: "Session 3: Core AI & Generative Methods",
           paperIds: "45, 51, 22, 27, 6",
           sessionChairs:
-            "Dr. Nabajyoti Mazumdar, IIIT Allahabad, Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar",
+            "Session Chair: Dr. Piyush Kumar, NIT Patna\nSession Co-Chair: Dr. Kaushlendra Pandey, CIT Kokrajhar",
         },
       ],
     },
@@ -119,7 +144,7 @@ export default function Home() {
       <div className="mb-3 px-4 sm:px-16">
         <HorizontalScroll />
       </div>
-      {/* <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
+      <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
         <h2 className="text-3xl font-bold mb-4 text-center">
           Join the Conference
         </h2>
@@ -143,7 +168,18 @@ export default function Home() {
               HALL 2
             </button>
             <div className="text-sm text-slate-500 font-semibold text-center">
-              (Guest House Conference Room)
+              (VCR)
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <button
+              onClick={() => setShowPopup3(true)}
+              className="text-white bg-purple-600 hover:bg-purple-800 font-bold py-2 px-20 rounded-lg"
+            >
+              HALL 3
+            </button>
+            <div className="text-sm text-slate-500 font-semibold text-center">
+              (STIHUB Conference Room)
             </div>
           </div>
         </div>
@@ -165,17 +201,44 @@ export default function Home() {
                   <p className="font-bold text-lg">{program.name}</p>
                   <p className="text-gray-600">{program.time}</p>
                   {program.details &&
-                    program.details.map((detail, idx) => (
-                      <div key={idx} className="mt-2">
-                        <p className="font-semibold">{detail.session}</p>
-                        <p className="text-gray-600">
-                          Paper IDs: {detail.paperIds}
-                        </p>
-                        <p className="text-gray-600">
-                          Session Chairs: {detail.sessionChairs}
-                        </p>
-                      </div>
-                    ))}
+                    program.details.map((detail, idx) => {
+                      const isBoldKey = detail.session.includes(
+                        "Invited Guests and General Chairs:"
+                      );
+                      let keyPart = "";
+                      let valuePart = "";
+                      if (isBoldKey) {
+                        const parts = detail.session.split(": ");
+                        keyPart = parts[0] + ": ";
+                        valuePart = parts.slice(1).join(": ");
+                      }
+                      return (
+                        <div key={idx} className="mt-2">
+                          {isBoldKey ? (
+                            <p className="text-gray-700">
+                              <span className="font-bold">{keyPart}</span>
+                              {valuePart}
+                            </p>
+                          ) : (
+                            <p className="text-gray-700">{detail.session}</p>
+                          )}
+                          {detail.paperIds && (
+                            <p className="text-gray-600">
+                              Paper IDs: {detail.paperIds}
+                            </p>
+                          )}
+                          {detail.sessionChairs && (
+                            <div className="text-gray-600">
+                              {detail.sessionChairs
+                                .split("\n")
+                                .map((line, i) => (
+                                  <p key={i}>{line}</p>
+                                ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
                 </div>
                 <a
                   href={program.link}
@@ -193,10 +256,7 @@ export default function Home() {
       {showPopup2 && (
         <Popup onClose={() => setShowPopup2(false)}>
           <h2 className="text-2xl font-bold mb-4">
-            Hall 2{" "}
-            <span className="text-xl text-red-500">
-              (Guest House Conference Room)
-            </span>
+            Hall 2 <span className="text-xl text-red-500">(VCR)</span>
           </h2>
           <ul className="list-none pl-0">
             {hall2Programs.map((program, index) => (
@@ -208,17 +268,44 @@ export default function Home() {
                   <p className="font-bold text-lg">{program.name}</p>
                   <p className="text-gray-600">{program.time}</p>
                   {program.details &&
-                    program.details.map((detail, idx) => (
-                      <div key={idx} className="mt-2">
-                        <p className="font-semibold">{detail.session}</p>
-                        <p className="text-gray-600">
-                          Paper IDs: {detail.paperIds}
-                        </p>
-                        <p className="text-gray-600">
-                          Session Chairs: {detail.sessionChairs}
-                        </p>
-                      </div>
-                    ))}
+                    program.details.map((detail, idx) => {
+                      const isBoldKey = detail.session.includes(
+                        "Invited Guests and General Chairs:"
+                      );
+                      let keyPart = "";
+                      let valuePart = "";
+                      if (isBoldKey) {
+                        const parts = detail.session.split(": ");
+                        keyPart = parts[0] + ": ";
+                        valuePart = parts.slice(1).join(": ");
+                      }
+                      return (
+                        <div key={idx} className="mt-2">
+                          {isBoldKey ? (
+                            <p className="text-gray-700">
+                              <span className="font-bold">{keyPart}</span>
+                              {valuePart}
+                            </p>
+                          ) : (
+                            <p className="text-gray-700">{detail.session}</p>
+                          )}
+                          {detail.paperIds && (
+                            <p className="text-gray-600">
+                              Paper IDs: {detail.paperIds}
+                            </p>
+                          )}
+                          {detail.sessionChairs && (
+                            <div className="text-gray-600">
+                              {detail.sessionChairs
+                                .split("\n")
+                                .map((line, i) => (
+                                  <p key={i}>{line}</p>
+                                ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
                 </div>
                 <a
                   href={program.link}
@@ -232,7 +319,77 @@ export default function Home() {
             ))}
           </ul>
         </Popup>
-      )} */}
+      )}
+      {showPopup3 && (
+        <Popup onClose={() => setShowPopup3(false)}>
+          <h2 className="text-2xl font-bold mb-4">
+            Hall 3{" "}
+            <span className="text-xl text-red-500">
+              (STIHUB Conference Room)
+            </span>
+          </h2>
+          <ul className="list-none pl-0">
+            {hall3Programs.map((program, index) => (
+              <li
+                key={index}
+                className="mb-4 p-4 border rounded-lg shadow-sm bg-gray-50 flex justify-between items-center hover:bg-gray-200 transition duration-500"
+              >
+                <div>
+                  <p className="font-bold text-lg">{program.name}</p>
+                  <p className="text-gray-600">{program.time}</p>
+                  {program.details &&
+                    program.details.map((detail, idx) => {
+                      const isBoldKey = detail.session.includes(
+                        "Invited Guests and General Chairs:"
+                      );
+                      let keyPart = "";
+                      let valuePart = "";
+                      if (isBoldKey) {
+                        const parts = detail.session.split(": ");
+                        keyPart = parts[0] + ": ";
+                        valuePart = parts.slice(1).join(": ");
+                      }
+                      return (
+                        <div key={idx} className="mt-2">
+                          {isBoldKey ? (
+                            <p className="text-gray-700">
+                              <span className="font-bold">{keyPart}</span>
+                              {valuePart}
+                            </p>
+                          ) : (
+                            <p className="text-gray-700">{detail.session}</p>
+                          )}
+                          {detail.paperIds && (
+                            <p className="text-gray-600">
+                              Paper IDs: {detail.paperIds}
+                            </p>
+                          )}
+                          {detail.sessionChairs && (
+                            <div className="text-gray-600">
+                              {detail.sessionChairs
+                                .split("\n")
+                                .map((line, i) => (
+                                  <p key={i}>{line}</p>
+                                ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                </div>
+                <a
+                  href={program.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white bg-purple-600 hover:bg-purple-800 font-bold py-2 px-8 rounded-lg"
+                >
+                  Join
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Popup>
+      )}
       <div className="mb-3 px-4 sm:px-16">
         <AboutSection />
       </div>
@@ -335,37 +492,35 @@ export default function Home() {
               {
                 name: "Prof. Mahesh Chandra Govil",
                 img: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
-                title:
-                  "Director - NIT Sikkim",
+                title: "Director - NIT Sikkim",
               },
-                  {
-     name: "Prof. Petia Radeva",
+              {
+                name: "Prof. Petia Radeva",
 
-    img: "/images/speakers/newProf.jpg",
-     title: "University of Barcelona, Spain",
-   },
-           
+                img: "/images/speakers/newProf.jpg",
+                title: "University of Barcelona, Spain",
+              },
+
               {
                 name: "Prof. Manish Kumar",
                 img: "/images/speakers/Prof. Manish Kumar.jpg",
-                title: "IIIT Allahabad, India"
-              },{
+                title: "IIIT Allahabad, India",
+              },
+              {
                 name: " Prof. Jonathan Chan",
                 img: "/images/speakers/Prof. Jonathan Chan.jpg",
-                title: "ETRO, Vrije Universiteit Brussel (VUB), Belgium"
+                title: "ETRO, Vrije Universiteit Brussel (VUB), Belgium",
               },
               {
                 name: "Prof. Dr. G. Kulanthaivel",
                 img: "/images/speakers/Proj Dr G.jpg",
-                title: "NITTTR, Chennai, India"
+                title: "NITTTR, Chennai, India",
               },
-                {
+              {
                 name: "Dr. Shitala Prasad",
                 img: "/images/speakers/Dr. shitala Prasad.jpg",
                 title: "Assistant Professor, IIT Goa",
               },
-             
-             
             ].map((speaker, idx) => (
               <div
                 key={idx}
@@ -395,7 +550,9 @@ export default function Home() {
               Address
             </h2>
             <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
-              <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold" >Department of Computer Science & Engineering</span>
+              <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
+                Department of Computer Science & Engineering
+              </span>
               <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
                 Central Institute of Technology, Kokrajhar
               </span>
@@ -428,28 +585,25 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex flex-col items-center justify-center">
-  <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100 bg-white shadow-md">
-    <a
-      href="https://link.springer.com/book/9783032102492"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full h-full"
-    >
-      <img
-        src="/SpringerAdd.jpg"
-        alt="springer"
-        className="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-300"
-      />
-    </a>
-  </div>
+            <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100 bg-white shadow-md">
+              <a
+                href="https://link.springer.com/book/9783032102492"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full h-full"
+              >
+                <img
+                  src="/SpringerAdd.jpg"
+                  alt="springer"
+                  className="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-300"
+                />
+              </a>
+            </div>
 
-  
-  <p className="mt-3 text-2xl font-semibold text-gray-700 text-center">
-    Previous Edition of ICTCon 2024
-  </p>
-</div>
-
-          
+            <p className="mt-3 text-2xl font-semibold text-gray-700 text-center">
+              Previous Edition of ICTCon 2024
+            </p>
+          </div>
         </div>
       </div>
       {/* <div className="sm:px-16 px-5 py-3 bg-white sm:mx-16 mx-5 rounded-md shadow-md my-5">
