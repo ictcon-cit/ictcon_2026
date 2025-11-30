@@ -7,6 +7,7 @@ const images = [
   "/images/sponsors/HP.jpg",
   "/images/sponsors/IndianOil.jpg",
   "/images/sponsors/nt.jpg",
+  "/images/sponsors/IndianOil_Bonagaigaon.jpg",
 
   // "/images/sponsors/ntpc.jpg",
   // "/images/sponsors/hplogo.png",
