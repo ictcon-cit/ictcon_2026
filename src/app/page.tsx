@@ -309,6 +309,22 @@ export default function Home() {
       <div className="mb-3 px-4 sm:px-16">
         <HorizontalScroll />
       </div>
+      {/* Awards Section */}
+<div className="mx-4 sm:mx-16 px-5 py-3 bg-blue-50 border border-blue-300 rounded-md shadow-md my-6 text-center">
+  <h2 className="text-2xl font-bold mb-3 text-blue-900">🏆 Awards</h2>
+
+  <p className="text-lg font-semibold text-gray-800">
+    <span className="font-bold">Best Paper:</span> Paper ID 135 – Advanced Fake News Detection Using Hybrid CNN-BiLSTM with Class Balancing
+  </p>
+
+  <p className="text-lg font-semibold text-gray-800 mt-3">
+    <span className="font-bold">Best Application Award:</span>
+  </p>
+
+  <p className="text-gray-800">Paper ID 139 – Classification and Interpretability of Palm Leaf Diseases Using Deep Learning and Explainable AI</p>
+  <p className="text-gray-800">Paper ID 28 – Hybrid Multi-View 3D Object Detection from 2D Images: Fusion of Structure-from-Motion and Learned Depth Priors</p>
+</div>
+
       <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
         <h2 className="text-3xl font-bold mb-4 text-center">
           Join the Conference
