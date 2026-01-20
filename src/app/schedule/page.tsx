@@ -12,8 +12,9 @@ const SubmissionPage = () => {
 
             {/* Card */}
             <div className="bg-white/90 rounded-2xl shadow-xl border border-slate-200 p-6 md:p-8 flex flex-col gap-6">
+              <h1>TBD</h1>
               {/* Header + Download button */}
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+             {/* <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-semibold text-slate-800">
                     Conference Schedule
@@ -33,23 +34,23 @@ const SubmissionPage = () => {
                 </a>
               </div>
 
-              {/* PDF preview */}
-              <div className="mt-2 rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
-                <iframe
-  src="/Program_schedule_1__.pdf#toolbar=0&navpanes=0&scrollbar=0"
-  title="Schedule PDF"
-  className="w-full h-[70vh] rounded-xl border"
-></iframe>
+             {/* PDF preview */}
+             { /* <div className="mt-2 rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
+              <iframe
+                  src="/Program_schedule_1__.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                  title="Schedule PDF"
+                  className="w-full h-[70vh] rounded-xl border"
+              ></iframe>
 
-              </div>
+              </div> */} 
 
-              <p className="text-xs text-center text-slate-400">
+           {/*<p className="text-xs text-center text-slate-400">
                 Tip: Scroll inside the document to view all sessions.
-              </p>
+              </p> */}   
             </div>
           </div>
         </main>
-      </div>
+      </div> 
     </div>
   );
 };
