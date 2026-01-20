@@ -76,25 +76,23 @@ export default function Header() {
       <div className="sm:block hidden">
         <div className="fixed top-0 left-0 w-full z-50 h-24 bg-gradient-linear flex font-ubuntu">
           <div className="flex items-center justify-around px-3">
-            <div className="flex justify-center items-center">
-              <img
-                src="/images/icons/ictlogo2.png"
-                alt="ICTCon Logo"
-                className="rounded-full overflow-hidden md:h-[5.5rem] md:w-[5.5rem] sm:h-10 sm:w-10 h-8 w-8"
-              />
-            </div>
-            <div className="w-54 p-2 sm:text-xl md:text-xl font-bold">
-              <span className="text-white">ICTCon2025</span>
-            </div>
+            <img
+              src="/images/icons/ictlogo2.png"
+              alt="ICTCon Logo"
+              className="rounded-full md:h-[5.5rem] md:w-[5.5rem] sm:h-10 sm:w-10 h-8 w-8"
+            />
+            <span className="text-white text-xl font-bold">
+              ICTCon2025
+            </span>
           </div>
 
-          <div className="flex font-bold md:text-base sm:text-sm text-xs justify-between items-center gap-2">
+          <div className="flex font-bold md:text-base sm:text-sm text-xs items-center gap-2">
             {navLinks.map((link, index) => {
               /* ---------- Dropdown ---------- */
               if (link.dropdown && link.items) {
                 return (
                   <div key={index} className="relative group">
-                    <button className="px-3 rounded-md text-white h-12 flex items-center hover:bg-blue-700 font-bold">
+                    <button className="px-3 h-12 text-white flex items-center hover:bg-blue-700 rounded-md">
                       {link.label}
                       <svg
                         className="ml-1 w-3 h-3"
@@ -111,14 +109,16 @@ export default function Header() {
                       </svg>
                     </button>
 
-                    <div className="absolute left-0 top-full w-44 bg-white rounded-md shadow-lg z-50 hidden group-hover:block">
+                    <div className="absolute left-0 top-full w-44 bg-white rounded-md shadow-lg hidden group-hover:block">
                       {link.items.map((item, idx) => (
                         <Link
                           key={idx}
                           href={item.href}
                           target={item.external ? "_blank" : "_self"}
-                          rel={item.external ? "noopener noreferrer" : undefined}
-                          className="block px-4 py-2 text-black hover:bg-blue-100 hover:text-blue-700 rounded-md"
+                          rel={
+                            item.external ? "noopener noreferrer" : undefined
+                          }
+                          className="block px-4 py-2 hover:bg-blue-100 text-black"
                         >
                           {item.label}
                         </Link>
@@ -130,13 +130,16 @@ export default function Header() {
 
               /* ---------- Normal Link ---------- */
               if (link.href) {
+                const isExternal =
+                  "external" in link && link.external === true;
+
                 return (
                   <Link
                     key={index}
                     href={link.href}
-                    target={link.external ? "_blank" : "_self"}
-                    rel={link.external ? "noopener noreferrer" : undefined}
-                    className={`px-3 rounded-md text-white h-12 flex items-center ${
+                    target={isExternal ? "_blank" : "_self"}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
+                    className={`px-3 h-12 flex items-center text-white rounded-md ${
                       pathname === link.href
                         ? "bg-blue-700"
                         : "hover:bg-blue-700"
@@ -162,7 +165,9 @@ export default function Header() {
               alt="ICTCon Logo"
               className="rounded-full h-10 w-10"
             />
-            <span className="text-white text-xl font-bold">ICTCon2025</span>
+            <span className="text-white text-xl font-bold">
+              ICTCon2025
+            </span>
           </div>
 
           <button
@@ -174,12 +179,12 @@ export default function Header() {
         </div>
 
         {navbarOpen && (
-          <div className="bg-gradient-linear flex flex-col fixed top-16 w-full p-5 font-bold z-50 text-white">
+          <div className="bg-gradient-linear fixed top-16 w-full p-5 z-50 text-white">
             {navLinks.map((link, index) => {
               if (link.dropdown && link.items) {
                 return (
-                  <div key={index}>
-                    <p className="mb-2">{link.label}</p>
+                  <div key={index} className="mb-3">
+                    <p className="font-bold">{link.label}</p>
                     {link.items.map((item, idx) => (
                       <Link
                         key={idx}
@@ -188,7 +193,7 @@ export default function Header() {
                         rel={
                           item.external ? "noopener noreferrer" : undefined
                         }
-                        className="block ml-4 py-1 hover:underline"
+                        className="block ml-4 py-1"
                         onClick={() => setNavbarOpen(false)}
                       >
                         {item.label}
@@ -199,13 +204,16 @@ export default function Header() {
               }
 
               if (link.href) {
+                const isExternal =
+                  "external" in link && link.external === true;
+
                 return (
                   <Link
                     key={index}
                     href={link.href}
-                    target={link.external ? "_blank" : "_self"}
-                    rel={link.external ? "noopener noreferrer" : undefined}
-                    className="py-2 hover:underline"
+                    target={isExternal ? "_blank" : "_self"}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
+                    className="block py-2"
                     onClick={() => setNavbarOpen(false)}
                   >
                     {link.label}
