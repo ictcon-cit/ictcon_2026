@@ -82,7 +82,7 @@ export default function HomeCara() {
               />
               <div className="absolute w-full h-full flex flex-col justify-center items-center text-white bg-black/35  drop-shadow-lg shadow-black text-center">
                 <div className="font-extrabold md:text-4xl sm:text-xl text-xs">
-                  3rd
+                  4th
                 </div>
                 <div className="font-extrabold md:text-4xl sm:text-xl text-xs ">
                   International Intelligent Computing and Technologies
@@ -90,12 +90,12 @@ export default function HomeCara() {
                 </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}
-                  (ICTCon 2025){" "}
+                  (ICTCon 2026){" "}
                 </div>
                 
                 <div className="font-bold md:text-2xl sm:text-xl text-xs sm:mt-5 ">
                   {" "}
-                 2nd-3rd December, 2025
+                {/*  2nd-3rd December, 2025      */} 
                 </div>
                 
                 <div className="font-bold md:text-3xl sm:text-xl text-xs sm:mt-5 ">

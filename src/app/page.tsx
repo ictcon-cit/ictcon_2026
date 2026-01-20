@@ -42,7 +42,7 @@ export default function Home() {
   const [expandedHall3Day1, setExpandedHall3Day1] = useState(false);
   const [expandedHall3Day2, setExpandedHall3Day2] = useState(false);
 
-  const hall1Programs = [
+/*  const hall1Programs = [
     {
       day: "Day 1",
       sessions: [
@@ -299,7 +299,7 @@ export default function Home() {
         },
       ],
     },
-  ];
+  ];  */
 
   return (
     <main className="flex min-h-screen flex-col text-gray-800 bg-gray-100">
@@ -310,7 +310,7 @@ export default function Home() {
         <HorizontalScroll />
       </div>
       {/* Awards Section */}
-<div className="mx-4 sm:mx-16 px-5 py-3 bg-blue-50 border border-blue-300 rounded-md shadow-md my-6 text-center">
+      {/* <div className="mx-4 sm:mx-16 px-5 py-3 bg-blue-50 border border-blue-300 rounded-md shadow-md my-6 text-center">
   <h2 className="text-2xl font-bold mb-3 text-blue-900">🏆 Awards</h2>
 
   <p className="text-lg font-semibold text-gray-800">
@@ -323,9 +323,11 @@ export default function Home() {
 
   <p className="text-gray-800">Paper ID 139 – Classification and Interpretability of Palm Leaf Diseases Using Deep Learning and Explainable AI</p>
   <p className="text-gray-800">Paper ID 28 – Hybrid Multi-View 3D Object Detection from 2D Images: Fusion of Structure-from-Motion and Learned Depth Priors</p>
-</div>
+</div>     */}
 
-      <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
+
+
+    {/*  <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
         <h2 className="text-3xl font-bold mb-4 text-center">
           Join the Conference
         </h2>
@@ -669,98 +671,11 @@ export default function Home() {
             ))}
           </ul>
         </Popup>
-      )}
+      )}   */}  
       <div className="mb-3 px-4 sm:px-16">
         <AboutSection />
       </div>
-      {/* 
-      <div className="flex flex-col-reverse sm:grid sm:grid-cols-3 sm:gap-5 grid-cols-1 gap-3 sm:px-16 px-5">
-        {HomeCardData.map((item, index) => (
-          <Card
-            key={index}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-            url={item.url}
-          />
-        ))}
-        <div className="rounded-lg shadow-lg bg-white overflow-hidden">
-          <div className="p-6">
-            <div className="text-center w-full">
-              <a
-                href="/CFP ICTCon 2024.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-2 px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase"
-                download
-              >
-                <FaFilePdf className="mr-2 text-lg" />
-                Call for Papers
-              </a>
-            </div>
-            <h2 className="text-3xl font-bold mb-6 text-center">
-              Proceedings By
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10 justify-items-center">
-              <a
-                href="https://www.springer.com/series/7899"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
-              >
-                <img
-                  src="/images/springer.webp"
-                  alt="springer"
-                  className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
-                />
-              </a>
-              <a
-                href="https://www.springer.com/series/7899"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
-              >
-                <img
-                  src="/images/ccis.webp"
-                  alt="scopus"
-                  className="h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
-                />
-              </a>
-            </div>
-            <div className="mb-6 text-center">
-              <h3 className="text-2xl font-semibold mb-2">
-                Last Date of Paper Submission
-              </h3>
-              <p className="font-bold text-gray-500 line-through">
-                30th September, 2024
-              </p>
-              <p className="font-bold text-gray-500 line-through">
-                10th October, 2024 (Extended)
-              </p>
-              <p className="font-bold text-gray-500 line-through">
-                17th October, 2024 (Hard Deadline)
-              </p>
-              <a
-                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2024"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 hover:underline"
-              >
-                <FaHandPointRight className="mr-2" />
-                Submit your paper here
-              </a>
-            </div>
-            <div className="text-center">
-              <h3 className="text-2xl font-semibold">Date of Conference</h3>
-              <p className="font-semibold">(Hybrid mode)</p>
-              <p className="text-lg font-bold text-red-600 mb-4">
-                2nd-3rd December, 2024
-              </p>
-              <Countdown targetDate="2024-12-02T00:00:00" />
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
       {/* Our Speakers Section */}
       <div className="px-4 sm:px-16 py-3">
         <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden rounded-lg">
