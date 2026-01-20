@@ -25,9 +25,16 @@ const navLinks = [
   { href: "/registration", label: "Registration" },
   { href: "/schedule", label: "Program Schedule" },
   {
-    href: "https://ictcon2024.cit.ac.in/",
-    label: "ICTCon 2024",
-    external: true,
+    dropdown: true,
+    label: "Previous Editions",
+    items: [
+      { href: "https://ictcon2025.cit.ac.in/", label: "ICTCon 2025", external: true },
+      {
+        href: "https://ictcon2024.cit.ac.in/",
+        label: "ICTCon 2024",
+        external: true,
+      },
+    ],
   },
 ];
 
