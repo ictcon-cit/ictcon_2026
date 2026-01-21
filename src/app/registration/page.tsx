@@ -43,18 +43,7 @@ const RegistrationPage = () => {
                     Student
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹4500
-                  </td>
-                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    $120
-                  </td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    Faculty/Academia
-                  </td>
-                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹6500
+                     INR 7000 + 18% GST = INR 8,260  
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
                     $180
@@ -62,13 +51,24 @@ const RegistrationPage = () => {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
+                    Faculty/Academia
+                  </td>
+                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
+                     INR 11000 + 18% GST = INR 12,980 
+                  </td>
+                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
+                    $250
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
                     Industry
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    ₹8000
+                    INR 11000 + 18% GST = INR 12,980   
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                    $220
+                    $280
                   </td>
                 </tr>
               </tbody>
