@@ -54,7 +54,7 @@ const RegistrationPage = () => {
                     Faculty/Academia
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
-                     INR 11000 + 18% GST = INR 12,980 
+                      INR 9000 + 18% GST = INR 10,620 
                   </td>
                   <td className="px-6 py-4 border-b border-gray-300 text-sm leading-5 text-gray-700">
                     $250
