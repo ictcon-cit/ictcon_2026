@@ -24,14 +24,14 @@ const aboutContents = {
     title: "ABOUT THE CONFERENCE",
     image: "/images/icons/new_ictcon.jpg",
     imageAlt: "ICTCon Conference Banner",
-    description: `The 3rd International Intelligent Computing and Technologies Conference (ICTCon 2025) is being organized by Central Institute of Technology Kokrajhar in collaboration with IIT GOA during 2-3 December, 2025. The aim of the conference ICTCon-2025 is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
-  btr: {
+ /* btr: {
     title: "ABOUT BTR, ASSAM",
     image: "/images/gate2.jpg",
     imageAlt: "Bodoland Territorial Region",
     description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
-  },
+  }, */
   iitgoa: {
     title: "ABOUT IIT GOA",
     image: "/images/iit_goa.jpg",
@@ -139,14 +139,8 @@ export default function AboutSection() {
               <h3 className="text-xl sm:text-2xl font-semibold mb-2">
                 Last Date of Paper Submission
               </h3>
-              <p className="font-bold text-base sm:text-lg text-red-600 mb-1 sm:mb-2">
-                <span className="line-through">15th September, 2025</span>
-              </p>
-              <p className="font-bold text-base sm:text-lg text-red-600 mb-1 sm:mb-2">
-                <span className="line-through">30th September, 2025 (Extended)</span>
-              </p>
               <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-                12th October, 2025 <span className="text-xs">(Hard Deadline)</span>
+               5th May, 2026  <span className="text-xs">(Hard Deadline)</span>
               </p>
               <a
                 href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2025"
@@ -166,7 +160,7 @@ export default function AboutSection() {
                 (Hybrid mode)
               </p>
               <p className="text-base sm:text-lg font-bold text-red-600 mb-4">
-                2nd-3rd December, 2025
+                2-3 November, 2026
               </p>
             </div>
           </div>

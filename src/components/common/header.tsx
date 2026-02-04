@@ -82,7 +82,7 @@ export default function Header() {
               className="rounded-full md:h-[5.5rem] md:w-[5.5rem] sm:h-10 sm:w-10 h-8 w-8"
             />
             <span className="text-white text-xl font-bold">
-              ICTCon2025
+              ICTCon2026
             </span>
           </div>
 
@@ -166,7 +166,7 @@ export default function Header() {
               className="rounded-full h-10 w-10"
             />
             <span className="text-white text-xl font-bold">
-              ICTCon2025
+              ICTCon2026
             </span>
           </div>
 
