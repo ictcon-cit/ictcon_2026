@@ -116,7 +116,7 @@ const RegistrationPage = () => {
                 <li>A/c No.: 30495666063</li>
                 <li>IFSC: SBIN0007379</li>
                 <li>Bank: SBI, North Kokrajhar Branch</li>
-                <li>(REMARK AS ICTCon2025 #paper id)</li>
+                <li>(REMARK AS ICTCon2026 #paper id)</li>
               </ul>
             </li>
             <li className="mb-2">
@@ -137,7 +137,7 @@ const RegistrationPage = () => {
               >
                 QR code
               </a>
-              : (Remark as <strong>ICTCon2025 #paper id</strong>)
+              : (Remark as <strong>ICTCon2026 #paper id</strong>)
             </li>
           </ol>
         </div>
@@ -383,7 +383,7 @@ const RegistrationPage = () => {
           </ol>
         </div>
         <div className="text-center text-black font-semibold mt-4 flex flex-col">
-          Oral PowerPoint presentation slides template for ICTCon 2025
+          Oral PowerPoint presentation slides template for ICTCon 2026
           conference:
           <a
             href="/PID_xx_ICTCon_2025.pptx"

@@ -9,7 +9,7 @@ const SubmissionPage = () => {
       <div className="md:text-xl text-md  text-black md:px-44 px-5 space-y-5">
         <div className="mt-10">
           Prospective authors are invited to submit full-length original
-          research papers. In submitting a manuscript to ICTCon 2025, authors
+          research papers. In submitting a manuscript to ICTCon 2026, authors
           acknowledge that no paper substantially similar in content has been or
           will be submitted to another journal, conference or workshop during
           the review period. In such a case, the paper will be rejected without
@@ -123,7 +123,7 @@ const SubmissionPage = () => {
           <div className="font-bold">
             Instruction for Manuscript Submission:
           </div>
-          The manuscript has to be uploaded online at the ICTCON 2025 Microsoft
+          The manuscript has to be uploaded online at the ICTCON 2026 Microsoft
           Research paper submission portal at the following link:
           {/* <div> */}
           <Link

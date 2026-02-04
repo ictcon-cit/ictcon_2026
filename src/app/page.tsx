@@ -680,7 +680,7 @@ export default function Home() {
       <div className="px-4 sm:px-16 py-3">
         <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden rounded-lg">
           <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
-            ICTCon2025 Keynote Speakers
+            Previous Keynote Speakers (ICTCon2025)
           </h1>
           <div className="flex flex-wrap justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8 ">
             {[
@@ -746,14 +746,12 @@ export default function Home() {
             </h2>
             <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
               <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
-                School of Mathematics and Computer Science – Computer Science and Engineering,
+                 School of Mathematics and Computer Science – Computer Science and Engineering, 
               </span>
               <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
-                 Indian Institute of Technology Goa, Goa College of Engineering Campus
+                 Indian Institute of Technology Goa, 
               </span>
-              Farmagudi, Ponda-403401
-              <br />
-              Goa
+              Farmagudi, Ponda-403401, Goa
               <br />
               India
             </p>
