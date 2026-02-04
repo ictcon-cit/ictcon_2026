@@ -33,14 +33,27 @@ export default function HomeCara() {
 
   const defData: CarouselImageData[] = [
     {
-      stringValue: "/images/carousel/new/1.jpg",
+      stringValue: "/images/carousel/new/Ictcon2025_1.jpeg",
     },
     {
-      stringValue: "/images/carousel/new/2.jpg",
+      stringValue: "/images/carousel/new/Ictcon2025_2.jpeg",
     },
     {
-      stringValue: "/images/carousel/new/3.jpg",
+      stringValue: "/images/carousel/new/Ictcon2025_3.jpeg",
     },
+    {
+      stringValue: "/images/carousel/new/Ictcon2025_5.jpeg",
+    },
+    {
+      stringValue: "/images/carousel/new/Ictcon2025_6.jpeg",
+    },
+    {
+      stringValue: "/images/carousel/new/IIT_Goa_1.jpeg",
+    },
+    {
+      stringValue: "/images/carousel/new/IIT_Goa.jpeg",
+    },
+
     // {
     //   stringValue: "/images/carousel/citt1.jpg",
     // },

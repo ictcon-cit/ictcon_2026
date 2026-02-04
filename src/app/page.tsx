@@ -746,14 +746,14 @@ export default function Home() {
             </h2>
             <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
               <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
-                Department of Computer Science & Engineering
+                School of Mathematics and Computer Science – Computer Science and Engineering,
               </span>
               <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
-                Central Institute of Technology, Kokrajhar
+                 Indian Institute of Technology Goa, Goa College of Engineering Campus
               </span>
-              Balagaon, PO: Kokrajhar, Dist: Kokrajhar, BTAD
+              Farmagudi, Ponda-403401
               <br />
-              Assam 783370
+              Goa
               <br />
               India
             </p>
@@ -770,13 +770,16 @@ export default function Home() {
           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex items-center justify-center">
             <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100">
               <iframe
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                style={{ border: 0 }}
-                src="https://www.google.com/maps?q=Central+Institute+of+Technology,+Kokrajhar&hl=es;z=14&output=embed"
-                allowFullScreen
-              ></iframe>
+  title="IIT Goa Farmagudi Campus"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps?q=Indian+Institute+of+Technology+Goa&hl=en&z=14&output=embed"
+></iframe>
+
             </div>
           </div>
           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex flex-col items-center justify-center">
