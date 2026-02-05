@@ -77,7 +77,7 @@ export default function Header() {
         <div className="fixed top-0 left-0 w-full z-50 h-24 bg-gradient-linear flex font-ubuntu">
           <div className="flex items-center justify-around px-3">
             <img
-              src="/images/icons/Ictcon_2026_Logo.jpeg"
+              src="/images/icons/ictlogo2.png"
               alt="ICTCon Logo"
               className="rounded-full md:h-[5.5rem] md:w-[5.5rem] sm:h-10 sm:w-10 h-8 w-8"
             />
