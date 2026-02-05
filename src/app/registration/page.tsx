@@ -76,7 +76,7 @@ const RegistrationPage = () => {
           </div>
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
-            and $15 Foreign members after the 15 November 2025.
+            and $15 Foreign members after the 5th August , 2026.
           </div>
           {/* Special Issue - Open Access Table */}
           <div className="mt-6">

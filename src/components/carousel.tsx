@@ -101,6 +101,9 @@ export default function HomeCara() {
                   International Intelligent Computing and Technologies
                   Conference
                 </div>
+                <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
+                 Indian Institute of Technology GOA
+                </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}
                   (ICTCon 2026){" "}
