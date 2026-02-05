@@ -140,7 +140,7 @@ export default function AboutSection() {
                 Last Date of Paper Submission
               </h3>
               <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-               5th May, 2026  <span className="text-xs">(Hard Deadline)</span>
+               5th May, 2026  <span className="text-xs"></span>
               </p>
               <a
                 href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2025"
