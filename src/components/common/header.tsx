@@ -161,7 +161,7 @@ export default function Header() {
         <div className="fixed top-0 left-0 w-full z-50 h-16 bg-gradient-linear flex justify-between px-3">
           <div className="flex items-center gap-2">
             <img
-              src="/images/icons/ictlogo.png"
+              src="/images/icons/Ictcon2026_Header_Logo.jpeg"
               alt="ICTCon Logo"
               className="rounded-full h-10 w-10"
             />
