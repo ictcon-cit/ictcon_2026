@@ -1,80 +1,41 @@
 const ImportantDates = () => {
   return (
-    <div className="relative overflow-x-auto md:px-20 px-2 md:py-5 py-2">
-      <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
-        <tbody>
-          <tr className="bg-white border-black outline outline-black outline-1">
-            <th
-              scope="row"
-              className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
-            >
-              Paper Submission starts
-            </th>
-            <td className="md:px-6 md:py-4 px-2 py-1 font-bold  text-gray-900">
-              1st March, 2026
-            </td>
-          </tr>
-          <tr className="bg-white border-black outline outline-black outline-1">
-            <th
-              scope="row"
-              className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
-            >
-              Last Date of Paper Submission
-            </th>
-            <td className="md:px-6 md:py-4 px-2 py-1 font-bold">
-              <span className=" text-gray-900">
-                5th May, 2026
-              </span>
-              <br />
-             {/* <span className="line-through text-red-600">
-                30th September, 2025 (  Extended )
-              </span> */} 
-              <br />
-              {/*  <span className="text-green-700">
-                12th October, 2025 <span className="text-xs">(Hard Deadline)</span>
-              </span>  */} 
-             
-            </td>
-          </tr>
-          <tr className="bg-white border-black outline outline-black outline-1">
-            <th
-              scope="row"
-              className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
-            >
-              Notification of Acceptance
-            </th>
-            <td className="md:px-6 md:py-4 px-2 py-1 font-bold ">
-             <span className=" text-gray-900">10th July, 2026</span>
-              <br />
-            {/* <span className="text-green-700">31st October,2025</span>  */}
-              
-            </td>
-          </tr>
-          <tr className="bg-white border-black outline outline-black outline-1">
-            <th
-              scope="row"
-              className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
-            >
-            Author Registration
-            </th>
-            <td className="md:px-6 md:py-4 px-2 py-1 font-bold  text-gray-900">
-              5th August, 2026
-            </td>
-          </tr>
-          <tr className="bg-white border-black outline outline-black outline-1">
-            <th
-              scope="row"
-              className="md:px-6 md:py-4 px-2 py-1 font-bold text-gray-900 md:whitespace-nowrap wrap"
-            >
-              Date of Conference (Hybrid mode)
-            </th>
-            <td className="md:px-6 md:py-4 px-2 py-1 font-bold  text-gray-900">
-              2-4 November, 2026
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <section className="bg-[#fffbe6] py-10">
+      <div className="mx-auto max-w-6xl px-3">
+        <div className="overflow-hidden rounded-lg bg-white shadow-md">
+          <table className="w-full table-fixed text-sm md:text-base">
+            {/* Fixed column alignment */}
+            <colgroup>
+              <col className="w-[70%]" />
+              <col className="w-[30%]" />
+            </colgroup>
+
+            <tbody>
+              {[
+                ["Paper Submission Starts", "1st March, 2026"],
+                ["Last Date of Paper Submission", "5th May, 2026"],
+                ["Notification of Acceptance", "10th July, 2026"],
+                ["Author Registration", "5th August, 2026"],
+                ["Date of Conference (Hybrid Mode)", "2–4 November, 2026"],
+              ].map(([label, date], index) => (
+                <tr
+                  key={index}
+                  className="border-b last:border-b-0 hover:bg-gray-50 transition-colors"
+                >
+                  <td className="px-6 py-4 font-medium text-gray-700">
+                    {label}
+                  </td>
+
+                  <td className="px-6 py-4 text-right font-semibold text-gray-900 tabular-nums">
+                    {date}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   );
 };
 

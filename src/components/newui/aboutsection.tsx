@@ -3,6 +3,25 @@ import { FaFilePdf, FaHandPointRight } from "react-icons/fa6";
 
 // All possible about section contents
 const aboutContents = {
+  iitgoa: {
+    title: "ABOUT IIT GOA",
+    image: "/images/iit_goa.jpg",
+    imageAlt: "IIT Goa Logo",
+    description: `Indian Institute of Technology (IIT) Goa is an Institution of National Importance (INI) created by an Act of Parliament of India. IIT Goa is located in Farmagudi, Ponda in the State of Goa, it is focused on higher education and research in different engineering disciplines. It accepts students from all across the country and the world for its various degree programs. IIT Goa offers various B.Tech. programs of 4 years duration and postgraduate programmes as M.Tech of 2 years and PhD. degree in various disciplines. The High Performance Computing Nodal Center (HPC-NC) at the Indian Institute of Technology Goa (IIT Goa) is established in 2020 under the National Supercomputing Mission (NSM) of India.`,
+  },
+  conference: {
+    title: "ABOUT THE CONFERENCE",
+    image: "/images/icons/Ictcon_2026_Logo.jpeg",
+    imageAlt: "ICTCon Conference Banner",
+    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+  },
+ /* btr: {
+    title: "ABOUT BTR, ASSAM",
+    image: "/images/gate2.jpg",
+    imageAlt: "Bodoland Territorial Region",
+    description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
+  }, */
+
   cit: {
     title: "ABOUT CIT KOKRAJHAR",
     image: "/images/cit.png",
@@ -19,24 +38,6 @@ const aboutContents = {
       is a Centrally Funded Institute under the Ministry of Human Resource
       Development, Government of India.The Institute was established on
       the 19th of December 2006.`,
-  },
-  conference: {
-    title: "ABOUT THE CONFERENCE",
-    image: "/images/icons/Ictcon_2026_Logo.jpeg",
-    imageAlt: "ICTCon Conference Banner",
-    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
-  },
- /* btr: {
-    title: "ABOUT BTR, ASSAM",
-    image: "/images/gate2.jpg",
-    imageAlt: "Bodoland Territorial Region",
-    description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
-  }, */
-  iitgoa: {
-    title: "ABOUT IIT GOA",
-    image: "/images/iit_goa.jpg",
-    imageAlt: "IIT Goa Logo",
-    description: `Indian Institute of Technology (IIT) Goa is an Institution of National Importance (INI) created by an Act of Parliament of India. IIT Goa is located in Farmagudi, Ponda in the State of Goa, it is focused on higher education and research in different engineering disciplines. It accepts students from all across the country and the world for its various degree programs. IIT Goa offers various B.Tech. programs of 4 years duration and postgraduate programmes as M.Tech of 2 years and PhD. degree in various disciplines. The High Performance Computing Nodal Center (HPC-NC) at the Indian Institute of Technology Goa (IIT Goa) is established in 2020 under the National Supercomputing Mission (NSM) of India.`,
   },
 };
 
