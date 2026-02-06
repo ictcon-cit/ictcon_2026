@@ -199,7 +199,7 @@ const RegistrationPage = () => {
         <div className="border border-gray-300 p-4 rounded-lg bg-gray-50">
           <ol className="list-decimal list-inside mb-4">
             <li className="mb-2">
-              The deadline for camera-ready submission is November 15, 2025, at
+              The deadline for camera-ready submission is 5th August, 2026, at
               11:59 P.M. Pacific Time. This deadline will not be extended.
               Papers submitted after the deadline may not be included in the
               conference proceedings.
@@ -277,7 +277,7 @@ const RegistrationPage = () => {
             </li>
             <li className="mb-2">
               Fill the following details as per the information submitted
-              earlier to ICTCon 2025. Any changes in the paper title and name of
+              earlier to ICTCon 2026. Any changes in the paper title and name of
               authors will not be entertained.
               <ul className="list-disc list-inside ml-5 mt-2">
                 <li>Proposed title of the contribution</li>
@@ -301,7 +301,7 @@ const RegistrationPage = () => {
         <div className="border border-gray-300 p-4 rounded-lg bg-gray-50 overflow-x-auto">
           <ol className="list-decimal list-inside mb-4">
             <li className="mb-2">
-              Followings files need to be submitted by November 15, 2025.
+              Followings files need to be submitted by 5th August, 2026.
               <ul className="list-disc list-inside ml-5 mt-2">
                 <li>
                   Final Camera Ready Copy (in PDF format) of accepted manuscript

@@ -124,30 +124,30 @@ export default function HomeCara() {
 
                 <div className="flex flex-col items-center gap-4 mt-4 p-4 bg-white bg-opacity-20 rounded-xl shadow-md w-full">
   <div className="flex flex-row items-center justify-between w-3/4">
-    {/* CIT */}
+    {/* IIT GOA */}
     <div className="flex flex-col items-center">
       <img
-        src="/images/cit.png"
+        src="/images/iit_goa.jpg"
         alt="CIT Kokrajhar Logo"
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
-        Central Institute of Technology Kokrajhar, Assam, India
+        IIT Goa, India
       </span>
     </div>
 
     {/* Vertical Divider (optional, will stay in center) */}
     <div className="h-10 md:h-20 border-l-4 border-yellow-400 mx-6"></div>
 
-    {/* IIT Goa */}
+    {/* CIT */}
     <div className="flex flex-col items-center">
       <img
-        src="/images/iit_goa.jpg"
+        src="/images/cit.png"
         alt="IIT Goa Logo"
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
-        IIT Goa, India
+         Central Institute of Technology Kokrajhar, Assam, India
       </span>
     </div>
   </div>

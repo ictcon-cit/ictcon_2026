@@ -22,7 +22,7 @@ const aboutContents = {
   },
   conference: {
     title: "ABOUT THE CONFERENCE",
-    image: "/images/icons/new_ictcon.jpg",
+    image: "/images/icons/Ictcon_2026_Logo.jpeg",
     imageAlt: "ICTCon Conference Banner",
     description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
@@ -80,6 +80,7 @@ export default function AboutSection() {
               </button>
             ))}
           </div>
+
           <div className="flex flex-col gap-2 items-center justify-start text-center text-lg sm:text-xl text-black px-3 sm:px-5">
             <img
               src={aboutContent.image}
@@ -89,13 +90,8 @@ export default function AboutSection() {
                   : currentSection === "iitgoa"
                   ? "max-h-48 sm:max-h-64 w-auto object-contain mx-auto"
                   : currentSection === "conference"
-                  ? "object-cover w-full max-h-56 sm:max-h-72 lg:max-h-80 mx-auto"
+                  ? "w-full max-h-56 sm:max-h-72 lg:max-h-80 object-contain mx-auto"
                   : "object-cover h-48 sm:h-64 lg:h-72 w-full"
-              }
-              style={
-                currentSection === "conference"
-                  ? { objectFit: "cover" }
-                  : undefined
               }
               alt={aboutContent.imageAlt}
             />
@@ -104,6 +100,7 @@ export default function AboutSection() {
             </p>
           </div>
         </div>
+
         <div className="w-full lg:w-[40%] shadow-lg bg-white overflow-hidden rounded-lg">
           <div className="p-3 sm:p-5">
             <div className="text-center w-full mb-4">
