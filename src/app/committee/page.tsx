@@ -5,29 +5,25 @@ const CommitteePage = () => {
     <div>
       <SecondHeader title={"COMMITTEE"} />
       <div className="flex flex-col justify-center items-center text-black md:text-lg text-sm font-medium p-6 space-y-10">
+        
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
-           Cheif Patron
+            Cheif Patron
           </div>
           <div className="space-y-2">
-            {/* <div>Sri. Pramod Boro, President, CITK Society</div> */}
             <div>
               Dr. J. M. Vyas (Vice-Chancellor, NFSU)
-
-
             </div>
           </div>
         </div>
+
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
-          Patron
+            Patron
           </div>
           <div className="space-y-2">
-            {/* <div>Sri. Pramod Boro, President, CITK Society</div> */}
             <div>
-            Prof. D. S Katti, Director, IIT Goa and Prof. Naveen Kumar Chaudhary, NFSU Goa
-
-
+              Prof. D. S Katti, Director, IIT Goa and Prof. Naveen Kumar Chaudhary, NFSU Goa
             </div>
           </div>
         </div>
@@ -37,7 +33,7 @@ const CommitteePage = () => {
             General Chairs
           </div>
           <div className="space-y-2">
-            <div>Prof. Petia Radeva, University of Barcelona, Spain </div>
+            <div>Prof. Petia Radeva, University of Barcelona, Spain</div>
             <div>
               Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of Technology Sydney, Australia
             </div>
@@ -50,15 +46,14 @@ const CommitteePage = () => {
             Conference Chairs
           </div>
           <div className="space-y-2">
-            <div>Dr. Shitala Prasad, IIT Goa </div>
-
+            <div>Dr. Shitala Prasad, IIT Goa</div>
             <div>Dr. Lokesh Chouhan, NFSU Goa</div>
             <div>Dr. Lokesh Chouhan, NFSU Goa</div>
             <div>Dr. P. Charanarur, NFSU Goa</div>
             <div>Dr. Pankaj Pratap Singh, CIT Kokrajhar</div>
           </div>
-          
         </div>
+
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
             Conference Conveners
@@ -70,6 +65,7 @@ const CommitteePage = () => {
             <div>TBD</div>
           </div>
         </div>
+
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
             Track Chairs
@@ -103,36 +99,36 @@ const CommitteePage = () => {
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
           </div>
         </div>
-        
-       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
-  <div className="text-red-600 font-extrabold text-2xl mb-4">
-    Local Organising Committee
-  </div>
 
-  <div className="space-y-2 text-gray-800">
-    <div className="font-semibold">TBD (From NFSU Goa)</div>
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
+            Local Organising Committee
+          </div>
 
-    <div>Dr. Raj Jaiswal, NFSU Goa</div>
-    <div>Dr. Jovi Jose Salvador D'silva, NFSU Goa</div>
-    <div>Dr. Pranitha Sanda, NFSU Goa</div>
-    <div>Dr. Tukkappa K. Gundoor, NFSU Goa</div>
-    <div>Mr. Harsh Panchal, NFSU Goa</div>
-    <div>Ms. Anouska Dutta, NFSU Goa</div>
-    <div>Mr. Rahul Kamble, NFSU Goa</div>
-    <div>Mr. Rajesh Mitra, NFSU Goa</div>
-    <div>Mr. Abhinav Salgunan, NFSU Goa</div>
-    <div>Dr. Anuj Abraham, IIT Goa</div>
-    <div>Dr. P Kumar, IIT Goa</div>
-    <div>Dr. Sautami Basu, IIT Goa</div>
-    <div>Dr. Subhajit Sarkar, IIT Goa</div>
-    <div>Vipin Gautam, IIT Goa</div>
-    <div>Aditi Sethkar, IIT Goa</div>
-    <div>Ashish Verma, IIT Goa</div>
-    <div>Andleeb Zuhra, IIT Goa</div>
-    <div>Prachi Negi, IIT Goa</div>
-    <div>Harsh S K, IIT Goa</div>
-  </div>
-</div>
+          <div className="space-y-2 text-gray-800">
+            <div className="font-semibold">TBD (From NFSU Goa)</div>
+
+            <div>Dr. Raj Jaiswal, NFSU Goa</div>
+            <div>Dr. Jovi Jose Salvador D&apos;silva, NFSU Goa</div>
+            <div>Dr. Pranitha Sanda, NFSU Goa</div>
+            <div>Dr. Tukkappa K. Gundoor, NFSU Goa</div>
+            <div>Mr. Harsh Panchal, NFSU Goa</div>
+            <div>Ms. Anouska Dutta, NFSU Goa</div>
+            <div>Mr. Rahul Kamble, NFSU Goa</div>
+            <div>Mr. Rajesh Mitra, NFSU Goa</div>
+            <div>Mr. Abhinav Salgunan, NFSU Goa</div>
+            <div>Dr. Anuj Abraham, IIT Goa</div>
+            <div>Dr. P Kumar, IIT Goa</div>
+            <div>Dr. Sautami Basu, IIT Goa</div>
+            <div>Dr. Subhajit Sarkar, IIT Goa</div>
+            <div>Vipin Gautam, IIT Goa</div>
+            <div>Aditi Sethkar, IIT Goa</div>
+            <div>Ashish Verma, IIT Goa</div>
+            <div>Andleeb Zuhra, IIT Goa</div>
+            <div>Prachi Negi, IIT Goa</div>
+            <div>Harsh S K, IIT Goa</div>
+          </div>
+        </div>
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
@@ -181,11 +177,10 @@ const CommitteePage = () => {
             <div>Dr. Subrahmanyam Murala, IIT Ropar</div>
             <div>Dr. Puneet Goyal, IIT Ropar</div>
             <div>
-              Dr. Rabindra Nath Shaw, Senior Consultant, Grid Connection,
-              Australia
+              Dr. Rabindra Nath Shaw, Senior Consultant, Grid Connection, Australia
             </div>
             <div>Prof. Ningrinla Marchang, NERIST, Arunachal Pradesh</div>
-            <div>Dr. Biplab Das, NIT Silchar</div>
+            <div>Dr. Biplab Das, NIT Silchar</div>
           </div>
         </div>
 
@@ -194,12 +189,8 @@ const CommitteePage = () => {
             Technical Program Committee
           </div>
           <div className="space-y-2">
-            <div>
-              Dr. Ashish Bagwari, Women Institute of Technology, Dehradun
-            </div>
-            <div>
-              Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai
-            </div>
+            <div>Dr. Ashish Bagwari, Women Institute of Technology, Dehradun</div>
+            <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
             <div>Dr. Harvendra Singh Bhadauria, GBPEC, Pauri Garhwal</div>
             <div>Dr. Gyanendra Kr. Verma, NIT Raipur</div>
             <div>Dr. Govind P. Gupta, NIT Raipur</div>
@@ -210,9 +201,7 @@ const CommitteePage = () => {
             <div>Dr. Jayendra Kumar, NIT Jamshedpur</div>
             <div>Dr. Ranjay Hazara, NIT Silchar</div>
             <div>Dr. J. P. Singh, NIT Patna</div>
-            <div>
-              Dr. Madhusudan Singh, Pennsylvania State University, PA, USA
-            </div>
+            <div>Dr. Madhusudan Singh, Pennsylvania State University, PA, USA</div>
             <div>Dr. Triloki Pant, IIIT Allahabad</div>
             <div>Dr. Deepak Mishra, IISST, Trivandrum</div>
             <div>Dr. Piyush Kumar, NIT Patna</div>
@@ -228,9 +217,7 @@ const CommitteePage = () => {
             <div>Dr. Navajit Saikia, AEC, Guwahati</div>
             <div>Dr. Rupam Baruah, JEC, Assam</div>
             <div>Dr. Arnab Maji, NEHU, Shillong</div>
-            <div>
-              Dr. Abhishek Bhatt, M.I.T.S., Deemed University, Gwalior, MP
-            </div>
+            <div>Dr. Abhishek Bhatt, M.I.T.S., Deemed University, Gwalior, MP</div>
             <div>Dr. Roshan Kumar, Henan University, China</div>
             <div>Dr. Santosh Vipparthi, IIT Ropar, India</div>
             <div>Dr. Jagadeesh Kakarla, IIITDM Kancheepuram, India</div>
@@ -238,16 +225,14 @@ const CommitteePage = () => {
             <div>Dr. Sarika Jain, NIT Kurukshetra</div>
             <div>Dr. Meenu Gupta, Chandigarh University, Punjab</div>
             <div>Ram Krishna Tripathi, Tavant Technologies Inc.</div>
-            <div>
-              Dr Vijanth Sagayan A/L Asirvadam, Universiti Teknologi
-              PETRONAS, Malaysia
-            </div>
+            <div>Dr Vijanth Sagayan A/L Asirvadam, Universiti Teknologi PETRONAS, Malaysia</div>
             <div>Dr. Anupam Kumar, NIT Patna</div>
             <div>Dr. Mohd Jawed Khan, GNIOT, Greater Noida</div>
             <div>Dr. Deep Singh, Dr. B. R. Ambedkar University Delhi</div>
             <div>Dr. Sabyasachi Bhattacharyya, Barak Valley Engineering College, Assam</div>
           </div>
         </div>
+
       </div>
       <div className="h-32"></div>
     </div>
