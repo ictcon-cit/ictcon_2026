@@ -102,7 +102,7 @@ export default function HomeCara() {
                   Conference
                 </div>
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
-                 Indian Institute of Technology GOA
+                 National Forensic Sciences University Goa Campus
                 </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}
@@ -123,12 +123,25 @@ export default function HomeCara() {
                 </div>
 
                 <div className="flex flex-col items-center gap-4 mt-4 p-4 bg-white bg-opacity-20 rounded-xl shadow-md w-full">
-  <div className="flex flex-row items-center justify-between w-3/4">
+  <div className="flex flex-row items-center justify-evenly w-full flex-wrap gap-4">
+
+    {/* NFSU */}
+    <div className="flex flex-col items-center">
+      <img
+        src="/images/NFSU_LOGO.jpeg"
+        alt="NFSU Logo"
+        className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
+      />
+      <span className="font-bold text-xs md:text-base text-center">
+        National Forensic Sciences University, Goa
+      </span>
+    </div>
+
     {/* IIT GOA */}
     <div className="flex flex-col items-center">
       <img
         src="/images/iit_goa.jpg"
-        alt="CIT Kokrajhar Logo"
+        alt="IIT Goa Logo"
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
@@ -136,20 +149,18 @@ export default function HomeCara() {
       </span>
     </div>
 
-    {/* Vertical Divider (optional, will stay in center) */}
-    <div className="h-10 md:h-20 border-l-4 border-yellow-400 mx-6"></div>
-
     {/* CIT */}
     <div className="flex flex-col items-center">
       <img
         src="/images/cit.png"
-        alt="IIT Goa Logo"
+        alt="CIT Kokrajhar Logo"
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
-         Central Institute of Technology Kokrajhar, Assam, India
+        Central Institute of Technology Kokrajhar, Assam, India
       </span>
     </div>
+
   </div>
 </div>
 

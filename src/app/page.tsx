@@ -745,13 +745,13 @@ export default function Home() {
               Address
             </h2>
             <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
-              <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
+           {  /* <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
                  School of Mathematics and Computer Science – Computer Science and Engineering, 
-              </span>
+              </span>  */}
               <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
-                 Indian Institute of Technology Goa, 
+               National Forensic Sciences University Goa Campus
               </span>
-              Farmagudi, Ponda-403401, Goa
+             Opp Goa Dairy Curti, Ponda, Goa – 403401
               <br />
               India
             </p>
@@ -767,16 +767,15 @@ export default function Home() {
           </div>
           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex items-center justify-center">
             <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100">
-              <iframe
-  title="IIT Goa Farmagudi Campus"
-  width="100%"
-  height="100%"
-  style={{ border: 0 }}
-  loading="lazy"
-  allowFullScreen
-  referrerPolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps?q=Indian+Institute+of+Technology+Goa&hl=en&z=14&output=embed"
-></iframe>
+             <iframe
+    title="NFSU Goa Campus"
+    className="w-full h-full"
+    style={{ border: 0 }}
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d523.7819934578334!2d74.01301173776356!3d15.412295799688136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbb145af949a9%3A0x1655ee05cab626a4!2sNational%20Forensic%20Sciences%20University!5e1!3m2!1sen!2sin!4v1775129264778!5m2!1sen!2sin"
+  ></iframe>
 
             </div>
           </div>
