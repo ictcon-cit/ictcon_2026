@@ -8,7 +8,7 @@ const SecondHeader: React.FC<SecondHeaderProps> = ({ title }) => {
   return (
     <div
       className="relative md:h-44 h-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/carousel/citt1.jpg')" }}
+      style={{ backgroundImage: "url('/images/carousel/nfsu_homepage.jpeg')" }}
     >
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-45">
         <span className="md:text-4xl text-xl text-white font-semibold">

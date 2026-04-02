@@ -13,7 +13,7 @@ const aboutContents = {
     title: "ABOUT THE CONFERENCE",
     image: "/images/icons/Ictcon_2026_Logo.jpeg",
     imageAlt: "ICTCon Conference Banner",
-    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by National Forensic Sciences University Goa Campus, India in collaboration with Indian Institute of Technology Goa (IIT Goa) and CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
  /* btr: {
     title: "ABOUT BTR, ASSAM",
@@ -23,21 +23,10 @@ const aboutContents = {
   }, */
 
   cit: {
-    title: "ABOUT CIT KOKRAJHAR",
-    image: "/images/cit.png",
-    imageAlt: "CIT Kokrajhar Logo",
-    description: `Central Institute of Technology (CIT), Kokrajhar is situated in
-      Kokrajhar District of Bodoland Territorial Region (BTR) in Assam.
-      CIT has been established for the basic objective of fulfilling the
-      aspirations of the Bodo People relating to their cultural identity,
-      language, education and overall economic development of the region
-      and to impart Bodo youths with requisite technological and
-      vocational training to produce the required manpower to give the
-      impetus to economic growth of this area and to integrate the Bodo
-      People into the mainstream of Technical and Vocational Education. It
-      is a Centrally Funded Institute under the Ministry of Human Resource
-      Development, Government of India.The Institute was established on
-      the 19th of December 2006.`,
+    title: "ABOUT NFSU GOA",
+    image: "/images/NFSU_LOGO.JPEG",
+    imageAlt: "NFSU Goa Logo",
+    description: `Nestled in the lush green southern part of coastal state Goa, the transit campus of NFSU Goa is located in the picturesque town of Ponda. Hon’ble Union Minister of Home Affairs, India inaugurated NFSU Goa Campus on 14 October 2021 and within a short span of time, the Campus started functioning as a full-fledged Academic Institution. NFSU Goa is offering four specialised academic programmes in the niche areas of Forensic Sciences and Cyber security, namely- Integrated B.Sc.-M.Sc. Forensic Science (5-Years), M.Sc. Forensic Science, M.Sc. Digital Forensics and Information Security and M.Sc. Cyber Security. Besides Academic programmes, the Campus is also organising training programmes to promote ‘Forensic Best Practices’ in the western region and Goa state in particular. As a part of the focus, driven approach and raise awareness International Conferences, Symposiums and Workshops in the relevant niche areas of Forensic and allied sciences are being regularly organised by the Campus. The vision is to develop NFSU Goa Campus as a “Centre of Excellence” offering education and research opportunities of very high standards in Forensic & allied Sciences, thereby creating conducive ambience and atmosphere for intellectual stimulation, and develop the overall personality of the students, instilling high levels of discipline. The Campus strives to set global standards to make students technologically superior and ethically strong.`,
   },
 };
 
