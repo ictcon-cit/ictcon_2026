@@ -48,7 +48,6 @@ const CommitteePage = () => {
           <div className="space-y-2">
             <div>Dr. Shitala Prasad, IIT Goa</div>
             <div>Dr. Lokesh Chouhan, NFSU Goa</div>
-            <div>Dr. Lokesh Chouhan, NFSU Goa</div>
             <div>Dr. P. Charanarur, NFSU Goa</div>
             <div>Dr. Pankaj Pratap Singh, CIT Kokrajhar</div>
           </div>
@@ -84,7 +83,6 @@ const CommitteePage = () => {
             Program Chairs
           </div>
           <div className="space-y-2">
-            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
             <div>TBD</div>
           </div>
         </div>
@@ -94,6 +92,7 @@ const CommitteePage = () => {
             Publicity Chairs
           </div>
           <div className="space-y-2">
+            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
             <div>Dr. Piyush Kumar, NIT Patna</div>
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
@@ -130,15 +129,7 @@ const CommitteePage = () => {
           </div>
         </div>
 
-        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
-          <div className="text-red-600 font-extrabold text-2xl mb-4">
-            Publicity Chairs
-          </div>
-          <div className="space-y-2">
-            <div>Dr. Kaushlendra Pandey, CIT Kokrajhar</div>
-            <div>Dr. Anuj Abraham, IIT Goa</div>
-          </div>
-        </div>
+        
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">

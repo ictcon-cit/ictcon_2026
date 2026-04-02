@@ -37,21 +37,8 @@ export default function HomeCara() {
     },
     {
       stringValue: "/images/carousel/new/Ictcon2025_2.jpeg",
-    },
-    {
+    }, {
       stringValue: "/images/carousel/new/Ictcon2025_3.jpeg",
-    },
-    {
-      stringValue: "/images/carousel/new/Ictcon2025_5.jpeg",
-    },
-    {
-      stringValue: "/images/carousel/new/Ictcon2025_6.jpeg",
-    },
-    {
-      stringValue: "/images/carousel/new/IIT_Goa_1.jpeg",
-    },
-    {
-      stringValue: "/images/carousel/new/IIT_Goa.jpeg",
     },
 
     // {
@@ -103,6 +90,9 @@ export default function HomeCara() {
                 </div>
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  National Forensic Sciences University Goa Campus
+                </div>
+                <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
+                 Indian Institute of Technology (IIT) Goa
                 </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}

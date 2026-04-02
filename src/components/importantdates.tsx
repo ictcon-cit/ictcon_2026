@@ -12,7 +12,7 @@ const ImportantDates = () => {
 
             <tbody>
               {[
-                ["Paper Submission Starts", "1st March, 2026"],
+                ["Paper Submission Starts", "1st April, 2026"],
                 ["Last Date of Paper Submission", "5th May, 2026"],
                 ["Notification of Acceptance", "10th July, 2026"],
                 ["Author Registration", "5th August, 2026"],

@@ -15,7 +15,10 @@ const images = [
 
 export default function HorizontalScrollA() {
   return (
-    <div className="overflow-hidden py-3 sm:py-5 flex items-center w-full">
+    <div className="overflow-hidden py-6 sm:py-10 flex items-center justify-center w-full">
+      
+      {/* ===== Existing Sponsor Marquee (Commented Out) ===== */}
+      {/*
       <div className="marquee">
         <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
           {images.map((src, index) => (
@@ -35,6 +38,7 @@ export default function HorizontalScrollA() {
             </div>
           ))}
         </div>
+
         <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
           {images.map((src, index) => (
             <div
@@ -54,6 +58,21 @@ export default function HorizontalScrollA() {
           ))}
         </div>
       </div>
+      */}
+
+      {/* ===== New Sponsorship Message ===== */}
+      <div className="text-center max-w-2xl px-4">
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-600 mb-3">
+          Interested in Sponsoring?
+        </h2>
+        <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+          We welcome sponsorships from organizations and companies interested in
+          supporting the <span className="font-semibold">
+          Intelligent Computing and Technologies Conference 2026
+          </span>.
+        </p>
+      </div>
+
     </div>
   );
 }

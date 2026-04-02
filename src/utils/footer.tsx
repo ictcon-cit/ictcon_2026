@@ -1,10 +1,10 @@
 export const FooterItems = [
   {
-    title: "CITK",
+    title: "NFSU Goa, India",
     list: [
       {
-        title: "CIT Website",
-        url: "https://cit.ac.in/",
+        title: "NFSU Website",
+        url: "https://goa.nfsu.ac.in/",
         blank: true,
       },
       // {
@@ -12,16 +12,6 @@ export const FooterItems = [
       //     url: "https://alumni.cit.ac.in/",
       //     blank: true,
       // },
-      {
-        title: "Training and Placement Cell",
-        url: "http://placements.cit.ac.in/",
-        blank: true,
-      },
-      {
-        title: "Admission",
-        url: "https://admission.cit.ac.in/",
-        blank: true,
-      },
       // {
       //     title: "Library",
       //     url: "http://centrallibrary.cit.ac.in/",
@@ -31,7 +21,7 @@ export const FooterItems = [
   },
 
   {
-    title: "ICTCon 2025",
+    title: "ICTCon 2026",
     list: [
       {
         title: "Home",
@@ -77,16 +67,11 @@ export const FooterItems = [
   },
 
   {
-    title: "Other Links",
+    title: "IIT Goa, India",
     list: [
       {
-        title: "Technical Clubs Website",
-        url: "http://technicalclubs.cit.ac.in/",
-        blank: true,
-      },
-      {
-        title: "ICTCon 2021",
-        url: "https://ictcon2021.cit.ac.in/",
+        title: "IIT Goa",
+        url: "https://iitgoa.ac.in/",
         blank: true,
       },
     ],
