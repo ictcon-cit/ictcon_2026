@@ -7,13 +7,27 @@ const CommitteePage = () => {
       <div className="flex flex-col justify-center items-center text-black md:text-lg text-sm font-medium p-6 space-y-10">
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
-            Patron
+           Cheif Patron
           </div>
           <div className="space-y-2">
             {/* <div>Sri. Pramod Boro, President, CITK Society</div> */}
             <div>
-              Prof. Devendra Jalihal, Director (Additional Charge), CIT
-              Kokrajhar
+              Dr. J. M. Vyas (Vice-Chancellor, NFSU)
+
+
+            </div>
+          </div>
+        </div>
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
+          Patron
+          </div>
+          <div className="space-y-2">
+            {/* <div>Sri. Pramod Boro, President, CITK Society</div> */}
+            <div>
+            Prof. D. S Katti, Director, IIT Goa and Prof. Naveen Kumar Chaudhary, NFSU Goa
+
+
             </div>
           </div>
         </div>
@@ -23,12 +37,11 @@ const CommitteePage = () => {
             General Chairs
           </div>
           <div className="space-y-2">
-            <div> Prof. Mahesh Chandra Govil, Director, NIT Sikkim</div>
+            <div>Prof. Petia Radeva, University of Barcelona, Spain </div>
             <div>
-              Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of
-              technology Sydney, Australia
+              Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of Technology Sydney, Australia
             </div>
-            <div>Prof. Petia Radeva, University of Barcelona, Spain</div>
+            <div>TBD</div>
           </div>
         </div>
 
@@ -37,40 +50,89 @@ const CommitteePage = () => {
             Conference Chairs
           </div>
           <div className="space-y-2">
-            <div>Dr. Pankaj Pratap Singh, CIT Kokrajhar</div>
+            <div>Dr. Shitala Prasad, IIT Goa </div>
 
-            <div>Dr. Shitala Prasad, IIT Goa</div>
+            <div>Dr. Lokesh Chouhan, NFSU Goa</div>
+            <div>Dr. Lokesh Chouhan, NFSU Goa</div>
+            <div>Dr. P. Charanarur, NFSU Goa</div>
+            <div>Dr. Pankaj Pratap Singh, CIT Kokrajhar</div>
           </div>
+          
         </div>
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
             Conference Conveners
           </div>
           <div className="space-y-2">
-            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
             <div>Dr. Apurbalal Senapati, CIT Kokrajhar</div>
+            <div>Dr. Thaseem Thajudeen, IIT Goa</div>
+            <div>Dr. P. Charanarur, NFSU Goa</div>
+            <div>TBD</div>
+          </div>
+        </div>
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
+            Track Chairs
+          </div>
+          <div className="space-y-2">
+            <div>Prof. Venkatesh Kamat, IIT Goa</div>
+            <div>Dr. Niraj Kumar, IIT Goa</div>
+            <div>Dr. Kamal Nasreddine, ENIB France</div>
+            <div>Dr. Ranjit Kolkar, NFSU Goa</div>
+            <div>TBD</div>
           </div>
         </div>
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
-            Local Organising Committee
+            Program Chairs
           </div>
           <div className="space-y-2">
-            <div>Prof. Hemanta Kumar Kalita, CIT Kokrajhar</div>
-            <div>Prof. Amitava Nag, CIT Kokrajhar</div>
-            <div>Dr. Ranjan Maity, CIT Kokrajhar</div>
-            <div>Mrs. Tania Sarkar, CIT Kokrajhar</div>
-            <div>Dr. Anup Kumar Barman, CIT Kokrajhar</div>
-            <div>Dr. Ranjan Patowary, CIT Kokrajhar</div>
-            <div>Mr. Mithun Karmakar, CIT Kokrajhar</div>
-            <div>Mr. Dharani Kanta Roy, CIT Kokrajhar</div>
-            <div>Mr. Prasanta Baruah, CIT Kokrajhar</div>
-            <div>Mr. Sanjib Narzary, CIT Kokrajhar</div>
-            <div>Mr. Bikramjit Choudhury, CIT Kokrajhar</div>
-            
+            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
+            <div>TBD</div>
           </div>
         </div>
+
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
+            Publicity Chairs
+          </div>
+          <div className="space-y-2">
+            <div>Dr. Piyush Kumar, NIT Patna</div>
+            <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
+            <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
+          </div>
+        </div>
+        
+       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+  <div className="text-red-600 font-extrabold text-2xl mb-4">
+    Local Organising Committee
+  </div>
+
+  <div className="space-y-2 text-gray-800">
+    <div className="font-semibold">TBD (From NFSU Goa)</div>
+
+    <div>Dr. Raj Jaiswal, NFSU Goa</div>
+    <div>Dr. Jovi Jose Salvador D'silva, NFSU Goa</div>
+    <div>Dr. Pranitha Sanda, NFSU Goa</div>
+    <div>Dr. Tukkappa K. Gundoor, NFSU Goa</div>
+    <div>Mr. Harsh Panchal, NFSU Goa</div>
+    <div>Ms. Anouska Dutta, NFSU Goa</div>
+    <div>Mr. Rahul Kamble, NFSU Goa</div>
+    <div>Mr. Rajesh Mitra, NFSU Goa</div>
+    <div>Mr. Abhinav Salgunan, NFSU Goa</div>
+    <div>Dr. Anuj Abraham, IIT Goa</div>
+    <div>Dr. P Kumar, IIT Goa</div>
+    <div>Dr. Sautami Basu, IIT Goa</div>
+    <div>Dr. Subhajit Sarkar, IIT Goa</div>
+    <div>Vipin Gautam, IIT Goa</div>
+    <div>Aditi Sethkar, IIT Goa</div>
+    <div>Ashish Verma, IIT Goa</div>
+    <div>Andleeb Zuhra, IIT Goa</div>
+    <div>Prachi Negi, IIT Goa</div>
+    <div>Harsh S K, IIT Goa</div>
+  </div>
+</div>
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
