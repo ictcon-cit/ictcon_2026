@@ -40,6 +40,10 @@ export default function HomeCara() {
     }, {
       stringValue: "/images/carousel/new/Ictcon2025_3.jpeg",
     },
+    {
+      stringValue: "/images/carousel/new/nfsu_homepage.jpeg",
+    },
+    
 
     // {
     //   stringValue: "/images/carousel/citt1.jpg",
