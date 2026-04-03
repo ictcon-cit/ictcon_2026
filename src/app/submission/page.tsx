@@ -98,7 +98,7 @@ const SubmissionPage = () => {
             </li>
             <li>
               <DownloadButton
-                href={"/images/Microsoft_Word_ICTCON-2026"}
+                href={"/images/Microsoft_Word_ICTCON-2026.zip"}
                 filename={"Microsoft_Word_ICTCON-2026.zip"}
                 text={"Word Template"}
               />
