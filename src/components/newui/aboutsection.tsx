@@ -24,7 +24,7 @@ const aboutContents = {
 
   cit: {
     title: "ABOUT NFSU GOA",
-    image: "/images/NFSU_LOGO.JPEG",
+    image: "/images/NFSU_LOGO.jpeg",
     imageAlt: "NFSU Goa Logo",
     description: `Nestled in the lush green southern part of coastal state Goa, the transit campus of NFSU Goa is located in the picturesque town of Ponda. Hon’ble Union Minister of Home Affairs, India inaugurated NFSU Goa Campus on 14 October 2021 and within a short span of time, the Campus started functioning as a full-fledged Academic Institution. NFSU Goa is offering four specialised academic programmes in the niche areas of Forensic Sciences and Cyber security, namely- Integrated B.Sc.-M.Sc. Forensic Science (5-Years), M.Sc. Forensic Science, M.Sc. Digital Forensics and Information Security and M.Sc. Cyber Security. Besides Academic programmes, the Campus is also organising training programmes to promote ‘Forensic Best Practices’ in the western region and Goa state in particular. As a part of the focus, driven approach and raise awareness International Conferences, Symposiums and Workshops in the relevant niche areas of Forensic and allied sciences are being regularly organised by the Campus. The vision is to develop NFSU Goa Campus as a “Centre of Excellence” offering education and research opportunities of very high standards in Forensic & allied Sciences, thereby creating conducive ambience and atmosphere for intellectual stimulation, and develop the overall personality of the students, instilling high levels of discipline. The Campus strives to set global standards to make students technologically superior and ethically strong.`,
   },
