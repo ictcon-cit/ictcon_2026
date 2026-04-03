@@ -33,11 +33,6 @@ const navLinks: NavLink[] = [
     label: "Call for Papers",
     items: [
       { href: "/papers", label: "Call for Papers" },
-      {
-        href: "https://ictcon2025workshop.cit.ac.in/",
-        label: "Workshop",
-        external: true,
-      },
     ],
   },
   { href: "/submission", label: "Paper Submission" },

@@ -130,7 +130,7 @@ export default function AboutSection() {
                5th May, 2026  <span className="text-xs"></span>
               </p>
               <a
-                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICTCon2025"
+                href="https://cmt3.research.microsoft.com/ICTCon2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 hover:underline text-sm sm:text-base"
