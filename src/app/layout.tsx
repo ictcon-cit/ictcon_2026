@@ -8,7 +8,7 @@ import { FooterItems } from "@/utils/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ICTCon2025",
+  title: "ICTCon2026",
   description: "",
 };
 
