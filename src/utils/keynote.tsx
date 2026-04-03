@@ -46,11 +46,11 @@ export const KeyNoteData: KeynoteDataType[] = [
     url: "#",
   },
   {
-                name: "Dr. Shitala Prasad",
-                organization: "Assistant Professor, IIT Goa",
-                image: "/images/speakers/Dr. shitala Prasad.jpg",
-                url: "#",
-              },
+      name: "Dr. Shitala Prasad",
+      organization: "Assistant Professor, IIT Goa",
+      image: "/images/speakers/Dr. shitala Prasad.jpg",
+      url: "#",
+  },
   // {
   //   name: "Prof. Rahul Dev Garg",
   //   image: "/images/speakers/Prof. R.D.Garg.jpg",

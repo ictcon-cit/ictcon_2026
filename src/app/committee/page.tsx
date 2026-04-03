@@ -43,6 +43,15 @@ const CommitteePage = () => {
 
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
+            Honarary Chairs
+          </div>
+          <div className="space-y-2">
+            <div>S.S. Iyengar (Distinguished University Professor, Information Sciences at Florida International University (FIU), Miami)</div>
+          </div>
+        </div>
+
+        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+          <div className="text-red-600 font-extrabold text-2xl mb-4">
             Conference Chairs
           </div>
           <div className="space-y-2">
@@ -60,7 +69,6 @@ const CommitteePage = () => {
           <div className="space-y-2">
             <div>Dr. Apurbalal Senapati, CIT Kokrajhar</div>
             <div>Dr. Thaseem Thajudeen, IIT Goa</div>
-            <div>Dr. P. Charanarur, NFSU Goa</div>
             <div>TBD</div>
           </div>
         </div>
@@ -138,6 +146,9 @@ const CommitteePage = () => {
             <div>Dr. Brij Gupta, Asia University, Taiwan</div>
             <div>Prof. Venkataraman Lakshmi, University of Virginia, USA</div>
             <div>Prof. Dhananjay Singh, Pennsylvania State University, PA, USA</div>
+            <div>Dr. Kamal Nasreddine, ENIB France</div>
+            <div>Prof. Abdessalam Benzinou, ENIB France </div>
+            <div>Prof. Adam Kong, NTU Singapore</div>
           </div>
         </div>
 
@@ -163,6 +174,10 @@ const CommitteePage = () => {
             </div>
             <div>Prof. Ningrinla Marchang, NERIST, Arunachal Pradesh</div>
             <div>Dr. Biplab Das, NIT Silchar</div>
+            <div>Prof. Debasis Ghosh, IIT Roorkee</div>
+            <div>Dr. Satish Kumar, IIT Madras </div>
+            <div>Dr. Chadresh Maurya, IIT Indore </div>
+            <div>Prof. Rajendra S. Gad, Goa University</div>
           </div>
         </div>
 
@@ -212,6 +227,7 @@ const CommitteePage = () => {
             <div>Dr. Mohd Jawed Khan, GNIOT, Greater Noida</div>
             <div>Dr. Deep Singh, Dr. B. R. Ambedkar University Delhi</div>
             <div>Dr. Sabyasachi Bhattacharyya, Barak Valley Engineering College, Assam</div>
+            <div>Prof. Manoj Gupta, SMVDU Jammu</div>
           </div>
         </div>
 
