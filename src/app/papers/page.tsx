@@ -4,102 +4,120 @@ const PaperPage = () => {
   return (
     <div>
       <SecondHeader title={"CALL FOR PAPERS"} />
-      <div>
-        <div className="w-full md:text-3xl text-lg text-center md:p-20 p-5 text-black font-bold">
-          The topics of ICTCON 2026 will cover all aspects of research and
-          application in intelligent computing and technologies, including but
-          not limited to:
+
+      <div className="md:px-20 px-5 md:py-10 py-5 text-black">
+
+        {/* Theme Section */}
+        <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-xl shadow-lg text-center mb-10">
+          <h1 className="md:text-3xl text-xl font-bold">
+            Intelligent Synergy: Bridging AI, Computing, and Forensic Excellence
+          </h1>
+          <p className="mt-3 text-sm md:text-base">
+            ICTCon 2026 invites researchers, academicians, and industry professionals
+            to submit original, high-quality research focusing on Advanced Computing
+            and Forensic Intelligence.
+          </p>
         </div>
-        <div className="overflow-x-auto md:px-20 px-5 md:py-5 py-1">
-          <table className="min-w-full table-auto divide-y divide-gray-200 shadow-lg h-80">
-            <thead className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
-              <tr>
-                <th
-                  scope="col"
-                  className="w-1/5 px-6 py-4 text-left text-lg font-semibold uppercase tracking-wider border-r border-gray-300 hover:bg-blue-600 hover:font-semibold  duration-200"
-                >
-                  Artificial Intelligence
-                </th>
-                <th
-                  scope="col"
-                  className="w-1/5 px-6 py-4 text-left text-lg font-semibold uppercase tracking-wider border-r border-gray-300 hover:bg-blue-600 hover:font-semibold  duration-200"
-                >
-                  Computing
-                </th>
-                <th
-                  scope="col"
-                  className="w-1/5 px-6 py-4 text-left text-lg font-semibold uppercase tracking-wider border-r border-gray-300 hover:bg-blue-600 hover:font-semibold  duration-200"
-                >
-                  Data Science
-                </th>
-                <th
-                  scope="col"
-                  className="w-1/5 px-6 py-4 text-left text-lg font-semibold uppercase tracking-wider border-r border-gray-300 hover:bg-blue-600 hover:font-semibold  duration-200"
-                >
-                  Computer Vision
-                </th>
-                <th
-                  scope="col"
-                  className="w-1/5 px-6 py-4 text-left text-lg font-semibold uppercase tracking-wider hover:bg-blue-600 hover:font-semibold  duration-200"
-                >
-                  Technologies Trends
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 whitespace-normal text-base text-gray-700 text-left border-r border-gray-300 align-top hover:bg-gray-100 hover:font-semibold  duration-200">
-                  <ul className="list-disc pl-5">
-                    <li>Machine Learning</li>
-                    <li>Deep Learning</li>
-                    <li>Pattern Recognition</li>
-                    <li>Large language models (LLMs)</li>
-                    <li>Explainable AI</li>
-                    <li>Robotics & Automations</li>
-                    <li>Agents and Multi-agent Systems</li>
-                  </ul>
-                </td>
-                <td className="px-6 py-4 whitespace-normal text-base text-gray-700 text-left border-r border-gray-300 align-top hover:bg-gray-100 hover:font-semibold  duration-200">
-                  <ul className="list-disc pl-5">
-                    <li>High Performance Computing</li>
-                    <li>Edge Computing</li>
-                    <li>Cloud Computing</li>
-                    <li>Cognitive Computing</li>
-                  </ul>
-                </td>
-                <td className="px-6 py-4 whitespace-normal text-base text-gray-700 text-left border-r border-gray-300 align-top hover:bg-gray-100 hover:font-semibold  duration-200">
-                  <ul className="list-disc pl-5">
-                    <li>Data Analytics</li>
-                    <li>Natural Language Processing</li>
-                    <li>Sentiment Analysis</li>
-                    <li>Information Retrieval</li>
-                    <li>Fuzzy Logic</li>
-                  </ul>
-                </td>
-                <td className="px-6 py-4 whitespace-normal text-base text-gray-700 text-left border-r border-gray-300 align-top hover:bg-gray-100 hover:font-semibold  duration-200">
-                  <ul className="list-disc pl-5">
-                    <li>Computer Vision</li>
-                    <li>Image Processing</li>
-                    <li>Human-Computer Interaction</li>
-                    <li>Multimedia Forensic</li>
-                    <li>AR/VR</li>
-                    <li>Remote Sensing</li>
-                  </ul>
-                </td>
-                <td className="px-6 py-4 whitespace-normal text-base text-gray-700 text-left align-top hover:bg-gray-100 hover:font-semibold  duration-200">
-                  <ul className="list-disc pl-5">
-                    <li>Blockchain</li>
-                    <li>IoT</li>
-                    <li>5G/6G Network Evolutions</li>
-                    <li>Mobile Applications</li>
-                    <li>Drone applications</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+
+        {/* Tracks Grid */}
+        <div className="grid md:grid-cols-2 gap-8">
+
+          {/* Track Card */}
+          {[
+            {
+              title: "Track 1: AI-Driven Intelligence",
+              focus: "Where Intelligence meets Investigation.",
+              points: [
+                "Multimedia and Deepfake Forensics",
+                "Biometric Identification and Spoofing Detection",
+                "AI for Criminal Profiling and Pattern Matching",
+                "Explainable AI (XAI)",
+                "Digital Trace Analysis in LLMs",
+              ],
+            },
+            {
+              title: "Track 2: Secure and Resilient Computing",
+              focus: "Infrastructures that resist and report.",
+              points: [
+                "High-Performance Computing",
+                "Cloud & Edge Security",
+                "Quantum-Resistant Cryptography",
+                "Blockchain for Data Integrity",
+                "Fault-tolerant Systems",
+              ],
+            },
+            {
+              title: "Track 3: Intelligent Vision & Sensory Systems",
+              focus: "Processing and Verifying the Physical World.",
+              points: [
+                "Image & Video Enhancement",
+                "HCI in Investigative Tools",
+                "Computer Vision Applications",
+                "Remote Sensing",
+                "AR/VR Crime Scene Reconstruction",
+              ],
+            },
+            {
+              title: "Track 4: Data Science and Linguistic Engineering",
+              focus: "Extracting Truth from Information.",
+              points: [
+                "NLP & Legal Analysis",
+                "Sentiment Analysis",
+                "Adversarial ML",
+                "Big Data Analytics",
+                "Information Retrieval",
+              ],
+            },
+            {
+              title: "Track 5: Next-Gen Communication",
+              focus: "Connectivity with Security.",
+              points: [
+                "5G/6G Security",
+                "IoT & Drone Forensics",
+                "Autonomous Systems",
+                "Underwater Communication",
+                "Quantum Cryptography",
+              ],
+            },
+            {
+              title: "Track 6: Cyber Security & Forensics",
+              focus: "Defending the Digital World.",
+              points: [
+                "IDS/IPS Systems",
+                "Cloud & IoT Security",
+                "DevSecOps",
+                "Malware Analysis",
+                "Threat Intelligence",
+              ],
+            },
+          ].map((track, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden"
+            >
+              {/* Header */}
+              <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 font-semibold">
+                {track.title}
+              </div>
+
+              {/* Body */}
+              <div className="p-5">
+                <p className="italic text-sm mb-3 text-gray-600">
+                  {track.focus}
+                </p>
+
+                <ul className="list-disc pl-5 space-y-1 text-sm md:text-base">
+                  {track.points.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
         </div>
+
       </div>
+
       <div className="h-32"></div>
     </div>
   );

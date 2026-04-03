@@ -78,15 +78,7 @@ const CommitteePage = () => {
           </div>
         </div>
 
-        <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
-          <div className="text-red-600 font-extrabold text-2xl mb-4">
-            Program Chairs
-          </div>
-          <div className="space-y-2">
-            <div>TBD</div>
-          </div>
-        </div>
-
+        
         <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
           <div className="text-red-600 font-extrabold text-2xl mb-4">
             Publicity Chairs
@@ -105,7 +97,6 @@ const CommitteePage = () => {
           </div>
 
           <div className="space-y-2 text-gray-800">
-            <div className="font-semibold">TBD (From NFSU Goa)</div>
 
             <div>Dr. Raj Jaiswal, NFSU Goa</div>
             <div>Dr. Jovi Jose Salvador D&apos;silva, NFSU Goa</div>
