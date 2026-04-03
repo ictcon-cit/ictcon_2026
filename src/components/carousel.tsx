@@ -94,6 +94,9 @@ export default function HomeCara() {
                   International Intelligent Computing and Technologies
                   Conference
                 </div>
+                <div className="font-bold md:text-3xl sm:text-xl text-xs ">
+                 2-4 November, 2026
+                </div>
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  National Forensic Sciences University Goa Campus
                 </div>
