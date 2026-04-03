@@ -33,16 +33,18 @@ export default function HomeCara() {
 
   const defData: CarouselImageData[] = [
     {
-      stringValue: "/images/carousel/new/Ictcon2025_1.jpeg",
-    },
-    {
-      stringValue: "/images/carousel/new/Ictcon2025_2.jpeg",
-    }, {
       stringValue: "/images/carousel/new/Ictcon2025_3.jpeg",
     },
     {
-      stringValue: "/images/carousel/new/nfsu_homepage.jpeg",
+      stringValue: "/images/carousel/new/Ictcon2025_2.jpeg",
     },
+    {
+      stringValue: "/images/carousel/nfsu_homepage.jpeg",
+    }, 
+    {
+      stringValue: "/images/carousel/new/Ictcon2025_1.jpeg",
+    },
+   
     
 
     // {
