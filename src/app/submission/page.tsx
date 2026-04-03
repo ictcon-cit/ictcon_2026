@@ -91,15 +91,15 @@ const SubmissionPage = () => {
           <ul className="list-disc ml-10">
             <li>
               <DownloadButton
-                href={"/images/LaTeX2e_ICTCon-2025.zip"}
-                filename={"LaTeX2e_ICTCon-2025.zip"}
+                href={"/images/LaTeX2e_ICTCon-2026.zip"}
+                filename={"LaTeX2e_ICTCon-2026.zip"}
                 text={"LaTeX Template"}
               />
             </li>
             <li>
               <DownloadButton
-                href={"/images/Microsoft_Word_ICTCON-2025.zip"}
-                filename={"Microsoft_Word_ICTCON-2025.zip"}
+                href={"/images/Microsoft_Word_ICTCON-2026"}
+                filename={"Microsoft_Word_ICTCON-2026.zip"}
                 text={"Word Template"}
               />
             </li>
@@ -129,9 +129,9 @@ const SubmissionPage = () => {
           <Link
             target="_blank"
             className="text-rose-600 underline flex"
-            href={"https://cmt3.research.microsoft.com/ICTCon2025"}
+            href={"https://cmt3.research.microsoft.com/ICTCon2026"}
           >
-            https://cmt3.research.microsoft.com/ICTCon2025
+            https://cmt3.research.microsoft.com/ICTCon2026
           </Link>
           {/* </div> */}
         </div>

@@ -216,14 +216,14 @@ const RegistrationPage = () => {
               </a>{" "}
               (
               <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2025_Updated.zip"}
-                filename={"Microsoft_Word_ICTCON-2025_Updated.zip"}
+                href={"/Microsoft_Word_ICTCON-2026.zip"}
+                filename={"Microsoft_Word_ICTCON-2026.zip"}
                 text={"Word"}
               />{" "}
               /{" "}
               <DownloadButton
-                href={"/LaTeX2e_ICTCon-2025_Updated.zip"}
-                filename={"LaTeX2e_ICTCon-2025_Updated.zip"}
+                href={"/LaTeX2e_ICTCon-2026.zip"}
+                filename={"LaTeX2e_ICTCon-2026.zip"}
                 text={"LaTeX"}
               />
               ).
