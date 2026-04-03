@@ -147,7 +147,7 @@ export default function AboutSection() {
                 (Hybrid mode)
               </p>
               <p className="text-base sm:text-lg font-bold text-red-600 mb-4">
-                2-3 November, 2026
+                2-4 November, 2026
               </p>
             </div>
           </div>
