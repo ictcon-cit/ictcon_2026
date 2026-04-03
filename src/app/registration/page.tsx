@@ -349,12 +349,12 @@ const RegistrationPage = () => {
             <li className="mb-2">
               Login to the CMT site:{" "}
               <a
-                href="https://cmt3.research.microsoft.com/ICTCon2025"
+                href="https://cmt3.research.microsoft.com/ICTCon2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 font-semibold underline"
               >
-                https://cmt3.research.microsoft.com/ICTCon5
+                https://cmt3.research.microsoft.com/ICTCon2026
               </a>
             </li>
             <li className="mb-2">
