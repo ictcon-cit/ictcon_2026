@@ -106,6 +106,9 @@ export default function HomeCara() {
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  Indian Institute of Technology (IIT) Goa
                 </div>
+                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
+                 Central Institute of Technology Kokrajhar
+                </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}
                   (ICTCon 2026){" "}
