@@ -13,7 +13,7 @@ const aboutContents = {
     title: "ABOUT THE CONFERENCE",
     image: "/images/icons/Ictcon_2026_Logo.jpeg",
     imageAlt: "ICTCon Conference Banner",
-    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being organized by National Forensic Sciences University Goa Campus, India in collaboration with Indian Institute of Technology Goa (IIT Goa) and CIT Kokrajhar during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
+    description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being jointly hosted at National Forensic Sciences University Goa Campus, India and Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar, India during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
  /* btr: {
     title: "ABOUT BTR, ASSAM",
@@ -85,7 +85,7 @@ export default function AboutSection() {
               }
               alt={aboutContent.imageAlt}
             />
-            <p className="text-left text-sm sm:text-base lg:text-lg text-justify-start leading-relaxed mb-2 px-2 sm:px-0">
+            <p className="text-justify text-sm sm:text-base lg:text-lg text-justify-start leading-relaxed mb-2 px-2 sm:px-0">
               {aboutContent.description}
             </p>
           </div>
