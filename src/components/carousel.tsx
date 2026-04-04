@@ -94,8 +94,11 @@ export default function HomeCara() {
                   International Intelligent Computing and Technologies
                   Conference
                 </div>
-                <div className="font-bold md:text-3xl sm:text-xl text-xs ">
+                <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  2-4 November, 2026
+                </div>
+                 <div className="font-bold md:text-4xl sm:text-xl text-xs ">
+                 Jointly Organised by:
                 </div>
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  National Forensic Sciences University Goa Campus
@@ -118,7 +121,7 @@ export default function HomeCara() {
                 </div>
                 <div className="font-bold md:text-xl sm:text-base text-xs sm:mt-5 ">
                   {" "}
-                  Jointly Organised by:
+                  
                 </div>
 
                 <div className="flex flex-col items-center gap-4 mt-4 p-4 bg-white bg-opacity-20 rounded-xl shadow-md w-full">
@@ -131,9 +134,9 @@ export default function HomeCara() {
         alt="NFSU Logo"
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
-      <span className="font-bold text-xs md:text-base text-center">
+     {/* <span className="font-bold text-xs md:text-base text-center">
         National Forensic Sciences University, Goa
-      </span>
+      </span> */}
     </div>
 
     {/* IIT GOA */}
@@ -144,7 +147,7 @@ export default function HomeCara() {
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
-        IIT Goa, India
+        
       </span>
     </div>
 
@@ -156,7 +159,7 @@ export default function HomeCara() {
         className="h-10 md:h-20 w-auto rounded-lg shadow mb-2 bg-white"
       />
       <span className="font-bold text-xs md:text-base text-center">
-        Central Institute of Technology Kokrajhar, Assam, India
+       
       </span>
     </div>
 
