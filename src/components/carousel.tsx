@@ -87,17 +87,15 @@ export default function HomeCara() {
                 alt="..."
               />
               <div className="absolute w-full h-full flex flex-col justify-center items-center text-white bg-black/35  drop-shadow-lg shadow-black text-center">
-                <div className="font-extrabold md:text-4xl sm:text-xl text-xs">
-                  4th
-                </div>
+               
                 <div className="font-extrabold md:text-4xl sm:text-xl text-xs ">
-                  International Intelligent Computing and Technologies
+                 4th International Intelligent Computing and Technologies
                   Conference
                 </div>
                 <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  2-4 November, 2026
                 </div>
-                 <div className="font-bold md:text-4xl sm:text-xl text-xs ">
+                 <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  Jointly Organised by:
                 </div>
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
@@ -107,7 +105,7 @@ export default function HomeCara() {
                  Indian Institute of Technology (IIT) Goa
                 </div>
                  <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
-                 Central Institute of Technology Kokrajhar
+                
                 </div>
                 <div className="font-bold md:text-2xl sm:text-lg text-xs">
                   {" "}

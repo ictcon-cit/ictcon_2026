@@ -69,7 +69,7 @@ const CommitteePage = () => {
           <div className="space-y-2">
             <div>Dr. Apurbalal Senapati, CIT Kokrajhar</div>
             <div>Dr. Thaseem Thajudeen, IIT Goa</div>
-            <div>TBD</div>
+            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
           </div>
         </div>
 
@@ -91,11 +91,10 @@ const CommitteePage = () => {
           <div className="text-red-600 font-extrabold text-2xl mb-4">
             Publicity Chairs
           </div>
-          <div className="space-y-2">
-            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
-            <div>Dr. Piyush Kumar, NIT Patna</div>
+          <div className="space-y-2"> 
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
+            <div>Dr. Anuj Abraham, IIT Goa</div>
           </div>
         </div>
 
