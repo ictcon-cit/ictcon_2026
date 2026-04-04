@@ -67,6 +67,7 @@ const CommitteePage = () => {
             Conference Conveners
           </div>
           <div className="space-y-2">
+            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
             <div>Dr. Apurbalal Senapati, CIT Kokrajhar</div>
             <div>Dr. Thaseem Thajudeen, IIT Goa</div>
             <div>TBD</div>
@@ -92,10 +93,10 @@ const CommitteePage = () => {
             Publicity Chairs
           </div>
           <div className="space-y-2">
-            <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
-            <div>Dr. Piyush Kumar, NIT Patna</div>
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
+            <div>Dr. Anuj Abraham, IIT Goa</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
+            <div>TBD</div>
           </div>
         </div>
 
