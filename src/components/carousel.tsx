@@ -44,6 +44,13 @@ export default function HomeCara() {
     {
       stringValue: "/images/carousel/new/Ictcon2025_1.jpeg",
     },
+    {
+      stringValue: "/images/carousel/new/home_1.jpeg",
+    },
+     {
+      stringValue: "/images/carousel/new/home_2.jpeg",
+    },
+
    
     
 
@@ -98,6 +105,7 @@ export default function HomeCara() {
                  <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  Jointly Organised by:
                 </div>
+                <br />
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  National Forensic Sciences University Goa Campus
                 </div>
