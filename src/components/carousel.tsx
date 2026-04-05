@@ -102,10 +102,11 @@ export default function HomeCara() {
                 <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  2-4 November, 2026
                 </div>
+                <br />
                  <div className="font-bold md:text-2xl sm:text-xl text-xs ">
                  Jointly Organised by:
                 </div>
-                <br />
+               
                 <div className="font-extrabold md:text-3xl sm:text-xl text-xs ">
                  National Forensic Sciences University Goa Campus
                 </div>
