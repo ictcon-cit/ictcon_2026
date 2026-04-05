@@ -79,7 +79,7 @@ const RegistrationPage = () => {
             and $15 Foreign members after the 5th August , 2026.
           </div>
           {/* Special Issue - Open Access Table */}
-          <div className="mt-6">
+        {/*  <div className="mt-6">
             <div className="w-full text-center text-black text-xl font-bold mb-2">
               Special Issue - Open Access
             </div>
@@ -100,7 +100,7 @@ const RegistrationPage = () => {
                 </tbody>
               </table>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="md:px-20 px-5 py-5 text-black">

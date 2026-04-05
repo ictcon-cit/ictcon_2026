@@ -83,7 +83,7 @@ const CommitteePage = () => {
             <div>Dr. Niraj Kumar, IIT Goa</div>
             <div>Dr. Kamal Nasreddine, ENIB France</div>
             <div>Dr. Ranjit Kolkar, NFSU Goa</div>
-            <div>TBD</div>
+            <div>Dr. Saurabh Trivedi, IIT Goa</div>
           </div>
         </div>
 
@@ -96,7 +96,7 @@ const CommitteePage = () => {
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Anuj Abraham, IIT Goa</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
-            <div>TBD</div>
+            <div>Prof. Venkatesh V Kamat, IIT Goa</div>
           </div>
         </div>
 
