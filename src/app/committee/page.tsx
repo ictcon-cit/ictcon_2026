@@ -79,7 +79,7 @@ const CommitteePage = () => {
             Track Chairs
           </div>
           <div className="space-y-2">
-            <div>Prof. Venkatesh Kamat, IIT Goa</div>
+            <div>Prof. Venkatesh V. Kamat, IIT Goa</div>
             <div>Dr. Niraj Kumar, IIT Goa</div>
             <div>Dr. Kamal Nasreddine, ENIB France</div>
             <div>Dr. Ranjit Kolkar, NFSU Goa</div>
@@ -96,7 +96,6 @@ const CommitteePage = () => {
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Anuj Abraham, IIT Goa</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
-            <div>Prof. Venkatesh V Kamat, IIT Goa</div>
           </div>
         </div>
 
