@@ -227,7 +227,7 @@ const CommitteePage = () => {
             <div>Dr. Anupam Kumar, NIT Patna</div>
             <div>Dr. Mohd Jawed Khan, GNIOT, Greater Noida</div>
             <div>Dr. Deep Singh, Dr. B. R. Ambedkar University Delhi</div>
-            <div>Dr. Sabyasachi Bhattacharyya, Barak Valley Engineering College, Assam</div>
+            <div>Dr. Sabyasachi Bhattacharyya, Assam Engineering College and Barak Valley Engineering College, Assam</div>
             <div>Prof. Manoj Gupta, SMVDU Jammu</div>
             <div>Dr. Vandana Bharti, IIT Ropar</div>
           </div>
