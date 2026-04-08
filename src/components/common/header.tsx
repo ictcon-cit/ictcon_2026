@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 /* ============================
    TYPES
-   ============================ */
+============================ */
 interface NavItem {
   href: string;
   label: string;
@@ -24,22 +24,25 @@ interface NavLink {
 
 /* ============================
    NAVIGATION DATA
-   ============================ */
+============================ */
 const navLinks: NavLink[] = [
   { href: "/", label: "Home" },
   { href: "/dates", label: "Important Dates" },
-  {
-    dropdown: true,
-    label: "Call for Papers",
-    items: [
-      { href: "/papers", label: "Call for Papers" },
-    ],
-  },
+
+ 
+  { href: "/papers", label: "Call for Papers" },
+
   { href: "/submission", label: "Paper Submission" },
+
+  
+  { href: "/workshop", label: "Workshop" },
+  { href: "/venue", label: "Venue" },
+
   { href: "/committee", label: "Committee" },
   { href: "/speakers", label: "Speakers" },
   { href: "/registration", label: "Registration" },
   { href: "/schedule", label: "Program Schedule" },
+
   {
     dropdown: true,
     label: "Previous Editions",
@@ -60,7 +63,7 @@ const navLinks: NavLink[] = [
 
 /* ============================
    HEADER COMPONENT
-   ============================ */
+============================ */
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const pathname = usePathname();
@@ -77,7 +80,7 @@ export default function Header() {
               className="rounded-full md:h-[5.5rem] md:w-[5.5rem] sm:h-10 sm:w-10 h-8 w-8"
             />
             <span className="text-white text-xl font-bold">
-             {""} {""}ICTCon2026
+              ICTCon2026
             </span>
           </div>
 
@@ -186,7 +189,9 @@ export default function Header() {
                         href={item.href}
                         target={item.external ? "_blank" : "_self"}
                         rel={
-                          item.external ? "noopener noreferrer" : undefined
+                          item.external
+                            ? "noopener noreferrer"
+                            : undefined
                         }
                         className="block ml-4 py-1"
                         onClick={() => setNavbarOpen(false)}

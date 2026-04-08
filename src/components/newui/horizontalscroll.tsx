@@ -1,3 +1,4 @@
+import Link from "next/link";
 const images = [
   // "/images/sponsors/IndianOil.png",
   "/images/sponsors/doma.png",
@@ -71,6 +72,14 @@ export default function HorizontalScrollA() {
           Intelligent Computing and Technologies Conference 2026
           </span>.
         </p>
+        <br />
+          {/* ✅ CTA Button */}
+        <Link
+          href="/sponsorship"
+          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300"
+        >
+          Call for Sponsorship
+        </Link>
       </div>
 
     </div>
