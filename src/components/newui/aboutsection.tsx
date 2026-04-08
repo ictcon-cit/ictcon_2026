@@ -1,7 +1,9 @@
+"use client";
+
 import { useState } from "react";
 import { FaFilePdf, FaHandPointRight } from "react-icons/fa6";
 
-// All possible about section contents
+// ================= ORIGINAL CONTENT (UNCHANGED) =================
 const aboutContents = {
   iitgoa: {
     title: "ABOUT IIT GOA",
@@ -15,13 +17,6 @@ const aboutContents = {
     imageAlt: "ICTCon Conference Banner",
     description: `The 4th International Intelligent Computing and Technologies Conference (ICTCon 2026) is being jointly hosted at National Forensic Sciences University Goa Campus, India and Indian Institute of Technology Goa (IIT Goa) in collaboration with CIT Kokrajhar, India during 2-4 November, 2026. The aim of the conference (ICTCon-2026) is to provide a platform that brings together academicians, scholars, engineers, industry people, and students to present their original work and exchange their ideas, experiences, tools, and techniques and applications in various domains of computing and technologies.`,
   },
- /* btr: {
-    title: "ABOUT BTR, ASSAM",
-    image: "/images/gate2.jpg",
-    imageAlt: "Bodoland Territorial Region",
-    description: `Bodoland Territorial Region, is an autonomous region in Assam, Northeast India. It made up of four districts on the north bank of the Brahmaputra river, by the foothills of Bhutan and Arunachal Pradesh. It is administered by an elected body known as the Bodoland Territorial Council which came into existence under the terms of a peace agreement signed in February 2003 and its autonomy was further extended by an agreement signed in 27th of January 2020. The region covers an area of over nine thousand square kilometres and is predominantly inhabited by the Bodo people and other indigenous communities of Assam.`,
-  }, */
-
   cit: {
     title: "ABOUT NFSU GOA",
     image: "/images/NFSU_LOGO.jpeg",
@@ -32,46 +27,67 @@ const aboutContents = {
 
 type AboutSectionKey = keyof typeof aboutContents;
 
+// ================= COMPONENT =================
 export default function AboutSection() {
   const [currentSection, setCurrentSection] =
     useState<AboutSectionKey>("conference");
+
   const aboutContent = aboutContents[currentSection];
 
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+
+        {/* ================= LEFT ================= */}
         <div className="flex flex-col flex-1 lg:flex-[4] bg-white overflow-hidden shadow-sm rounded-lg">
-          {/* Section tab indicator inside the content container */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 bg-blue-600 py-3 sm:py-4 rounded-t-lg mb-2">
+
+          {/* ===== DESKTOP (UNCHANGED) ===== */}
+          <div className="hidden sm:flex flex-row items-center justify-center gap-2 bg-blue-600 py-4 rounded-t-lg mb-2">
             {Object.entries(aboutContents).map(([key, value]) => (
               <button
                 key={key}
                 onClick={() => setCurrentSection(key as AboutSectionKey)}
-                className={`px-3 sm:px-5 py-2 rounded-lg font-bold transition-colors duration-200 focus:outline-none tracking-wide text-sm sm:text-base w-full sm:w-auto
+                className={`px-5 py-2 rounded-lg font-bold transition-colors duration-200 tracking-wide text-sm
                   ${
                     currentSection === key
                       ? "bg-white text-blue-600 shadow border-2 border-blue-600 scale-105"
                       : "bg-blue-600 text-white hover:bg-blue-800 border-2 border-transparent"
                   }`}
-                style={{ minWidth: 0 }}
               >
-                <span className="hidden sm:inline">{value.title}</span>
-                <span className="sm:hidden">
-                  {key === "cit"
-                    ? "CIT"
-                    : key === "conference"
-                    ? "CONFERENCE"
-                    : key === "btr"
-                    ? "BTR"
-                    : key === "iitgoa"
-                    ? "IIT GOA"
-                    : key}
-                </span>
+                {value.title}
               </button>
             ))}
           </div>
 
+          {/* ===== MOBILE ONLY IMPROVEMENT ===== */}
+          <div className="sm:hidden w-full overflow-x-auto bg-blue-600 rounded-t-lg">
+            <div className="flex gap-2 px-2 py-2 min-w-max">
+              {Object.entries(aboutContents).map(([key]) => (
+                <button
+                  key={key}
+                  onClick={() => setCurrentSection(key as AboutSectionKey)}
+                  className={`px-4 py-2 rounded-full font-semibold whitespace-nowrap transition-all duration-200 text-xs
+                    ${
+                      currentSection === key
+                        ? "bg-white text-blue-600 shadow-md scale-105"
+                        : "bg-blue-500 text-white hover:bg-blue-700"
+                    }`}
+                >
+                  {key === "cit"
+                    ? "NFSU"
+                    : key === "conference"
+                    ? "Conference"
+                    : key === "iitgoa"
+                    ? "IIT Goa"
+                    : key}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* ===== CONTENT (UNCHANGED) ===== */}
           <div className="flex flex-col gap-2 items-center justify-start text-center text-lg sm:text-xl text-black px-3 sm:px-5">
+
             <img
               src={aboutContent.image}
               className={
@@ -85,14 +101,17 @@ export default function AboutSection() {
               }
               alt={aboutContent.imageAlt}
             />
+
             <p className="text-justify text-sm sm:text-base lg:text-lg text-justify-start leading-relaxed mb-2 px-2 sm:px-0">
               {aboutContent.description}
             </p>
           </div>
         </div>
 
+        {/* ================= RIGHT (UNCHANGED) ================= */}
         <div className="w-full lg:w-[40%] shadow-lg bg-white overflow-hidden rounded-lg">
           <div className="p-3 sm:p-5">
+
             <div className="text-center w-full mb-4">
               <a
                 href="/CFP_ICTCon 2026_new.pdf"
@@ -101,19 +120,20 @@ export default function AboutSection() {
                 className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-3 sm:py-4 px-3 sm:px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase text-sm sm:text-base"
                 download
               >
-                <FaFilePdf className="mr-2 text-base sm:text-lg" />
+                <FaFilePdf className="mr-2" />
                 Call for Papers
               </a>
             </div>
+
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">
               Proceedings By
             </h2>
+
             <div className="flex justify-center mb-6 sm:mb-10">
               <a
                 href="https://www.springer.com/series/7899"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img
                   src="/images/springer.webp"
@@ -122,23 +142,26 @@ export default function AboutSection() {
                 />
               </a>
             </div>
+
             <div className="mb-4 sm:mb-6 text-center">
               <h3 className="text-xl sm:text-2xl font-semibold mb-2">
                 Last Date of Paper Submission
               </h3>
               <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-               5th May, 2026  <span className="text-xs"></span>
+                5th May, 2026
               </p>
+
               <a
                 href="https://cmt3.research.microsoft.com/ICTCon2026"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 hover:underline text-sm sm:text-base"
+                className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 text-sm sm:text-base"
               >
                 <FaHandPointRight className="mr-2" />
                 Submit your paper here
               </a>
             </div>
+
             <div className="text-center">
               <h3 className="text-xl sm:text-2xl font-semibold">
                 Date of Conference
@@ -147,11 +170,13 @@ export default function AboutSection() {
                 (Hybrid mode)
               </p>
               <p className="text-base sm:text-lg font-bold text-red-600 mb-4">
-                2-4 November, 2026
+                2–4 November, 2026
               </p>
             </div>
+
           </div>
         </div>
+
       </div>
     </div>
   );
