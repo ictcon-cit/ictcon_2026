@@ -761,7 +761,11 @@ export default function Home() {
             >
               <FaEnvelope className="text-lg sm:text-xl" />
               <span className="break-all sm:break-normal">
-                ictcon@cit.ac.in, conf.ictcon26@gmail.com
+                ictcon@cit.ac.in
+              </span>
+              <br />
+               <span className="break-all sm:break-normal">
+               conf.ictcon26@gmail.com
               </span>
             </a>
           </div>
