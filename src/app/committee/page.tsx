@@ -22,7 +22,7 @@ const CommitteePage = () => {
             Patron
           </div>
           <div className="space-y-2">
-            <div>  Prof. D. S Katti, Director, IIT Goa      </div>
+            <div>  Prof. Dhirendra S Katti, Director, IIT Goa      </div>
             <div> Prof. Naveen Kumar Chaudhary, Director, NFSU Goa     </div>
           </div>
         </div>
