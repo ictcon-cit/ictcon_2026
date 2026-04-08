@@ -95,6 +95,7 @@ const CommitteePage = () => {
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Anuj Abraham, IIT Goa</div>
             <div>Dr. Vijay R. Rathod, St. Xavier`s Technical Institute, Mumbai</div>
+             <div>TBD</div>
           </div>
         </div>
 
