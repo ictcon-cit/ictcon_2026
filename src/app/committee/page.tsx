@@ -12,7 +12,7 @@ const CommitteePage = () => {
           </div>
           <div className="space-y-2">
             <div>
-              Dr. J. M. Vyas (Vice-Chancellor, NFSU)
+              Dr. J. M. Vyas, Vice-Chancellor, NFSU Goa
             </div>
           </div>
         </div>
@@ -22,9 +22,8 @@ const CommitteePage = () => {
             Patron
           </div>
           <div className="space-y-2">
-            <div>
-              Prof. D. S Katti, Director, IIT Goa and Prof. Naveen Kumar Chaudhary, NFSU Goa
-            </div>
+            <div>  Prof. D. S Katti, Director, IIT Goa      </div>
+            <div> and Prof. Naveen Kumar Chaudhary, Director, NFSU Goa     </div>
           </div>
         </div>
 
@@ -46,7 +45,7 @@ const CommitteePage = () => {
             Honarary Chairs
           </div>
           <div className="space-y-2">
-            <div>S.S. Iyengar (Distinguished University Professor, Information Sciences at Florida International University (FIU), Miami)</div>
+            <div> Prof. S.S. Iyengar, Distinguished University Professor, Florida International University, Miami</div>
           </div>
         </div>
 
@@ -119,12 +118,12 @@ const CommitteePage = () => {
             <div>Dr. P Kumar, IIT Goa</div>
             <div>Dr. Sautami Basu, IIT Goa</div>
             <div>Dr. Subhajit Sarkar, IIT Goa</div>
-            <div>Vipin Gautam, IIT Goa</div>
-            <div>Aditi Sethkar, IIT Goa</div>
-            <div>Ashish Verma, IIT Goa</div>
-            <div>Andleeb Zuhra, IIT Goa</div>
-            <div>Prachi Negi, IIT Goa</div>
-            <div>Harsh S K, IIT Goa</div>
+            <div>Mr. Vipin Gautam, IIT Goa</div>
+            <div>Ms. Aditi Sethkar, IIT Goa</div>
+            <div>Mr. Ashish Verma, IIT Goa</div>
+            <div>Ms. Andleeb Zuhra, IIT Goa</div>
+            <div>Ms. Prachi Negi, IIT Goa</div>
+            <div>Mr. Harsh S K, IIT Goa</div>
           </div>
         </div>
 
@@ -221,7 +220,7 @@ const CommitteePage = () => {
             <div>Dr. Kaushlendra Kumar Pandey, CIT Kokrajhar, Assam</div>
             <div>Dr. Sarika Jain, NIT Kurukshetra</div>
             <div>Dr. Meenu Gupta, Chandigarh University, Punjab</div>
-            <div>Ram Krishna Tripathi, Tavant Technologies Inc.</div>
+            <div>Mr. Ram Krishna Tripathi, Tavant Technologies Inc.</div>
             <div>Dr Vijanth Sagayan A/L Asirvadam, Universiti Teknologi PETRONAS, Malaysia</div>
             <div>Dr. Anupam Kumar, NIT Patna</div>
             <div>Dr. Mohd Jawed Khan, GNIOT, Greater Noida</div>
