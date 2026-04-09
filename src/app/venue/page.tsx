@@ -5,7 +5,7 @@ const SubmissionPage = () => {
   return (
   <div className="relative">
     <div className="relative z-10">
-      <SecondHeader title={"SCHEDULE"} />
+      <SecondHeader title={"Venue Information (ICTCon2026)"} />
 
       <main className="w-full flex justify-center md:min-h-screen pb-10 px-4">
         <div className="w-full max-w-5xl mt-10">
@@ -31,7 +31,8 @@ const SubmissionPage = () => {
 
             {/* Main text */}
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-800">
-             Venue Details Coming Soon
+             How to Reach IIT Goa and NFSU Goa?
+              IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
             </h1>
 
             {/* Subtext */}
@@ -44,7 +45,26 @@ const SubmissionPage = () => {
 
             {/* Status badge */}
             <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
-              Status: TBD
+              1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
+The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
+Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
+Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
+2. By Rail (Railway Stations)
+There are two major railway stations serving the area:
+Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
+Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
+3. By Road (Buses & Taxis)
+Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
+From Panaji: Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
+From Ponda City: The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
+Campus Locations
+Once you reach the Farmagudi plateau:
+IIT Goa: Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3).
+NFSU Goa: Located adjacent to the GEC campus at the Transit Campus.
+Landmark: The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
+Local Transport: While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
+Weather: Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
+              
             </span>
           </div>
         </div>
