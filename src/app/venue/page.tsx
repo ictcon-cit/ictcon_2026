@@ -1,161 +1,122 @@
+"use client";
 import SecondHeader from "@/components/secondheader";
-import { FaDownload } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
-const SubmissionPage = () => {
+export default function VenuePage() {
   return (
-  <div className="relative">
-    <div className="relative z-10">
-      <SecondHeader title={"Venue Information"} />
+    <div className="relative">
+      <div className="relative z-10">
+        <SecondHeader title={"VENUE"} />
 
-      <main className="w-full flex justify-center md:min-h-screen pb-10 px-4">
-        <div className="w-full max-w-5xl mt-10">
-          {/* Card */}
-          <div className="bg-white/90 backdrop-blur rounded-2xl shadow-xl border border-slate-200 p-8 md:p-12 flex flex-col items-center justify-center gap-4 text-center">
+        <main className="w-full flex justify-center pb-16 px-4">
+          <div className="w-full max-w-6xl mt-10 space-y-16">
+
+            {/* ================= HOST INSTITUTE ================= */}
+            <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                Address: National Forensic Sciences University Goa Campus
+              </h2>
+
+              <div className="w-20 h-1 bg-blue-500 mb-6 rounded-full"></div>
+
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                {/* Text */}
+                <p className="text-gray-700 leading-relaxed text-base md:text-lg">
+                  Located in the lush greenery of Ponda in South Goa, the transit campus of NFSU Goa was inaugurated on 14 October 2021 by the Hon’ble Union Home Minister of India. In a short time, it has evolved into a full-fledged academic institution offering specialized programs in Forensic Science and Cyber Security. Along with academics, the campus actively conducts training, conferences, and workshops to promote forensic best practices. With a vision to become a Centre of Excellence, NFSU Goa focuses on high-quality education, research, and overall student development, aiming to produce technologically skilled and ethically strong professionals.
+                </p>
+
+                {/* Map */}
+                <div className="w-full h-64 md:h-72 rounded-xl overflow-hidden border">
+                  <iframe
+                    title="NIT Calicut Map"
+                    className="w-full h-full"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    allowFullScreen
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d523.7819934578334!2d74.01301173776356!3d15.412295799688136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbb145af949a9%3A0x1655ee05cab626a4!2sNational%20Forensic%20Sciences%20University!5e1!3m2!1sen!2sin!4v1775129264778!5m2!1sen!2sin"
+                  ></iframe>
+                </div>
+              </div>
+            </section>
+
             
 
+            {/* ================= STAY IN PONDA ================= */}
+            <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
+                Stay in Ponda, Goa <span className="text-red-600">(NEARBY HOTELS)</span>
+              </h2>
 
-            {/* Main text */}
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-800">
-             How to Reach IIT Goa and NFSU Goa?
-            </h1>
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
-                  IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa.  <br /> 
-                 Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
-                </p>
+              <ul className="list-disc pl-6 text-blue-700 space-y-2 font-medium">
+                <li>Farmagudi Hill Retreat</li>
+                <li>Hotel Royal Punjab</li>
+                <li>Hotel Menino</li>
+                <li>Farmagudi Residency</li>
+                <li>OYO 1152 Hotel Sun Inn</li>
+                <li>Rock Valley Goa</li>
+                <li>Hotel Menino Executive</li>
+                <li>Hotel Yashoda Deluxe</li>
+                <li>The Enchanting Nest</li>
+                <li>Ganesh Residency Hotel</li>
+                <li>Marias House</li>
+              </ul>
 
+              {/* IMAGE PLACEHOLDER */}
+              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
+                  Image Placeholder
+                </div>
+                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
+                  Image Placeholder
+                </div>
+                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
+                  Image Placeholder
+                </div>
+              </div>
+            </section>
 
-            {/* Icon */}
-            <div className="w-14 h-14 rounded-full bg-red-50 flex items-center justify-center">
-              <svg
-                className="w-7 h-7 text-red-500"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
-              </svg>
-            </div>
+            {/* ================= TOURIST ATTRACTIONS ================= */}
+            <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-6">
+                Tourist Attractions in Goa
+              </h2>
 
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Goa offers far more than its golden coastline: it is a remarkable blend of Indian tradition and centuries of Portuguese influence. Nestled on the western shore of India, this vibrant state invites you to explore lush forests, elegant baroque churches, spice-rich cuisine, colorful markets, and a relaxed coastal charm. From witnessing history at the UNESCO-listed Basilica of Bom Jesus — home to the sacred relics of St. Francis Xavier — to experiencing the calm of Palolem’s iconic “Silent Noise” gatherings or feeling the mist of the majestic Dudhsagar Falls, Goa promises a refreshing mix of culture, nature, and leisure. 
 
-
-            {/* Subtext */}
-            <p className="max-w-md text-sm md:text-base text-slate-500">
-             
-            </p>
-
-            {/* Subtle divider */}
-            <div className="w-24 h-[2px] bg-slate-200 rounded-full mt-2" />
-
-            {/* Status badge */}
-            <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
-
-            </span>
-
-                            {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
-              </h3>
-              
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                  The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
-                </p>
-
-              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
-                <span className="font-semibold text-blue-700">Pre-paid Taxi:</span>The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes. <br />
-                <span className="font-semibold text-blue-700">Bus:</span> You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage). <br />
               </p>
-            </div>           
 
-
-                            {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                2. By Rail (Railway Stations)
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
+                Beaches
               </h3>
-              
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                  There are two major railway stations serving the area:
-               </p>
 
-              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
-                <span className="font-semibold text-blue-700">Madgaon Junction (MAO):</span>Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes. <br />
-                <span className="font-semibold text-blue-700">Karmali (KRMI):</span> Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes. <br />
-              </p>
-            </div>           
+              <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+                <li><b>Baga and Calangute:</b> Known for water sports.</li>
+                <li><b>Palolem and Agonda:</b> Peaceful beaches,ideal for leisurely walks.</li>
+                <li><b>Arambol:</b> Bohemian vibe.</li>
+                <li><b>Anjuna:</b> Famous flea market and vibrant nightlife.</li>
+              </ul>
 
+              {/* IMAGE PLACEHOLDER GRID */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                  Image Placeholder
+                </div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                  Image Placeholder
+                </div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                  Image Placeholder
+                </div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                  Image Placeholder
+                </div>
+              </div>
+            </section>
 
-                                        {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                3. By Road (Buses & Taxis)
-              </h3>
-              
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
-               </p>
-
-              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
-                <span className="font-semibold text-blue-700">From Panaji:</span> Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple). <br />
-                <span className="font-semibold text-blue-700">From Ponda City: </span> The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available. <br />
-              </p>
-            </div>     
-
-
-
-                          {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                Campus Locations
-              </h3>
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                  Once you reach the Farmagudi plateau:
-               </p>
-
-              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
-                <span className="font-semibold text-blue-700">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3). <br />
-                <span className="font-semibold text-blue-700">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus. <br />
-                <span className="font-semibold text-blue-700">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi. <br />
-                <span className="font-semibold text-blue-700">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel. <br />
-                <span className="font-semibold text-blue-700">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
-              </p>
-            </div> 
-
-                                      {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                45-minute direct flight from Mumbai to Goa: 
-              </h3>
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                  Take a direct flight from Chhatrapati Shivaji Maharaj International Airport (BOM) in Mumbai to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight duration is approximately 45 minutes.
-               </p>
-            </div> 
-
-                                                    {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                2-hour direct flight from Delhi to Goa: 
-              </h3>
-               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
-                  Board a direct flight from Indira Gandhi International Airport (DEL) in Delhi to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight takes around 2 hours. <br />
-                  After arriving in Goa, local transport options such as taxis, the hotel's pick-up/drop-off service, buses, and rental cars are available to take you to your destination within Goa.
-               </p>
-            </div> 
-
-       
-              
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
-  </div>
-);
-
-};
-
-export default SubmissionPage;
+  );
+}
