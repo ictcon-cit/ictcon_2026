@@ -62,7 +62,7 @@ const SubmissionPage = () => {
                 1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
               </h3>
               
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
                 </p>
 
@@ -79,7 +79,7 @@ const SubmissionPage = () => {
                 2. By Rail (Railway Stations)
               </h3>
               
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   There are two major railway stations serving the area:
                </p>
 
@@ -96,7 +96,7 @@ const SubmissionPage = () => {
                 3. By Road (Buses & Taxis)
               </h3>
               
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                 Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
                </p>
 
@@ -113,7 +113,7 @@ const SubmissionPage = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Campus Locations
               </h3>
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   Once you reach the Farmagudi plateau:
                </p>
 
