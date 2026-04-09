@@ -13,8 +13,8 @@ export default function SponsorshipPage() {
 
             {/* ===== Top Description ===== */}
             <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
-              ICTCon 2026 is a premier international conference focused on Computer Vision,
-              Pattern Recognition, Image Processing, and Graphics. 
+              ICTCon 2026 is a premier international conference focused on AI, Advanced Computing, Computer Vision, Next-Gen Communication,
+              Image Processing, and Forensic Excellence. 
             </p>
 
             {/* ===== Cards Section ===== */}
@@ -84,7 +84,7 @@ export default function SponsorshipPage() {
                     </tr>
 
                     <tr className="border-t">
-                      <td className="p-3 font-medium">Website Visibility</td>
+                      <td className="p-3 font-medium">ICTCon2026 Website Visibility</td>
                       <td className="p-3">✓</td>
                       <td className="p-3">✓</td>
                       <td className="p-3">✓</td>
