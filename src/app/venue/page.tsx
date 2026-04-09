@@ -30,7 +30,7 @@ const SubmissionPage = () => {
                 <div className="text-red-600 font-extrabold text-2xl mb-4">
                         1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX)
                 </div>
-                      <div className="space-y-2">
+                      <div className="space-x-2">
                         <div> 
                            The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
                            Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
@@ -43,7 +43,7 @@ const SubmissionPage = () => {
                 <div className="text-red-600 font-extrabold text-2xl mb-4">
                         2. By Rail (Railway Stations)
                 </div>
-                      <div className="space-y-2">
+                      <div className="space-x-2">
                         <div> 
                           There are two major railway stations serving the area:
                           Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
@@ -57,7 +57,7 @@ const SubmissionPage = () => {
                 <div className="text-red-600 font-extrabold text-2xl mb-4">
                         3. By Road (Buses & Taxis)
                 </div>
-                      <div className="space-y-2">
+                      <div className="space-x-2">
                         <div> 
                           Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
                   From Panaji: Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
