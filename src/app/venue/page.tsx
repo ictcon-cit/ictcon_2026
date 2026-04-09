@@ -32,8 +32,11 @@ const SubmissionPage = () => {
             {/* Main text */}
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-800">
              How to Reach IIT Goa and NFSU Goa?
-              IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
             </h1>
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+              IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
+            </p>
+
 
             {/* Subtext */}
             <p className="max-w-md text-sm md:text-base text-slate-500">
@@ -45,10 +48,24 @@ const SubmissionPage = () => {
 
             {/* Status badge */}
             <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
-              1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
-The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
+
+            {/* ===== Cards Section ===== */}
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">
+                  1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX)
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
 Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
 Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
+                </p>
+              </div>
+
+              
+              
+               
+
 2. By Rail (Railway Stations)
 There are two major railway stations serving the area:
 Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
