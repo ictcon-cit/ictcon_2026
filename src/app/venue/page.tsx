@@ -34,7 +34,7 @@ const SubmissionPage = () => {
              How to Reach IIT Goa and NFSU Goa?
             </h1>
                <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
-              IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
+                  IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
             </p>
 
 
@@ -57,30 +57,59 @@ const SubmissionPage = () => {
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
-Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
-Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
+                  Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
+                  Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
                 </p>
               </div>
 
               
-              
+              {/* ===== Cards Section ===== */}
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">
+                  2. By Rail (Railway Stations)
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  There are two major railway stations serving the area:
+                  Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
+                  Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
+                </p>
+              </div>      
                
 
-2. By Rail (Railway Stations)
-There are two major railway stations serving the area:
-Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
-Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
-3. By Road (Buses & Taxis)
-Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
-From Panaji: Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
-From Ponda City: The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
-Campus Locations
-Once you reach the Farmagudi plateau:
-IIT Goa: Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3).
-NFSU Goa: Located adjacent to the GEC campus at the Transit Campus.
-Landmark: The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
-Local Transport: While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
-Weather: Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
+      {/* ===== Cards Section ===== */}
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">
+                 3. By Road (Buses & Taxis)
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
+                  From Panaji: Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
+                  From Ponda City: The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
+                </p>
+              </div>  
+
+
+                          {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Campus Locations
+                Once you reach the Farmagudi plateau:
+              </h3>
+
+              <p className="text-gray-600 mb-6 text-sm md:text-base">
+                <span className="font-semibold">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3).
+                <span className="font-semibold">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus.
+                <span className="font-semibold">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
+                <span className="font-semibold">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
+                <span className="font-semibold">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
+
+              </p>
+
+
+
+
               
             </span>
           </div>
