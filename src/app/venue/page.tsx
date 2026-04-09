@@ -5,7 +5,7 @@ const SubmissionPage = () => {
   return (
   <div className="relative">
     <div className="relative z-10">
-      <SecondHeader title={"Venue Information (ICTCon2026)"} />
+      <SecondHeader title={"Venue Information"} />
 
       <main className="w-full flex justify-center md:min-h-screen pb-10 px-4">
         <div className="w-full max-w-5xl mt-10">
@@ -35,7 +35,7 @@ const SubmissionPage = () => {
             </h1>
                <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
                   IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
-            </p>
+                </p>
 
 
             {/* Subtext */}
@@ -61,7 +61,7 @@ const SubmissionPage = () => {
                   Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
                 </p>
               </div>
-
+             </div>
               
               {/* ===== Cards Section ===== */}
             <div className="grid md:grid-cols-2 gap-6">
@@ -75,7 +75,7 @@ const SubmissionPage = () => {
                   Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
                 </p>
               </div>      
-               
+            </div>   
 
       {/* ===== Cards Section ===== */}
             <div className="grid md:grid-cols-2 gap-6">
@@ -89,7 +89,7 @@ const SubmissionPage = () => {
                   From Ponda City: The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
                 </p>
               </div>  
-
+            </div>
 
                           {/* ===== Contact Section ===== */}
             <div className="bg-white rounded-xl shadow-md p-8 text-center border">
@@ -106,9 +106,7 @@ const SubmissionPage = () => {
                 <span className="font-semibold">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
               </p>
             </div> 
-
-
-
+       
               
             </span>
           </div>
