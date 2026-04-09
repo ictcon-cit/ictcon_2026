@@ -63,35 +63,34 @@ const SubmissionPage = () => {
                        </div>
             </div>
 
-              
-  
-              {/* ===== Cards Section ===== */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  2. By Rail (Railway Stations)
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  There are two major railway stations serving the area:
-                  Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
-                  Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
-                </p>
-              </div>      
-            </div>   
+             <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+                <div className="text-red-600 font-extrabold text-2xl mb-4">
+                        2. By Rail (Railway Stations)
+                </div>
+                      <div className="space-y-2">
+                        <div> 
+                          There are two major railway stations serving the area:
+                          Madgaon Junction (MAO): Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
+                          Karmali (KRMI): Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
+                        </div>
+                       </div>
+            </div> 
 
-      {/* ===== Cards Section ===== */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-2">
-                 3. By Road (Buses & Taxis)
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
+
+             <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+                <div className="text-red-600 font-extrabold text-2xl mb-4">
+                        3. By Road (Buses & Taxis)
+                </div>
+                      <div className="space-y-2">
+                        <div> 
+                          Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
                   From Panaji: Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
                   From Ponda City: The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
-                </p>
-              </div>  
-            </div>
+                        </div>
+                       </div>
+            </div> 
+              
+
 
                           {/* ===== Contact Section ===== */}
             <div className="bg-white rounded-xl shadow-md p-8 text-center border">
