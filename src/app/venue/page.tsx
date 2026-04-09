@@ -131,7 +131,7 @@ const SubmissionPage = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 45-minute direct flight from Mumbai to Goa: 
               </h3>
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   Take a direct flight from Chhatrapati Shivaji Maharaj International Airport (BOM) in Mumbai to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight duration is approximately 45 minutes.
                </p>
             </div> 
@@ -141,7 +141,7 @@ const SubmissionPage = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 2-hour direct flight from Delhi to Goa: 
               </h3>
-               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+               <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   Board a direct flight from Indira Gandhi International Airport (DEL) in Delhi to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight takes around 2 hours. <br />
                   After arriving in Goa, local transport options such as taxis, the hotel's pick-up/drop-off service, buses, and rental cars are available to take you to your destination within Goa.
                </p>
