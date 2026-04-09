@@ -19,7 +19,8 @@ const SubmissionPage = () => {
              How to Reach IIT Goa and NFSU Goa?
             </h1>
                <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
-                  IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa. Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
+                  IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa.  <br /> 
+                 Located approximately 30 km from the state capital, Panaji, the campus is well-connected by road, rail, and air.
                 </p>
 
 
