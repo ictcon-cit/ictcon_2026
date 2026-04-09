@@ -53,9 +53,10 @@ const SubmissionPage = () => {
             {/* Status badge */}
             <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
 
+            </span>
 
                             {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border">
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
               </h3>
@@ -76,7 +77,7 @@ const SubmissionPage = () => {
 
 
                           {/* ===== Contact Section ===== */}
-            <div className="bg-white rounded-xl shadow-md p-8 text-center border">
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Campus Locations
                 Once you reach the Farmagudi plateau:
@@ -92,7 +93,6 @@ const SubmissionPage = () => {
             </div> 
        
               
-            </span>
           </div>
         </div>
       </main>
