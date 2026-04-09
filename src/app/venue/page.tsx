@@ -38,16 +38,7 @@ const SubmissionPage = () => {
                 </p>
 
 
-            {/* Subtext */}
-            <p className="max-w-md text-sm md:text-base text-slate-500">
-             
-            </p>
 
-            {/* Subtle divider */}
-            <div className="w-24 h-[2px] bg-slate-200 rounded-full mt-2" />
-
-            {/* Status badge */}
-            <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
 
             {/* ===== Cards Section ===== */}
             <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
