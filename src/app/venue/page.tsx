@@ -72,8 +72,39 @@ const SubmissionPage = () => {
             </div>           
 
 
-
+                            {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                2. By Rail (Railway Stations)
+              </h3>
               
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+                  There are two major railway stations serving the area:
+               </p>
+
+              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
+                <span className="font-semibold text-blue-700">Madgaon Junction (MAO):</span>Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes. <br />
+                <span className="font-semibold text-blue-700">Karmali (KRMI):</span> Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes. <br />
+              </p>
+            </div>           
+
+
+                                        {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                3. By Road (Buses & Taxis)
+              </h3>
+              
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+                Farmagudi is situated on the NH-4A (Panaji-Belgaum Highway), making it very accessible.
+               </p>
+
+              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
+                <span className="font-semibold text-blue-700">From Panaji:</span> Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple). <br />
+                <span className="font-semibold text-blue-700">From Ponda City: </span> The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available. <br />
+              </p>
+            </div>     
+
 
 
                           {/* ===== Contact Section ===== */}
