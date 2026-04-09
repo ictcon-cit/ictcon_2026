@@ -54,7 +54,21 @@ const SubmissionPage = () => {
             <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
 
 
-            
+                            {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX) 
+              </h3>
+              
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed">
+                  The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
+                </p>
+
+              <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
+                <span className="font-semibold text-blue-700">Pre-paid Taxi:</span>The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes. <br />
+                <span className="font-semibold text-blue-700">Bus:</span> You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage). <br />
+              </p>
+            </div>           
 
 
 
@@ -69,11 +83,11 @@ const SubmissionPage = () => {
               </h3>
 
               <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
-                <span className="font-semibold text-red-600">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3). <br />
-                <span className="font-semibold text-red-600">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus. <br />
-                <span className="font-semibold text-blue-600">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi. <br />
+                <span className="font-semibold text-blue-700">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3). <br />
+                <span className="font-semibold text-blue-700">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus. <br />
+                <span className="font-semibold text-blue-700">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi. <br />
                 <span className="font-semibold text-blue-700">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel. <br />
-                <span className="font-semibold text-blue-800">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
+                <span className="font-semibold text-blue-700">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
               </p>
             </div> 
        
