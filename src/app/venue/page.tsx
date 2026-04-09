@@ -111,8 +111,10 @@ const SubmissionPage = () => {
             <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Campus Locations
-                Once you reach the Farmagudi plateau:
               </h3>
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+                  Once you reach the Farmagudi plateau:
+               </p>
 
               <p className="text-gray-600 mb-6 text-sm md:text-base text-left">
                 <span className="font-semibold text-blue-700">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3). <br />
@@ -122,6 +124,26 @@ const SubmissionPage = () => {
                 <span className="font-semibold text-blue-700">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
               </p>
             </div> 
+
+                                      {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                45-minute direct flight from Mumbai to Goa: 
+              </h3>
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+                  Take a direct flight from Chhatrapati Shivaji Maharaj International Airport (BOM) in Mumbai to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight duration is approximately 45 minutes.
+               </p>
+
+                                                    {/* ===== Contact Section ===== */}
+            <div className="bg-white rounded-xl shadow-md p-8 text-center border w-full">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                2-hour direct flight from Delhi to Goa: 
+              </h3>
+               <p className="text-center text-gray-700 text-sm md:text-base leading-relaxed text-left">
+                  Board a direct flight from Indira Gandhi International Airport (DEL) in Delhi to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight takes around 2 hours. <br />
+                  After arriving in Goa, local transport options such as taxis, the hotel's pick-up/drop-off service, buses, and rental cars are available to take you to your destination within Goa.
+               </p>
+
        
               
           </div>
