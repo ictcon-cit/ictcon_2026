@@ -104,9 +104,8 @@ const SubmissionPage = () => {
                 <span className="font-semibold">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
                 <span className="font-semibold">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
                 <span className="font-semibold">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
-
               </p>
-
+            </div> 
 
 
 
