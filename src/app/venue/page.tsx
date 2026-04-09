@@ -23,6 +23,38 @@ const SubmissionPage = () => {
                 </p>
 
 
+            {/* Icon */}
+            <div className="w-14 h-14 rounded-full bg-red-50 flex items-center justify-center">
+              <svg
+                className="w-7 h-7 text-red-500"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+
+
+
+            {/* Subtext */}
+            <p className="max-w-md text-sm md:text-base text-slate-500">
+             
+            </p>
+
+            {/* Subtle divider */}
+            <div className="w-24 h-[2px] bg-slate-200 rounded-full mt-2" />
+
+            {/* Status badge */}
+            <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
+
+
+            
 
 
             {/* ===== Cards Section ===== */}
