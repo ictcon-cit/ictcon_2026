@@ -69,10 +69,10 @@ const SubmissionPage = () => {
               </h3>
 
               <p className="text-gray-600 mb-6 text-sm md:text-base">
-                <span className="font-semibold">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3).
-                <span className="font-semibold">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus.
-                <span className="font-semibold">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
-                <span className="font-semibold">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
+                <span className="font-semibold">IIT Goa:</span> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3). <br />
+                <span className="font-semibold">NFSU Goa:</span> Located adjacent to the GEC campus at the Transit Campus. <br />
+                <span className="font-semibold">Landmark:</span> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi. <br />
+                <span className="font-semibold">Local Transport: </span>While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel. <br />
                 <span className="font-semibold">Weather:</span> Nov. in Goa can be light rain; we recommend carrying an umbrella and/or a raincoat.
               </p>
             </div> 
