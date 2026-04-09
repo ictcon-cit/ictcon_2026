@@ -50,19 +50,21 @@ const SubmissionPage = () => {
             <span className="mt-2 inline-flex items-center rounded-full bg-slate-100 px-4 py-1 text-xs md:text-sm font-medium text-slate-600">
 
             {/* ===== Cards Section ===== */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX)
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
-                  Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
-                  Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
-                </p>
-              </div>
-             </div>
+            <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
+                <div className="text-red-600 font-extrabold text-2xl mb-4">
+                        1. By Air (Dabolim Airport GOI)/Manohar International Airport (GOX)
+                </div>
+                      <div className="space-y-2">
+                        <div> 
+                           The Goa International Airport (Dabolim) is the nearest airport, located about 38 km from the campus, while GOX is 64km.
+                           Pre-paid Taxi: The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
+                           Bus: You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
+                        </div>
+                       </div>
+            </div>
+
               
+  
               {/* ===== Cards Section ===== */}
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white shadow-md rounded-xl border-l-4 border-red-500 p-6">
