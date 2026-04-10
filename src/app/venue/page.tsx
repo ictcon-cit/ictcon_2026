@@ -11,35 +11,98 @@ export default function VenuePage() {
         <main className="w-full flex justify-center pb-16 px-4">
           <div className="w-full max-w-6xl mt-10 space-y-16">
 
-            {/* ================= HOST INSTITUTE ================= */}
+            {/* ================= HOW TO REACH ================= */}
             <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
-              <h2 className="text-3xl font-bold text-blue-900 mb-4">
-                Address: National Forensic Sciences University Goa Campus
+              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
+                How to Reach IIT Goa and NFSU Goa?
               </h2>
 
-              <div className="w-20 h-1 bg-blue-500 mb-6 rounded-full"></div>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                IIT Goa and NFSU Goa are currently operating from the Farmagudi Campus in Ponda, Goa.
+                Located approximately 30 km from the state capital, Panaji, the campus is well-connected
+                by road, rail, and air.
+              </p>
 
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                {/* Text */}
-                <p className="text-gray-700 leading-relaxed text-base md:text-lg">
-                  Located in the lush greenery of Ponda in South Goa, the transit campus of NFSU Goa was inaugurated on 14 October 2021 by the Hon’ble Union Home Minister of India. In a short time, it has evolved into a full-fledged academic institution offering specialized programs in Forensic Science and Cyber Security. Along with academics, the campus actively conducts training, conferences, and workshops to promote forensic best practices. With a vision to become a Centre of Excellence, NFSU Goa focuses on high-quality education, research, and overall student development, aiming to produce technologically skilled and ethically strong professionals.
-                </p>
+              <h3 className="font-semibold text-lg mt-4 mb-2">
+                1. By Air (Dabolim Airport GOI / Manohar International Airport GOX)
+              </h3>
+              <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                <li>
+                  <b>Pre-paid Taxi:</b> Most convenient. Mention "Farmagudi, Ponda". Takes ~40–50 mins.
+                </li>
+                <li>
+                  <b>Bus:</b> Airport → Vasco → Panaji → Ponda/Farmagudi (not ideal with luggage).
+                </li>
+              </ul>
 
-                {/* Map */}
-                <div className="w-full h-64 md:h-72 rounded-xl overflow-hidden border">
-                  <iframe
-                    title="NIT Calicut Map"
-                    className="w-full h-full"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    allowFullScreen
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d523.7819934578334!2d74.01301173776356!3d15.412295799688136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbb145af949a9%3A0x1655ee05cab626a4!2sNational%20Forensic%20Sciences%20University!5e1!3m2!1sen!2sin!4v1775129264778!5m2!1sen!2sin"
-                  ></iframe>
-                </div>
-              </div>
+              <h3 className="font-semibold text-lg mt-4 mb-2">
+                2. By Rail (Railway Stations)
+              </h3>
+              <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                <li>
+                  <b>Madgaon Junction (MAO):</b> ~20 km, best connected. Taxi ~35–40 mins.
+                </li>
+                <li>
+                  <b>Karmali (KRMI):</b> ~18 km, closest from north route. Taxi ~30 mins.
+                </li>
+              </ul>
+
+              <h3 className="font-semibold text-lg mt-4 mb-2">
+                3. By Road (Buses & Taxis)
+              </h3>
+              <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                <li>
+                  <b>From Panaji:</b> Frequent buses to Ponda. Get down at Farmagudi Bus Stop.
+                </li>
+                <li>
+                  <b>From Ponda City:</b> Campus is 3 km away. Autos/taxis available.
+                </li>
+              </ul>
             </section>
 
-            
+            {/* ================= CAMPUS LOCATIONS ================= */}
+            <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
+              <h2 className="text-2xl font-bold text-black mb-4">
+                Campus Locations
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Once you reach the Farmagudi plateau:
+              </p>
+
+              <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                <li>
+                  <b>IIT Goa:</b> Inside GEC Campus. Follow signboards for IIT Goa Administration.
+                </li>
+                <li>
+                  <b>NFSU Goa:</b> Adjacent to GEC at the Transit Campus.
+                </li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                <b>Landmark:</b> Near Shivaji Statue and Gopal Ganapati Temple.
+              </p>
+
+              <p className="text-gray-700 mt-2">
+                <b>Local Transport:</b> Prefer taxis or GoaMiles for late evening travel.
+              </p>
+
+              <p className="text-gray-700 mt-2">
+                <b>Weather:</b> Light rain possible in November; carry umbrella/raincoat.
+              </p>
+
+              <div className="mt-4 text-gray-700 space-y-2">
+                <p>
+                  <b>45-min flight from Mumbai:</b> Direct flights to Goa (GOI/GOX).
+                </p>
+                <p>
+                  <b>2-hour flight from Delhi:</b> Direct flights available.
+                </p>
+                <p>
+                  Local transport like taxis, hotel pickups, buses, and rentals are available within Goa.
+                </p>
+              </div>
+            </section>
 
             {/* ================= STAY IN PONDA ================= */}
             <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
@@ -61,20 +124,8 @@ export default function VenuePage() {
                 <li>Marias House</li>
               </ul>
 
-              {/* IMAGE PLACEHOLDER */}
-              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                  Image Placeholder
-                </div>
-                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                  Image Placeholder
-                </div>
-                <div className="h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                  Image Placeholder
-                </div>
-              </div>
+              
             </section>
-
             {/* ================= TOURIST ATTRACTIONS ================= */}
             <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
               <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-6">
@@ -97,22 +148,31 @@ export default function VenuePage() {
                 <li><b>Anjuna:</b> Famous flea market and vibrant nightlife.</li>
               </ul>
 
-              {/* IMAGE PLACEHOLDER GRID */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                  Image Placeholder
-                </div>
-                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                  Image Placeholder
-                </div>
-                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                  Image Placeholder
-                </div>
-                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                  Image Placeholder
-                </div>
-              </div>
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <img
+    src="/images/tourists/image_1.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+  <img
+    src="/images/tourists/image_2.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+  <img
+    src="/images/tourists/image_4.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+  <img
+    src="/images/tourists/image_3.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+</div>
             </section>
+
+            
 
           </div>
         </main>
