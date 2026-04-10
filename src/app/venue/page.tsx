@@ -28,10 +28,12 @@ export default function VenuePage() {
               </h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>
-                  <b>Pre-paid Taxi:</b> Most convenient. Mention "Farmagudi, Ponda". Takes ~40–50 mins.
+                  <b>Pre-paid Taxi:</b>The most convenient option. Available at the airport counter; mention "Farmagudi, Ponda" as your destination. It takes approximately 40–50 minutes.
+
                 </li>
                 <li>
-                  <b>Bus:</b> Airport → Vasco → Panaji → Ponda/Farmagudi (not ideal with luggage).
+                  <b>Bus:</b>You can take a bus to Vasco-da-Gama, then to Panaji, and finally to Ponda/Farmagudi. (Not recommended if carrying heavy luggage).
+
                 </li>
               </ul>
 
@@ -40,10 +42,12 @@ export default function VenuePage() {
               </h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>
-                  <b>Madgaon Junction (MAO):</b> ~20 km, best connected. Taxi ~35–40 mins.
+                  <b>Madgaon Junction (MAO):</b>Located about 20 km away. This is the most well-connected station. A taxi from Madgaon to Farmagudi takes about 35–40 minutes.
+
                 </li>
                 <li>
-                  <b>Karmali (KRMI):</b> ~18 km, closest from north route. Taxi ~30 mins.
+                  <b>Karmali (KRMI):</b> Located about 18 km away. This is the closest station on the Konkan Railway route from the north (Mumbai/Ratnagiri). A taxi takes about 30 minutes.
+
                 </li>
               </ul>
 
@@ -52,10 +56,11 @@ export default function VenuePage() {
               </h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>
-                  <b>From Panaji:</b> Frequent buses to Ponda. Get down at Farmagudi Bus Stop.
+                  <b>From Panaji:</b> Frequent KTC (Kadamba) and private buses run from the Panaji KTC Bus Stand to Ponda. Ask the conductor to drop you at the "Farmagudi Bus Stop" (near the Ganpati Temple).
+
                 </li>
                 <li>
-                  <b>From Ponda City:</b> Campus is 3 km away. Autos/taxis available.
+                  <b>From Ponda City:</b> The campus is just 3 km from the main Ponda Bus Stand. Local rickshaws and taxis are easily available.
                 </li>
               </ul>
             </section>
@@ -72,35 +77,42 @@ export default function VenuePage() {
 
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>
-                  <b>IIT Goa:</b> Inside GEC Campus. Follow signboards for IIT Goa Administration.
+                  <b>IIT Goa:</b> Located within the GEC (Goa Engineering College) Campus. Follow the signboards for "IIT Goa Administration" or the specific venue (e.g., LT-3).
+
                 </li>
                 <li>
-                  <b>NFSU Goa:</b> Adjacent to GEC at the Transit Campus.
+                  <b>NFSU Goa:</b> Located adjacent to the GEC campus at the Transit Campus.
+
                 </li>
               </ul>
 
               <p className="text-gray-700 mt-4">
-                <b>Landmark:</b> Near Shivaji Statue and Gopal Ganapati Temple.
+                <b>Landmark:</b> The campus is located very close to the historic Shivaji Statue and the Gopal Ganapati Temple at Farmagudi.
+
               </p>
 
               <p className="text-gray-700 mt-2">
-                <b>Local Transport:</b> Prefer taxis or GoaMiles for late evening travel.
+                <b>Local Transport:</b> While buses are frequent during the day, we recommend booking a taxi or using the GoaMiles app for late-evening travel.
+
               </p>
 
               <p className="text-gray-700 mt-2">
-                <b>Weather:</b> Light rain possible in November; carry umbrella/raincoat.
+                <b>Weather:</b>  During November, there can be light rain in Goa; we recommend carrying an umbrella and/or a raincoat.
+
               </p>
 
               <div className="mt-4 text-gray-700 space-y-2">
                 <p>
-                  <b>45-min flight from Mumbai:</b> Direct flights to Goa (GOI/GOX).
+                  <b>45-min flight from Mumbai to Goa:</b> Take a direct flight from Chhatrapati Shivaji Maharaj International Airport (BOM) in Mumbai to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight duration is approximately 45 minutes.
+
                 </p>
                 <p>
-                  <b>2-hour flight from Delhi:</b> Direct flights available.
+                  <b>2-hour flight from Delhi to Goa:</b> Board a direct flight from Indira Gandhi International Airport (DEL) in Delhi to Dabolim Airport (GOI)/ Manohar International Airport (GOX) in Goa. The flight takes around 2 hours. 
+                  <br />
+After arriving in Goa, local transport options such as taxis, the hotel's pick-up/drop-off service, buses, and rental cars are available to take you to your destination within Goa.
+
                 </p>
-                <p>
-                  Local transport like taxis, hotel pickups, buses, and rentals are available within Goa.
-                </p>
+               
               </div>
             </section>
 
