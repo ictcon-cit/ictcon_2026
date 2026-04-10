@@ -16,7 +16,7 @@ export default function HomeCara() {
     { stringValue: "/images/carousel/new/Ictcon2025_1.jpeg", position: "center" },
     { stringValue: "/images/carousel/new/home_1.jpeg", position: "center 30%" },
     { stringValue: "/images/carousel/new/home_2.jpeg", position: "center 25%" },
-    { stringValue: "/images/carousel/new/homepage_nfsu.jpeg", position: "center 10%" },
+    { stringValue: "/images/carousel/new/homepage_nfsu.jpeg", position: "center 95%" },
   ];
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function HomeCara() {
       setActiveSlide((prev) =>
         prev === defData.length - 1 ? 0 : prev + 1
       );
-    }, 3000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [defData.length]);
