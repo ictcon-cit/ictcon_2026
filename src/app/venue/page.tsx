@@ -160,31 +160,211 @@ After arriving in Goa, local transport options such as taxis, the hotel's pick-u
                 <li><b>Anjuna:</b> Famous for its flea market and vibrant nightlife.</li>
               </ul>
 
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-  <img
-    src="/images/tourists/image_1.png"
-    alt="Goa Beach"
-    className="h-48 w-full object-cover rounded-lg"
-  />
-  <img
-    src="/images/tourists/image_2.png"
-    alt="Goa Beach"
-    className="h-48 w-full object-cover rounded-lg"
-  />
-  <img
-    src="/images/tourists/image_4.png"
-    alt="Goa Beach"
-    className="h-48 w-full object-cover rounded-lg"
-  />
-  <img
-    src="/images/tourists/image_3.png"
-    alt="Goa Beach"
-    className="h-48 w-full object-cover rounded-lg"
-  />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+  <div className="flex flex-col">
+    <img
+      src="/images/tourists/image_1.png"
+      alt="Anjuna Beach"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 font-medium">Anjuna Beach</p>
+  </div>
+
+  <div className="flex flex-col">
+    <img
+      src="/images/tourists/image_2.png"
+      alt="Palolem Beach"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 font-medium">Palolem Beach</p>
+  </div>
+
+  <div className="flex flex-col">
+    <img
+      src="/images/tourists/image_4.png"
+      alt="Pebble Beach"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 font-medium">Pebble Beach</p>
+  </div>
+
+  <div className="flex flex-col">
+    <img
+      src="/images/tourists/image_3.png"
+      alt="Benaulim Beach"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 font-medium">Benaulim Beach</p>
+  </div>
+
 </div>
             </section>
 
-            
+             {/* ================= HISTORICAL AND NATURAL SITES ================= */}
+            <section className="bg-white rounded-2xl shadow-lg border p-6 md:p-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
+                Historical and Natural Sites
+              </h2>
+
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
+                Historical and Cultural Sites
+              </h3>
+
+              <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+                <li><b>Fort Aguada:</b> Offers panoramic views of the coastline.</li>
+                <li><b>Basilica of Bom Jesus:</b> A significant historical and architectural landmark in Old Goa.</li>
+                <li><b>Old Goa:</b> A UNESCO World Heritage site with historical churches and buildings.</li>
+                <li><b>Fontainhas:</b> The historic Latin Quarter of Panaji, with old Portuguese architecture.</li>
+                <li><b>Chapora Fort:</b> A historical fort overlooking the Chapora River.</li>
+              </ul>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+  
+  <div className="flex flex-col items-center">
+    <img
+      src="/images/tourists/Basilica of Bom Jesus.png"
+      alt="Basilica of Bom Jesus"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 text-center font-medium">
+      Basilica of Bom Jesus
+    </p>
+  </div>
+
+  <div className="flex flex-col items-center">
+    <img
+      src="/images/tourists/LatinQuarter.png"
+      alt="Fontainhas Latin Quarter"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 text-center font-medium">
+      Fontainhas Latin Quarter
+    </p>
+  </div>
+
+  <div className="flex flex-col items-center">
+    <img
+      src="/images/tourists/fort.png"
+      alt="Aguada Fort"
+      className="h-48 w-full object-cover rounded-lg"
+    />
+    <p className="mt-2 text-center font-medium">
+      Aguada Fort
+    </p>
+  </div>
+
+</div>
+
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
+                Natural Attractions
+              </h3>
+
+              <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+                <li><b>Dudhsagar Falls:</b> A majestic, multi-tiered waterfall set amidst lush greenery.</li>
+                <li><b>Salim Ali Bird Sanctuary:</b> A haven for bird watchers on Chorao Island.</li>
+                <li><b>Divar Island:</b> Offers scenic views and a glimpse into a different pace of Goan life.</li>
+                <li><b>Spice Plantations:</b> Explore the fragrant hinterland with a tour of spice farms.</li>
+              </ul>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                <div>
+                  <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                     <img
+    src="/images/tourists/dudhsagar.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                  </div>
+                  <p className="text-center mt-2 font-medium">Dudhsagar Waterfall</p>
+                </div>
+                <div>
+                  <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                     <img
+    src="/images/tourists/Savari.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                  </div>
+                  <p className="text-center mt-2 font-medium">Savari Waterfall</p>
+                </div>
+                <div>
+                  <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <img
+    src="/images/tourists/nature1.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                  </div>
+                </div>
+                <div>
+                  <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <img
+    src="/images/tourists/nature2.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
+                Activities and Experiences
+              </h3>
+
+              <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+                <li><b>Water Sports:</b> Enjoy activities like parasailing, jet skiing, and scuba diving, especially around Baga and Grand Island.</li>
+                <li><b>Markets:</b> Shop for souvenirs and local goods at the Anjuna Flea Market or the Mapusa Friday Market.</li>
+                <li><b>Cruises:</b> Take a sunset cruise on the Mandovi River.</li>
+                <li><b>Nightlife:</b> Experience the party scene on streets like Tito's Lane in Baga.</li>
+                <li><b>Museums:</b> Visit the Naval Aviation Museum in Bogmalo.</li>
+              </ul>
+
+              <div className="flex justify-center mb-10">
+                <div className="h-48 w-96 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <img
+    src="/images/tourists/activity1.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                </div>
+              </div>
+
+              <p className="text-gray-700 mb-6">
+                For more details, please visit <span className="text-blue-600 underline">Goa Tourism (https://goatourism.gov.in/)</span>
+              </p>
+
+              <p className="text-gray-700 mb-4 font-semibold">
+                PLACES NEARBY GOA: AMBOLI, MAHARASHTRA; KARWAR, KARNATAKA; MURUDESHWAR, KARNATAKA; DANDELI, KARNATAKA; etc..
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                   <img
+    src="/images/tourists/activity2.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                </div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
+                   <img
+    src="/images/tourists/activity3.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  />
+                </div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center"> <img
+    src="/images/tourists/activity4.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  /></div>
+                <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center"> <img
+    src="/images/tourists/activity5.png"
+    alt="Goa Beach"
+    className="h-48 w-full object-cover rounded-lg"
+  /></div>
+              </div>
+            </section>
 
           </div>
         </main>
