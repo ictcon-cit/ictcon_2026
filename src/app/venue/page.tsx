@@ -154,10 +154,10 @@ After arriving in Goa, local transport options such as taxis, the hotel's pick-u
               </h3>
 
               <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
-                <li><b>Baga and Calangute:</b> Known for water sports.</li>
-                <li><b>Palolem and Agonda:</b> Peaceful beaches,ideal for leisurely walks.</li>
-                <li><b>Arambol:</b> Bohemian vibe.</li>
-                <li><b>Anjuna:</b> Famous flea market and vibrant nightlife.</li>
+                <li><b>Baga and Calangute:</b> Known for water sports and a high-energy atmosphere.</li>
+                <li><b>Palolem and Agonda:</b> Picturesque and peaceful beaches, ideal for leisurely walks.</li>
+                <li><b>Arambol:</b> Offers a more bohemian and serene vibe.</li>
+                <li><b>Anjuna:</b> Famous for its flea market and vibrant nightlife.</li>
               </ul>
 
              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
