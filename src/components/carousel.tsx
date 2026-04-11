@@ -75,7 +75,7 @@ export default function HomeCara() {
                   (ICTCon 2026)
                 </div>
 
-                <div className="font-bold md:text-3xl sm:text-xl text-xs mt-5 bg-sky-400/80 text-black px-3 py-1 rounded-md">
+                <div className="font-bold md:text-2xl sm:text-xl text-xs mt-5 bg-sky-400/80 text-black px-3 py-1 rounded-md">
                   Hybrid Mode
                 </div>
 
