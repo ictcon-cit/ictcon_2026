@@ -32,6 +32,9 @@ const CommitteePage = () => {
             General Chairs
           </div>
           <div className="space-y-2">
+            <div>
+              Prof. Dharmendra Singh, Director, Indian Institute of Information Technology Vadodara (IIITV)
+            </div>
             <div>Prof. Petia Radeva, University of Barcelona, Spain</div>
             <div>
               Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of Technology Sydney, Australia
