@@ -39,7 +39,7 @@ const CommitteePage = () => {
             <div>
               Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of Technology Sydney, Australia
             </div>
-            <div>TBD</div>
+         
           </div>
         </div>
 
@@ -72,7 +72,7 @@ const CommitteePage = () => {
             <div>Dr. Pranav Kumar Singh, CIT Kokrajhar</div>
             <div>Dr. Apurbalal Senapati, CIT Kokrajhar</div>
             <div>Dr. Thaseem Thajudeen, IIT Goa</div>
-            <div>TBD</div>
+          
           </div>
         </div>
 
