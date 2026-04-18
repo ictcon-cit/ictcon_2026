@@ -8,24 +8,12 @@ export const KeyNoteData: KeynoteDataType[] = [
   //  url: "#",
  // },
   {
-     name: "Prof. Jonathan Chan",
-     organization: "ETRO, Vrije Universiteit Brussel (VUB), Belgium",
-    image: "/images/speakers/Prof. Jonathan Chan.jpg",
+     name: "Prof. Dharmendra Singh",
+     organization: " Director, Indian Institute of Information Technology Vadodara (IIITV)",
+    image: "/images/speakers/Prof.DS.jpeg",
      url: "#",
    },
-   {
-    name: " Prof. Petia Radeva",
-    organization: "University of Barcelona, Spain",
-    image: "/images/speakers/newProf.jpg",
-    url: "#",
-  
-   },
-  {
-    name: "Prof. Mahesh Chandra Govil",
-    image: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
-    organization: "Director - NIT Sikkim",
-    url: "#",
-  },
+   
   
   // {
   //   name: "Dr. Madhusudan Singh",
@@ -33,24 +21,7 @@ export const KeyNoteData: KeynoteDataType[] = [
   //   organization: "Oregon Institute of Technology, Klamath Falls, Oregon, U.S.",
   //   url: "#",
   // },
-  {
-    name: "Prof. Manish Kumar",
-    image: "/images/speakers/Prof. Manish Kumar.jpg",
-    organization: "IIIT Allahabad, India",
-    url: "#",
-  },
-  {
-    name: "Prof. Dr. G. Kulanthaivel",
-    image: "/images/speakers/Proj Dr G.jpg",
-    organization: "NITTTR, Chennai, India",
-    url: "#",
-  },
-  {
-      name: "Dr. Shitala Prasad",
-      organization: "Assistant Professor, IIT Goa",
-      image: "/images/speakers/Dr. shitala Prasad.jpg",
-      url: "#",
-  },
+  
   // {
   //   name: "Prof. Rahul Dev Garg",
   //   image: "/images/speakers/Prof. R.D.Garg.jpg",
