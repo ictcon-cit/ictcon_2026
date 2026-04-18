@@ -231,6 +231,7 @@ const CommitteePage = () => {
             <div>Dr. Sabyasachi Bhattacharyya, Assam Engineering College and Barak Valley Engineering College, Assam</div>
             <div>Prof. Manoj Gupta, SMVDU Jammu</div>
             <div>Dr. Vandana Bharti, IIT Ropar</div>
+            <div>Dr. Ankit Kumar Jain, NIT Kurukshetra</div>
           </div>
         </div>
 
