@@ -16,15 +16,10 @@ interface KeynoteProps {
 const Keynote: React.FC<KeynoteProps> = ({ data }) => {
   return (
     <>
-      {/* TEMPORARY PLACEHOLDER */}
-      <div className="flex justify-center items-center h-40 md:h-60">
-        <h1 className="text-xl md:text-3xl font-bold text-gray-600 text-center">
-          SPEAKERS TO BE ADDED SOON
-        </h1>
-      </div>
+      
 
       {/* ORIGINAL CODE (COMMENTED OUT) */}
-      {/*
+      {
       <div className="flex flex-wrap justify-center gap-10 md:p-10 p-3 mt-10">
         {data.map((item, index) => (
           <Link
@@ -56,7 +51,7 @@ const Keynote: React.FC<KeynoteProps> = ({ data }) => {
           </Link>
         ))}
       </div>
-      */}
+      }
     </>
   );
 };
