@@ -13,6 +13,12 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/Prof.DS.jpeg",
      url: "#",
    },
+   {
+    name: "Dr. Gaurav Pandey",
+    organization: " Department of Engineering Technology & Industrial Distribution,Texas A&M University (TAMU), United States",
+    image: "/images/speakers/DR_GP.jpeg",
+    url: "#",
+   },
    
   
   // {
