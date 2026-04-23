@@ -680,14 +680,14 @@ export default function Home() {
       <div className="px-4 sm:px-16 py-3">
         <div className="shadow-sm bg-gradient-to-br from-blue-100 via-white to-blue-100 overflow-hidden rounded-lg">
           <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-5 bg-gradient-to-r from-blue-700 to-blue-400 text-white tracking-wide mb-4 rounded-t-md">
-            Previous Keynote Speakers (ICTCon2025)
+             Keynote Speakers (ICTCon 2026)
           </h1>
           <div className="flex flex-wrap justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8 ">
             {[
               {
-                name: "Prof. Mahesh Chandra Govil",
-                img: "/images/speakers/Prof. Mahesh Chandra Govil Director.jpg",
-                title: "Director - NIT Sikkim",
+                name:  "Prof. Dharmendra Singh",
+                img: "/images/speakers/Prof.DS.jpeg",
+                title: " Department of Engineering Technology & Industrial Distribution,Texas A&M University (TAMU), United States",
               },
               {
                 name: "Prof. Petia Radeva",
@@ -697,25 +697,11 @@ export default function Home() {
               },
 
               {
-                name: "Prof. Manish Kumar",
-                img: "/images/speakers/Prof. Manish Kumar.jpg",
-                title: "IIIT Allahabad, India",
+                name: "Dr. Gaurav Pandey",
+                img: "/images/speakers/DR_GP.jpeg",
+                title: " Department of Engineering Technology & Industrial Distribution,Texas A&M University (TAMU), United States",
               },
-              {
-                name: " Prof. Jonathan Chan",
-                img: "/images/speakers/Prof. Jonathan Chan.jpg",
-                title: "ETRO, Vrije Universiteit Brussel (VUB), Belgium",
-              },
-              {
-                name: "Prof. Dr. G. Kulanthaivel",
-                img: "/images/speakers/Proj Dr G.jpg",
-                title: "NITTTR, Chennai, India",
-              },
-              {
-                name: "Dr. Shitala Prasad",
-                img: "/images/speakers/Dr. shitala Prasad.jpg",
-                title: "Assistant Professor, IIT Goa",
-              },
+              
             ].map((speaker, idx) => (
               <div
                 key={idx}
