@@ -687,7 +687,7 @@ export default function Home() {
               {
                 name:  "Prof. Dharmendra Singh",
                 img: "/images/speakers/Prof.DS.jpeg",
-                title: " Department of Engineering Technology & Industrial Distribution,Texas A&M University (TAMU), United States",
+                title: " Director, Indian Institute of Information Technology Vadodara (IIITV)",
               },
               {
                 name: "Prof. Petia Radeva",
