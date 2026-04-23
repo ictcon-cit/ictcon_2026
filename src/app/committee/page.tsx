@@ -167,7 +167,7 @@ const CommitteePage = () => {
             <div>Dr. Sanjeev Kumar, IIT Roorkee</div>
             <div>Dr. Rajib Kumar Jha, IIT Patna</div>
             <div>Dr. Rakesh Tripathi, NIT Raipur</div>
-            <div>Prof. Anshuman Kalla, CGPIT Gujrat</div>
+            <div>Dr. Anshuman Kalla, SIT Pune</div>
             <div>Dr. Gaurav Bhatnagar, IIT Jodhpur</div>
             <div>Dr. Subrahmanyam Murala, IIT Ropar</div>
             <div>Dr. Puneet Goyal, IIT Ropar</div>
