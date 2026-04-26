@@ -701,6 +701,11 @@ export default function Home() {
                 img: "/images/speakers/DR_GP.jpeg",
                 title: " Department of Engineering Technology & Industrial Distribution,Texas A&M University (TAMU), United States",
               },
+              {
+                name: "Prof. Sebastiano Battiato",
+                img: "/images/speakers/Prof.SB.jpeg",
+                title: "University of Catania, Italy",
+              },
               
             ].map((speaker, idx) => (
               <div
