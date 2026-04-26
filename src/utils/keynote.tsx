@@ -19,6 +19,12 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/DR_GP.jpeg",
     url: "#",
    },
+   {
+    name: "Prof. Sebastiano Battiato ",
+    organization: " University of Catania, Italy",
+    image: "/images/speakers/Prof.SB.jpeg",
+    url: "#",
+   },
    
   
   // {
