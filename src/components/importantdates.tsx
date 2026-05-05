@@ -18,7 +18,8 @@ const ImportantDates = () => {
                     <span className="line-through text-red-500">
                       5th May, 2026
                     </span>{" "}
-                    <span className="text-green-600">25th May, 2026</span>
+                    <br />
+                    <span className="text-green-600">25th May, 2026 (Extended)</span>
                   </>
                 ],
                 ["Notification of Acceptance", "10th July, 2026"],
