@@ -150,7 +150,7 @@ export default function AboutSection() {
              <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
   <span className="line-through text-red-500">5th May, 2026</span>
   {" "}
-  <span className="text-green-700">25th May, 2026</span>
+  <span className="text-green-700">25th May, 2026 (Extended)</span>
 </p>
               <a
                 href="https://cmt3.research.microsoft.com/ICTCon2026"
