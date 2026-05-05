@@ -147,10 +147,11 @@ export default function AboutSection() {
               <h3 className="text-xl sm:text-2xl font-semibold mb-2">
                 Last Date of Paper Submission
               </h3>
-              <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-                5th May, 2026
-              </p>
-
+             <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
+  <span className="line-through text-red-500">5th May, 2026</span>
+  {" "}
+  <span className="text-green-700">25th May, 2026</span>
+</p>
               <a
                 href="https://cmt3.research.microsoft.com/ICTCon2026"
                 target="_blank"
