@@ -4,7 +4,6 @@ const ImportantDates = () => {
       <div className="mx-auto max-w-6xl px-3">
         <div className="overflow-hidden rounded-lg bg-white shadow-md">
           <table className="w-full table-fixed text-sm md:text-base">
-            {/* Fixed column alignment */}
             <colgroup>
               <col className="w-[70%]" />
               <col className="w-[30%]" />
@@ -13,7 +12,15 @@ const ImportantDates = () => {
             <tbody>
               {[
                 ["Paper Submission Starts", "1st April, 2026"],
-                ["Last Date of Paper Submission", "5th May, 2026"],
+                [
+                  "Last Date of Paper Submission",
+                  <>
+                    <span className="line-through text-red-500">
+                      5th May, 2026
+                    </span>{" "}
+                    <span className="text-green-600">25th May, 2026</span>
+                  </>
+                ],
                 ["Notification of Acceptance", "10th July, 2026"],
                 ["Author Registration", "5th August, 2026"],
                 ["Date of Conference (Hybrid Mode)", "2–4 November, 2026"],
