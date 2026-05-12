@@ -131,7 +131,8 @@ export default function SponsorshipPage() {
               <a
                 href="mailto:ictcon2026@cit.ac.in"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition"
-              >
+              >  ictcon@iitgoa.ac.in
+              <br />
                 conf.ictcon26@gmail.com
               </a>
             </div>
