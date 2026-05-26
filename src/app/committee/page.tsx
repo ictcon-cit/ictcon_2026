@@ -35,6 +35,9 @@ const CommitteePage = () => {
             <div>
               Prof. Dharmendra Singh, Director, Indian Institute of Information Technology Vadodara (IIITV)
             </div>
+            <div>
+            Prof. Mahesh Chandra Govil, Director, NIT Sikkim
+            </div>
             <div>Prof. Petia Radeva, University of Barcelona, Spain</div>
             <div>
               Prof. Biswajeet Pradhan, Director, CAMGIS Center, University of Technology Sydney, Australia
