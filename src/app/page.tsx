@@ -781,13 +781,13 @@ export default function Home() {
           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex flex-col items-center justify-center">
             <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100 bg-white shadow-md">
               <a
-                href="https://link.springer.com/book/9783032102492"
+                href="https://link.springer.com/book/9783032284778"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full h-full"
               >
                 <img
-                  src="/SpringerAdd.jpg"
+                  src="/springer2025.jpeg"
                   alt="springer"
                   className="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-300"
                 />
@@ -795,7 +795,7 @@ export default function Home() {
             </div>
 
             <p className="mt-3 text-2xl font-semibold text-gray-700 text-center">
-              Previous Edition of ICTCon 2024
+              Previous Edition of ICTCon 2025
             </p>
           </div>
         </div>
