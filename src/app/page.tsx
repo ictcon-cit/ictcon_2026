@@ -729,97 +729,151 @@ export default function Home() {
         </div>
       </div>
       {/* Address Section */}
-      <div className="px-4 sm:px-16 py-3 mb-2">
-        <div className="relative rounded-2xl shadow-sm bg-gradient-to-br from-white via-blue-50 to-blue-100 overflow-hidden border border-blue-200 flex flex-col lg:flex-row items-stretch">
-          <div className="flex-1 flex flex-col justify-center items-center p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-blue-100 to-white border-b lg:border-b-0 lg:border-r border-blue-200">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-blue-800 text-center tracking-wider drop-shadow-lg mb-4">
-              Address
-            </h2>
-            <p className="text-base sm:text-lg leading-relaxed mb-4 text-gray-700 text-center font-medium">
-           {  /* <span className="block text-blue-900 text-xl sm:text-1.5xl mb-2 font-bold">
-                 School of Mathematics and Computer Science – Computer Science and Engineering, 
-              </span>  */}
-              <span className="block text-blue-900 text-xl sm:text-2xl mb-2 font-bold">
-               National Forensic Sciences University Goa Campus
-              </span>
-             Opp Goa Dairy Curti, Ponda, Goa – 403401
-              <br />
-              India
-            </p>
+     <div className="px-4 md:px-10 lg:px-16 py-8">
+  <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
+    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 p-6 lg:p-8">
+
+      {/* Address Section */}
+      <div className="lg:col-span-4">
+        <div className="h-full rounded-3xl bg-gradient-to-br from-blue-50 via-white to-white border border-blue-100 shadow-lg p-8 lg:p-10 flex flex-col justify-center items-center text-center">
+
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-blue-900 tracking-wide mb-6">
+            Address
+          </h2>
+
+          <p className="text-gray-700 text-lg leading-relaxed">
+            <span className="block text-blue-900 text-2xl font-bold mb-3">
+              National Forensic Sciences University Goa Campus
+            </span>
+
+            Opp Goa Dairy Curti, Ponda, Goa – 403401
+            <br />
+            India
+          </p>
+
+          {/* Email Chips */}
+          <div className="flex flex-wrap justify-center gap-3 mt-8">
+
+            <a
+              href="mailto:ictcon@iitgoa.ac.in"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-700 text-white font-medium shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300"
+            >
+              <FaEnvelope />
+              ictcon@iitgoa.ac.in
+            </a>
+
             <a
               href="mailto:ictcon@cit.ac.in"
-              className="inline-flex items-center gap-2 mt-4 px-4 sm:px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-800 transition-colors text-base sm:text-lg underline decoration-2 decoration-blue-400"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-700 text-white font-medium shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300"
             >
-              <FaEnvelope className="text-lg sm:text-xl" />
-              <span className="break-all sm:break-normal">
-                ictcon@iitgoa.ac.in
-              </span>
-              <br />
-              <span className="break-all sm:break-normal">
-                ictcon@cit.ac.in
-              </span>
-              <br />
-               <span className="break-all sm:break-normal">
-               conf.ictcon26@gmail.com
-              </span>
+              <FaEnvelope />
+              ictcon@cit.ac.in
             </a>
-          </div>
-          <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex items-center justify-center">
-            <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100">
-             <iframe
-    title="NFSU Goa Campus"
-    className="w-full h-full"
-    style={{ border: 0 }}
-    loading="lazy"
-    allowFullScreen
-    referrerPolicy="no-referrer-when-downgrade"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d523.7819934578334!2d74.01301173776356!3d15.412295799688136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbb145af949a9%3A0x1655ee05cab626a4!2sNational%20Forensic%20Sciences%20University!5e1!3m2!1sen!2sin!4v1775129264778!5m2!1sen!2sin"
-  ></iframe>
 
-            </div>
-          </div>
-          <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex flex-col items-center justify-center">
-            <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100 bg-white shadow-md">
-              <a
-                href="https://link.springer.com/book/9783032284778"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full h-full"
-              >
-                <img
-                  src="/springer2025.jpeg"
-                  alt="springer"
-                  className="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-300"
-                />
-              </a>
-            </div>
+            <a
+              href="mailto:conf.ictcon26@gmail.com"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-700 text-white font-medium shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300"
+            >
+              <FaEnvelope />
+              conf.ictcon26@gmail.com
+            </a>
 
-            <p className="mt-3 text-2xl font-semibold text-gray-700 text-center">
-              Previous Edition of ICTCon 2025
-            </p>
-          </div>
-           <div className="flex-1 w-full h-full p-4 sm:p-6 bg-blue-50 flex flex-col items-center justify-center">
-            <div className="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-blue-100 bg-white shadow-md">
-              <a
-                href="https://link.springer.com/book/9783032102492"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full h-full"
-              >
-                <img
-                  src="/SpringerAdd.jpg"
-                  alt="springer"
-                  className="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-300"
-                />
-              </a>
-            </div>
-
-            <p className="mt-3 text-2xl font-semibold text-gray-700 text-center">
-              Previous Edition of ICTCon 2024
-            </p>
           </div>
         </div>
       </div>
+
+      {/* Map Section */}
+      <div className="lg:col-span-4">
+        <div className="h-full bg-white rounded-3xl shadow-lg border border-slate-200 overflow-hidden">
+
+          <div className="px-5 py-4 border-b bg-slate-50">
+            <h3 className="text-lg font-semibold text-slate-700">
+              
+            </h3>
+          </div>
+
+          <div className="h-[380px]">
+            <iframe
+              title="NFSU Goa Campus"
+              className="w-full h-full"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d523.7819934578334!2d74.01301173776356!3d15.412295799688136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbb145af949a9%3A0x1655ee05cab626a4!2sNational%20Forensic%20Sciences%20University!5e1!3m2!1sen!2sin!4v1775129264778!5m2!1sen!2sin"
+            />
+          </div>
+
+        </div>
+      </div>
+
+      {/* ICTCon 2025 */}
+      <div className="lg:col-span-2">
+        <div className="group h-[500px] bg-white rounded-3xl border border-slate-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden flex flex-col">
+
+          <a
+            href="https://link.springer.com/book/9783032284778"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="h-[320px] flex items-center justify-center bg-white p-4 flex-shrink-0">
+              <img
+                src="/springer2025.jpeg"
+                alt="springer"
+                className="max-h-full w-full object-contain group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </a>
+
+          <div className="flex-grow flex flex-col justify-center text-center px-4">
+            <p className="text-xs uppercase tracking-[0.25em] text-blue-600 font-semibold">
+              Springer Proceedings
+            </p>
+
+            <h3 className="text-xl font-bold text-slate-800 mt-3 leading-tight">
+              Previous Edition of ICTCon 2025
+            </h3>
+          </div>
+
+        </div>
+      </div>
+
+      {/* ICTCon 2024 */}
+      <div className="lg:col-span-2">
+        <div className="group h-[500px] bg-white rounded-3xl border border-slate-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden flex flex-col">
+
+          <a
+            href="https://link.springer.com/book/9783032102492"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="h-[320px] flex items-center justify-center bg-white p-4 flex-shrink-0">
+              <img
+                src="/SpringerAdd.jpg"
+                alt="springer"
+                className="max-h-full w-full object-contain group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </a>
+
+          <div className="flex-grow flex flex-col justify-center text-center px-4">
+            <p className="text-xs uppercase tracking-[0.25em] text-blue-600 font-semibold">
+              Springer Proceedings
+            </p>
+
+            <h3 className="text-xl font-bold text-slate-800 mt-3 leading-tight">
+              Previous Edition of ICTCon 2024
+            </h3>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
       {/* <div className="sm:px-16 px-5 py-3 bg-white sm:mx-16 mx-5 rounded-md shadow-md my-5">
         <h2 className="text-4xl font-bold mb-6 text-center">Sponsors</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
