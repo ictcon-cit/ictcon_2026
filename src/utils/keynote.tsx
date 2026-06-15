@@ -24,6 +24,13 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/Prof.SB.jpeg",
     url: "#",
   },
+  {
+    type: "keynote",
+    name: "Dr. Biplab Banerjee",
+    organization: "Centre of Machine Intelligence & Data Science (MInDS), IIT Bombay",
+    image: "/images/speakers/DRBB.jpeg",
+    url: "#",
+  },
 
   {
     type: "industry",
