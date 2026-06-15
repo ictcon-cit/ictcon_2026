@@ -706,6 +706,11 @@ export default function Home() {
                 img: "/images/speakers/Prof.SB.jpeg",
                 title: "University of Catania, Italy",
               },
+              {
+                name: "Dr. Biplab Banerjee",
+                img: "/images/speakers/DRBB.jpeg",
+                title: "Centre of Machine Intelligence & Data Science (MInDS), IIT Bombay",
+              },
               
             ].map((speaker, idx) => (
               <div
