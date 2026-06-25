@@ -14,8 +14,8 @@ const PaperPage = () => {
           </h1>
           <p className="mt-3 text-sm md:text-base">
             ICTCon 2026 invites researchers, academicians, and industry professionals
-            to submit original, high-quality research focusing on Advanced Computing
-            and Forensic Intelligence.
+            to submit original, high-quality research focusing on Advanced Computing,
+            Forensic Intelligence and Technologies.
           </p>
         </div>
 
