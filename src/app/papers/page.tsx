@@ -26,14 +26,8 @@ const PaperPage = () => {
           {[
             {
               title: "Track 1: AI-Driven Intelligence",
-              // focus: "Where Intelligence meets Investigation.",
               points: [
-                // "Multimedia and Deepfake Forensics",
-                // "Biometric Identification and Spoofing Detection",
-                // "AI for Criminal Profiling and Pattern Matching",
-                // "Explainable AI (XAI)",
-                // "Digital Trace Analysis in LLMs",
-                
+                         
                 "Machine Learning and Deep Learning Algorithms", 
                 "Large Language Models and Generative AI",
                 "Explainable and Trustworthy AI",
@@ -45,26 +39,9 @@ const PaperPage = () => {
                 "Intelligent Agents and Decision Support Systems",
               ],
             },
-            // {
-            //   title: "Track 2: Secure and Resilient Computing",
-            //   focus: "Infrastructures that resist and report.",
-            //   points: [
-            //     "High-Performance Computing",
-            //     "Cloud & Edge Security",
-            //     "Quantum-Resistant Cryptography",
-            //     "Blockchain for Data Integrity",
-            //     "Fault-tolerant Systems",
-            //   ],
-            // },
             {
               title: "Track 2: Intelligent Vision & Sensory Systems",
-              // focus: "Processing and Verifying the Physical World.",
               points: [
-                // "Image & Video Enhancement",
-                // "HCI in Investigative Tools",
-                // "Computer Vision Applications",
-                // "Remote Sensing",
-                // "AR/VR Crime Scene Reconstruction",
                 "Computer Vision and Image Processing",
                 "Video Analytics and Multimedia Analysis",
                 "Visual Forensics",
@@ -77,38 +54,10 @@ const PaperPage = () => {
                 "Underwater, Aerial, and Maritime Visual Intelligence",
               ],
             },
-            // {
-            //   title: "Track 4: Data Science and Linguistic Engineering",
-            //   focus: "Extracting Truth from Information.",
-            //   points: [
-            //     "NLP & Legal Analysis",
-            //     "Sentiment Analysis",
-            //     "Adversarial ML",
-            //     "Big Data Analytics",
-            //     "Information Retrieval",
-            //   ],
-            // },
-            // {
-            //   title: "Track 5: Next-Gen Communication",
-            //   focus: "Connectivity with Security.",
-            //   points: [
-            //     "5G/6G Security",
-            //     "IoT & Drone Forensics",
-            //     "Autonomous Systems",
-            //     "Underwater Communication",
-            //     "Quantum Cryptography",
-            //   ],
-            // },
+
             {
               title: "Track 3: Cyber Security & Forensics",
-              // focus: "Defending the Digital World.",
               points: [
-                // "IDS/IPS Systems",
-                // "Cloud & IoT Security",
-                // "DevSecOps",
-                // "Malware Analysis",
-                // "Threat Intelligence",
-
                 "Cyber Security and Digital Forensics",
                 "Malware Analysis and Reverse Engineering",
                 "Network Security and Threat Intelligence",
