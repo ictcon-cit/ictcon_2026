@@ -9,30 +9,29 @@ const PaperPage = () => {
 
         {/* Theme Section */}
         <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-xl shadow-lg text-center mb-10">
-          <h1 className="md:text-3xl text-xl font-bold"> 
-            Intelligent Synergy: Bridging AI, Computing, vision and Forensic Excellence
+          <h1 className="md:text-3xl text-xl font-bold">
+            Intelligent Synergy: Bridging AI, Computing, and Forensic Excellence
           </h1>
           <p className="mt-3 text-sm md:text-base">
             ICTCon 2026 invites researchers, academicians, and industry professionals
-            to submit original, high-quality research focusing on Advanced Computing,
-            Intelligence and Technologies.
+            to submit original, high-quality research focusing on Advanced Computing
+            and Forensic Intelligence.
           </p>
         </div>
 
         {/* Tracks Grid */}
         <div className="grid md:grid-cols-2 gap-8">
 
-          {/* Track Card */}
           {[
             {
-              title: "Track 1: AI-Driven Intelligence",
+              title: "AI-Driven Intelligence",
+              focus: "Topics of interest include, but are not limited to:",
               points: [
-                         
-                "Machine Learning and Deep Learning Algorithms", 
+                "Machine Learning and Deep Learning Algorithms",
                 "Large Language Models and Generative AI",
                 "Explainable and Trustworthy AI",
                 "Pattern Recognition and Data Analytics",
-                "Multimedia and Deepfake Forensics Intelligence", 
+                "Intelligence for Multimedia and Deepfake Forensics",
                 "Biometric Identification and Spoofing Detection",
                 "Social Media Analytics and Intelligence",
                 "Adversarial Machine Learning",
@@ -40,7 +39,8 @@ const PaperPage = () => {
               ],
             },
             {
-              title: "Track 2: Intelligent Vision & Sensory Systems",
+              title: "Intelligent Vision & Sensory Systems",
+              focus: "Topics of interest include, but are not limited to:",
               points: [
                 "Computer Vision and Image Processing",
                 "Video Analytics and Multimedia Analysis",
@@ -49,20 +49,20 @@ const PaperPage = () => {
                 "Remote Sensing and Geospatial Intelligence",
                 "Medical and Computational Imaging",
                 "Intelligent Surveillance and Activity Recognition",
-                "AR/VR based Simulation and Reconstruction",
+                "AR/VR for Simulation and Reconstruction",
                 "Vision for Robotics, Drones, and Autonomous Systems",
                 "Underwater, Aerial, and Maritime Visual Intelligence",
               ],
             },
-
             {
-              title: "Track 3: Cyber Security & Forensics",
+              title: "Cyber Security, Digital Forensics and Threat Intelligence",
+              focus: "Topics of interest include, but are not limited to:",
               points: [
                 "Cyber Security and Digital Forensics",
                 "Malware Analysis and Reverse Engineering",
                 "Network Security and Threat Intelligence",
                 "Intrusion Detection and Threat Hunting",
-                "Edge, and IoT Security",
+                "Edge and IoT Security",
                 "Cryptography and Secure Communication",
                 "Mobile and Device Forensics",
                 "Secure Software Systems and DevSecOps",
@@ -93,6 +93,7 @@ const PaperPage = () => {
               </div>
             </div>
           ))}
+
         </div>
 
       </div>
