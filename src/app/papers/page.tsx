@@ -9,13 +9,13 @@ const PaperPage = () => {
 
         {/* Theme Section */}
         <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-xl shadow-lg text-center mb-10">
-          <h1 className="md:text-3xl text-xl font-bold">
-            Intelligent Synergy: Bridging AI, Computing, and Forensic Excellence
+          <h1 className="md:text-3xl text-xl font-bold"> 
+            Intelligent Synergy: Bridging AI, Computing, vision and Forensic Excellence
           </h1>
           <p className="mt-3 text-sm md:text-base">
             ICTCon 2026 invites researchers, academicians, and industry professionals
-            to submit original, high-quality research focusing on Advanced Computing
-            and Forensic Intelligence.
+            to submit original, high-quality research focusing on Advanced Computing,
+            Intelligence and Technologies.
           </p>
         </div>
 
