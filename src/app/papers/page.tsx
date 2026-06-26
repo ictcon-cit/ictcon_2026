@@ -42,7 +42,6 @@ const PaperPage = () => {
                 "Computer Vision and Image Processing",
                 "Multimedia Analysis",
                 "Visual Forensics",
-                "Sensor Fusion and Multimodal Perception",
                 "Remote Sensing and Geospatial Intelligence",
                 "Medical and Computational Imaging",
                 "Intelligent Surveillance and Activity Recognition",
