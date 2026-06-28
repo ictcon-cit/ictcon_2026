@@ -24,44 +24,47 @@ const PaperPage = () => {
 
           {[
             {
-              title: "AI-Driven Intelligence",
+              title: "Artificial Intelligence and Intelligent Analytics",
               focus: "Topics of interest include, but are not limited to:",
               points: [
-                "Pattern Recognition and Data Analytics using ML/DL Algorithms ",
-                "LLMs and Generative AI",
-                "Intelligence for Multimedia and Deepfake Forensics",
-                "Biometric and Spoofing",
-                "Adversarial Machine Learning",
+                "Machine Learning and Deep Learning Algorithms",
+                "Pattern Recognition and Intelligent Data Analytics",
+                "Large Language Models and Generative AI for Security and Forensics",
+                "Explainable and Trustworthy AI",
+                "Adversarial Machine Learning and Robust AI",
                 "Intelligent Agents and Decision Support Systems",
+                "AI for Authentication and Biometric Intelligence",
+                "AI Applications in Digital Investigation and Threat Detection"
               ],
             },
             {
-              title: "Intelligent Vision & Sensory Systems",
+              title: "Computer Vision, Multimedia Intelligence and Forensic Imaging",
               focus: "Topics of interest include, but are not limited to:",
               points: [
                 "Computer Vision and Image Processing",
-                "Multimedia Analysis",
-                "Visual Forensics",
-                "Remote Sensing and Geospatial Intelligence",
-                "Medical and Computational Imaging",
+                "Multimedia Analysis and Content Understanding",
+                "Deepfake Detection and Multimedia Forensics",
+                "Visual Forensics and Image Authentication",
                 "Intelligent Surveillance and Activity Recognition",
-                "AR/VR for Simulation and Reconstruction",
-                "Vision for Robotics, Drones, and Autonomous Systems",
-                "Maritime Visual Intelligence",
+                "Biometric Recognition and Anti-Spoofing",
+                "Vision-Based Autonomous Systems and Drone Intelligence",
+                "3D Vision and Forensic Scene Reconstruction",
+                "AI for Remote Visual Monitoring and Situational Awareness"
               ],
             },
             {
               title: "Cyber Security, Digital Forensics and Threat Intelligence",
               focus: "Topics of interest include, but are not limited to:",
               points: [
-                "Cyber Security and Digital Forensics",
+                "Cybersecurity and Cyber Defense",
                 "Malware Analysis and Reverse Engineering",
                 "Network Security and Threat Intelligence",
                 "Intrusion Detection and Threat Hunting",
-                "Edge and IoT Security",
-                "Cryptography and Secure Algorithms ",
-                "Mobile and Device Forensics",
-                "Secure Software Systems and DevSecOps",
+                "Edge, IoT and Embedded Systems Security",
+                "Mobile and Cloud Forensics",
+                "Secure AI Systems and Adversarial Defense",
+                "Cyber Threat Intelligence and Incident Response",
+                "Privacy-Preserving Intelligent Systems"
               ],
             },
           ].map((track, index) => (
