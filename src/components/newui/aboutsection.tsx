@@ -142,6 +142,13 @@ export default function AboutSection() {
                 />
               </a>
             </div>
+            <div className="flex justify-center mb-6 sm:mb-10">
+                <img
+                  src="/images/CCIS.jpeg"
+                  alt="CCIS"
+                  className="h-28 sm:h-32 lg:h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
+                />
+            </div>
 
             <div className="mb-4 sm:mb-6 text-center">
               <h3 className="text-xl sm:text-2xl font-semibold mb-2">
