@@ -5,7 +5,7 @@ const HorizontalScroll: React.FC = () => {
     <p className="text-blue-500 text-sm md:text-lg whitespace-nowrap overflow-hidden text-ellipsis">
 
        <span className="ml-2 font-semibold text-blue-600">
-  The proceedings of the conference will be published by Scopus Indexed ‐ Springer in Communications in Computer and Information Science series (CCIS), (Approval Pending).
+  The proceedings of the conference will be published by Scopus Indexed ‐ Springer in Communications in Computer and Information Science series (CCIS), ( Final Acceptance of Springer CCIS Proceedings).
 </span>
 
       {/* <span className="font-bold text-red-500">
