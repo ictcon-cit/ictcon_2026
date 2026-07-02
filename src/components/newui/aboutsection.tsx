@@ -109,83 +109,97 @@ export default function AboutSection() {
         </div>
 
         {/* ================= RIGHT (UNCHANGED) ================= */}
-        <div className="w-full lg:w-[40%] shadow-lg bg-white overflow-hidden rounded-lg">
-          <div className="p-3 sm:p-5">
+       <div className="w-full lg:w-[40%] shadow-lg bg-white overflow-hidden rounded-lg">
+  <div className="p-3 sm:p-5">
 
-            <div className="text-center w-full mb-4">
-              <a
-                href="/CFP_ICTCon 2026_new.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-3 sm:py-4 px-3 sm:px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase text-sm sm:text-base"
-                download
-              >
-                <FaFilePdf className="mr-2" />
-                Call for Papers
-              </a>
-            </div>
+    {/* Call for Papers Button */}
+    <div className="text-center w-full mb-4">
+      <a
+        href="/CFP_ICTCon 2026_new.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-3 sm:py-4 px-3 sm:px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase text-sm sm:text-base"
+        download
+      >
+        <FaFilePdf className="mr-2" />
+        Call for Papers
+      </a>
+    </div>
 
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">
-              Proceedings By
-            </h2>
+    {/* Proceedings */}
+    <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center">
+      Proceedings By
+    </h2>
 
-            <div className="flex justify-center mb-6 sm:mb-10">
-              <a
-                href="https://www.springer.com/series/7899"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/images/springer.webp"
-                  alt="springer"
-                  className="h-28 sm:h-32 lg:h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
-                />
-              </a>
-            </div>
-            <div className="flex justify-center mb-6 sm:mb-10">
-                <img
-                  src="/images/CCIS.jpeg"
-                  alt="CCIS"
-                  className="h-28 sm:h-32 lg:h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
-                />
-            </div>
+    {/* Springer + CCIS */}
+    <div className="flex items-center justify-center gap-5 mb-8">
+      <a
+        href="https://www.springer.com/series/7899"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="/images/springer.webp"
+          alt="Springer"
+          className="h-28 sm:h-32 lg:h-40 bg-gray-200 object-contain rounded-lg shadow-lg p-2"
+        />
+      </a>
 
-            <div className="mb-4 sm:mb-6 text-center">
-              <h3 className="text-xl sm:text-2xl font-semibold mb-2">
-                Last Date of Paper Submission
-              </h3>
-             <p className="font-bold text-base sm:text-lg text-green-700 mb-3 sm:mb-4">
-  <span className="line-through text-red-500">5th May, 2026</span>
-  <br />
-  <span className="line-through text-red-500">25th May, 2026 (Extended)</span>
-  <br />
-  <span className="text-green-700">5th June, 2026 (Hard Deadline)</span>
-</p>
-              <a
-                href="https://cmt3.research.microsoft.com/ICTCon2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 text-sm sm:text-base"
-              >
-                <FaHandPointRight className="mr-2" />
-                Submit your paper here
-              </a>
-            </div>
+      <img
+        src="/images/CCIS.jpeg"
+        alt="CCIS"
+        className="h-20 sm:h-24 lg:h-28 object-contain rounded-lg shadow-lg bg-white p-2"
+      />
+    </div>
 
-            <div className="text-center">
-              <h3 className="text-xl sm:text-2xl font-semibold">
-                Date of Conference
-              </h3>
-              <p className="font-semibold text-sm sm:text-base">
-                (Hybrid mode)
-              </p>
-              <p className="text-base sm:text-lg font-bold text-red-600 mb-4">
-                2–4 November, 2026
-              </p>
-            </div>
+    {/* Paper Submission */}
+    <div className="mb-6 text-center">
+      <h3 className="text-xl sm:text-2xl font-semibold mb-2">
+        Last Date of Paper Submission
+      </h3>
 
-          </div>
-        </div>
+      <p className="font-bold text-base sm:text-lg text-green-700 mb-4">
+        <span className="line-through text-red-500">
+          5th May, 2026
+        </span>
+        <br />
+        <span className="line-through text-red-500">
+          25th May, 2026 (Extended)
+        </span>
+        <br />
+        <span className="text-green-700">
+          5th June, 2026 (Hard Deadline)
+        </span>
+      </p>
+
+      <a
+        href="https://cmt3.research.microsoft.com/ICTCon2026"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 text-sm sm:text-base"
+      >
+        <FaHandPointRight className="mr-2" />
+        Submit your paper here
+      </a>
+    </div>
+
+    {/* Conference Date */}
+    <div className="text-center">
+      <h3 className="text-xl sm:text-2xl font-semibold">
+        Date of Conference
+      </h3>
+
+      <p className="font-semibold text-sm sm:text-base">
+        (Hybrid mode)
+      </p>
+
+      <p className="text-base sm:text-lg font-bold text-red-600 mb-4">
+        2–4 November, 2026
+      </p>
+    </div>
+
+  </div>
+</div>
 
       </div>
     </div>
