@@ -25,7 +25,7 @@ const ImportantDates = () => {
                     <span className="text-green-600">5th June, 2026 (Hard Deadline)</span>
                   </>
                 ],
-                ["Notification of Acceptance", "10th July, 2026"],
+                ["Notification of Acceptance", "Announced Soon"],
                 ["Author Registration", "5th August, 2026"],
                 ["Date of Conference (Hybrid Mode)", "2–4 November, 2026"],
               ].map(([label, date], index) => (
