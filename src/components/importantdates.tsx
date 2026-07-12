@@ -22,7 +22,7 @@ const ImportantDates = () => {
 
                     </span>{" "}
                     <br />
-                    <span className="text-green-600">5th June, 2026 (Hard Deadline)</span>
+                    <span className="line-through text-red-500">5th June, 2026 (Hard Deadline)</span>
                   </>
                 ],
                 ["Notification of Acceptance", "Announced Soon"],
