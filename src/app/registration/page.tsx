@@ -197,6 +197,10 @@ const RegistrationPage = () => {
         </div>
 
         <h2 className="text-2xl text-center font-bold mb-4">
+          Instructions for Preparing the Copyright Form
+        </h2>
+        
+        <h2 className="text-2xl text-center font-bold mb-4">
           Step-by-Step Submission
         </h2>
 
