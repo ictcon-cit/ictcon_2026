@@ -66,7 +66,7 @@ const RegistrationPage = () => {
 
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
-            and $15 Foreign members after the 5th August , 2026.
+            and $15 Foreign members after the 10th August , 2026.
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@ const RegistrationPage = () => {
     <li>
       The deadline for camera-ready submission is{" "}
       <span className="font-semibold text-red-600">
-        August 5, 2026
+        August 10, 2026
       </span>
       , at 11:59 P.M. Pacific Time. This deadline will not be extended.
       Papers submitted after the deadline may not be included in the
@@ -278,7 +278,7 @@ const RegistrationPage = () => {
     <li>
       Following files need to be submitted by{" "}
       <span className="font-semibold text-red-600">
-        August 5, 2026
+        August 10, 2026
       </span>
       .
       <ul className="list-disc list-inside mt-2 ml-4">
