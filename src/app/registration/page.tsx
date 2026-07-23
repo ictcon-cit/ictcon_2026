@@ -66,7 +66,7 @@ const RegistrationPage = () => {
 
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
             Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
-            and $15 Foreign members after the 5th August , 2026.
+            and $15 Foreign members after the 10th August , 2026.
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@ const RegistrationPage = () => {
     <li>
       The deadline for camera-ready submission is{" "}
       <span className="font-semibold text-red-600">
-        August 5, 2026
+        August 10, 2026
       </span>
       , at 11:59 P.M. Pacific Time. This deadline will not be extended.
       Papers submitted after the deadline may not be included in the
@@ -278,7 +278,7 @@ const RegistrationPage = () => {
     <li>
       Following files need to be submitted by{" "}
       <span className="font-semibold text-red-600">
-        August 5, 2026
+        August 10, 2026
       </span>
       .
       <ul className="list-disc list-inside mt-2 ml-4">
@@ -318,6 +318,9 @@ const RegistrationPage = () => {
     </li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f74c55f8f42ee938d4e5a31dcee227022ea8f77
     <li>
       Similarly, the name of Copyright Form must be in the form
       <strong> CRF_xxx.pdf</strong> where <strong>xxx</strong> is the
@@ -325,6 +328,7 @@ const RegistrationPage = () => {
       your paper ID is 24, the filename must be
       <strong> CRF_024.pdf</strong>.
     </li>
+<<<<<<< HEAD
 =======
         <h2 className="text-2xl text-center font-bold mb-4">
           Instructions for Preparing the Copyright Form
@@ -350,6 +354,8 @@ const RegistrationPage = () => {
           Step-by-Step Submission
         </h2>
 >>>>>>> 0a6af35a4b583b68d6407e69fb341c78c37a5f2e
+=======
+>>>>>>> 2f74c55f8f42ee938d4e5a31dcee227022ea8f77
 
     <li>
       Login to the CMT site:{" "}
