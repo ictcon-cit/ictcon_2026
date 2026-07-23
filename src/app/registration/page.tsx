@@ -166,57 +166,205 @@ const RegistrationPage = () => {
           </h2>
         </div>
 
+ <h2 className="text-2xl text-center font-bold mb-4">
+  Instructions for Preparing the Final Camera-Ready Paper
+</h2>
+
+<div className="border p-4 rounded-lg bg-gray-50">
+  <ol className="list-decimal list-inside space-y-3">
+    <li>
+      The deadline for camera-ready submission is{" "}
+      <span className="font-semibold text-red-600">
+        August 5, 2026
+      </span>
+      , at 11:59 P.M. Pacific Time. This deadline will not be extended.
+      Papers submitted after the deadline may not be included in the
+      conference proceedings.
+    </li>
+
+    <li>
+      Authors should submit their accepted manuscript as per Springer
+      Proceedings (
+      <DownloadButton
+        href={"/Microsoft_Word_ICTCON-2026.zip"}
+        filename={"Microsoft_Word_ICTCON-2026.zip"}
+        text={"Word"}
+      />{" "}
+      /{" "}
+      <DownloadButton
+        href={"/LaTeX2e_ICTCon-2026.zip"}
+        filename={"LaTeX2e_ICTCon-2026.zip"}
+        text={"LaTeX"}
+      />
+      ).
+    </li>
+
+    <li>
+      Please ensure that the similarity index of your camera-ready
+      submission is below <strong>20%</strong> (excluding the
+      bibliography/references) and below <strong>15%</strong> for any
+      single source similarity, using standard plagiarism checking
+      software (e.g., Turnitin) before submitting the camera-ready paper.
+      Papers with a similarity score greater than 20% in total and/or
+      greater than 15% for a single source will not be included in the
+      conference proceedings.
+    </li>
+
+    <li>
+      Please include all authors' details (Name, Affiliation, and Email
+      address) in the final manuscript as mentioned in your initial
+      submission.
+    </li>
+
+    <li>
+      The page limit for all papers is <strong>15 pages</strong> including
+      figures, tables, equations, references, acknowledgments, etc. Note that there are extra-page charges if the page limit exceeds 15 pages. If the final manuscript in Springer provided format exceeds 15 pages, then each extra page INR 600 or USD 15 will be charged.
+    </li>
+  </ol>
+</div>
+
+
+<h2 className="text-2xl text-center font-bold mb-4">
+  Instructions for Copyright Form
+</h2>
+
+<div className="border p-4 rounded-lg bg-gray-50">
+  <ol className="list-decimal list-inside space-y-3">
+    <li>
+      Copyright form can be downloaded here (
+      <DownloadButton
+        href={"/copyright-form-word.docx"} // Replace later
+        filename={"copyright-form-word.docx"}
+        text={"Word"}
+      />{" "}
+      /{" "}
+      <DownloadButton
+        href={"/copyright-form.pdf"} // Replace later
+        filename={"copyright-form.pdf"}
+        text={"PDF"}
+      />
+      ).
+    </li>
+
+    <li>
+      Fill the following details as per the information submitted earlier
+      to ICTCon 2026. Any changes in the paper title and name of authors
+      will not be entertained.
+      <ul className="list-disc list-inside mt-2 ml-4">
+        <li>Proposed title of the contribution</li>
+        <li>Author(s) Full Name(s)</li>
+        <li>Corresponding Author Name</li>
+      </ul>
+    </li>
+
+    <li>
+      Sign the copyright form and fill the other details such as date,
+      address, E-mail ID, name, etc.
+    </li>
+
+    <li>
+      Please don't change any pre-filled information in the copyright
+      form.
+    </li>
+  </ol>
+</div>
+
         <h2 className="text-2xl text-center font-bold mb-4">
-          Instructions for Preparing the Final Camera-Ready Paper
+          Step-by-Step Procedure for Uploading the final Camera-Ready Submission
         </h2>
 
         <div className="border p-4 rounded-lg bg-gray-50">
-          <ol className="list-decimal list-inside mb-4">
-            <li>Deadline: 5th August 2026</li>
+  <ol className="list-decimal list-inside space-y-3">
+    <li>
+      Following files need to be submitted by{" "}
+      <span className="font-semibold text-red-600">
+        August 5, 2026
+      </span>
+      .
+      <ul className="list-disc list-inside mt-2 ml-4">
+        <li>
+          Final Camera Ready Copy (in PDF format) of accepted manuscript
+          as per Springer proceedings format.
+        </li>
+        <li>
+          Source Editable (Word/LaTeX format) file of Camera Ready Copy
+          (in ZIP folder) with all supporting files (without highlighting
+          changes after the incorporated comments).
+        </li>
+        <li>
+          Source Editable (Word/LaTeX format) file of Camera Ready Copy
+          (in ZIP folder) with all supporting files (with highlighting
+          changes after the incorporated comments).
+        </li>
+        <li>
+          Filled and Signed Copyright Form (in PDF format).
+        </li>
+      </ul>
+    </li>
 
-            <li>
-              Submit as per Springer format (
-              <DownloadButton
-                href={"/Microsoft_Word_ICTCON-2026.zip"}
-                filename={"Microsoft_Word_ICTCON-2026.zip"}
-                text={"Word"}
-              />{" "}
-              /{" "}
-              <DownloadButton
-                href={"/LaTeX2e_ICTCon-2026.zip"}
-                filename={"LaTeX2e_ICTCon-2026.zip"}
-                text={"LaTeX"}
-              />
-              )
-            </li>
+    <li>
+      The name of your final Camera Ready Copy must be in the form
+      <strong> xxx.pdf</strong> where <strong>xxx</strong> is the
+      three-digit paper ID (zero-padded if necessary). For example, if
+      your paper ID is 24, the filename must be <strong>024.pdf</strong>.
+    </li>
 
-            <li>Similarity index must be below limits.</li>
-            <li>Include all author details.</li>
-            <li>Max 15 pages.</li>
-          </ol>
-        </div>
+    <li>
+      Similarly, Source Editable Manuscript with all supporting files in
+      ZIP folder must be in the form <strong>xxx.zip</strong> where
+      <strong> xxx</strong> is the three-digit paper ID (zero-padded if
+      necessary). For example, if your paper ID is 24, the filename must
+      be <strong>024.zip</strong>.
+    </li>
 
-        <h2 className="text-2xl text-center font-bold mb-4">
-          Step-by-Step Submission
-        </h2>
+    <li>
+      Similarly, the name of Copyright Form must be in the form
+      <strong> CRF_xxx.pdf</strong> where <strong>xxx</strong> is the
+      three-digit paper ID (zero-padded if necessary). For example, if
+      your paper ID is 24, the filename must be
+      <strong> CRF_024.pdf</strong>.
+    </li>
 
-        <div className="border p-4 rounded-lg bg-gray-50">
-          <ol className="list-decimal list-inside mb-4">
-            <li>Upload PDF, ZIP, and Copyright form</li>
-            <li>Follow naming format</li>
-            <li>
-              Login to{" "}
-              <a
-                href="https://cmt3.research.microsoft.com/ICTCon2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline"
-              >
-                CMT Portal
-              </a>
-            </li>
-          </ol>
-        </div>
+    <li>
+      Login to the CMT site:{" "}
+      <a
+        href="https://cmt3.research.microsoft.com/ICTCon2026"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline"
+      >
+        https://cmt3.research.microsoft.com/ICTCon2026
+      </a>
+    </li>
+
+    <li>
+      In the CMT "Author Console", your accepted paper(s) will appear
+      with a "Create Camera Ready Submission" link. Click on the "Create
+      Camera Ready Submission" link to take you to the camera-ready
+      submission page for your accepted paper.
+    </li>
+
+    <li>
+      In the camera-ready submission page, verify that the paper title
+      and abstract are correct in the "Title and Abstract" section.
+    </li>
+
+    <li>
+      Please verify that you upload the final camera-ready paper PDF, ZIP
+      folder of source files (in Word or LaTeX) and signed Copyright form
+      PDF.
+    </li>
+
+    <li>
+      Click the "Submit" button or "Save changes" button if you're
+      editing a previous submission—at the bottom of the page to save all
+      your changes. Unless you press the "Submit"/"Save changes" button,
+      any changes you've made to the camera-ready submission (including
+      file uploads and changes to the title, abstract, and author list)
+      will not be saved.
+    </li>
+  </ol>
+</div>
 
         <div className="text-center font-semibold mt-4 flex flex-col">
           Oral PowerPoint presentation slides template:
