@@ -317,6 +317,7 @@ const RegistrationPage = () => {
       be <strong>024.zip</strong>.
     </li>
 
+<<<<<<< HEAD
     <li>
       Similarly, the name of Copyright Form must be in the form
       <strong> CRF_xxx.pdf</strong> where <strong>xxx</strong> is the
@@ -324,6 +325,31 @@ const RegistrationPage = () => {
       your paper ID is 24, the filename must be
       <strong> CRF_024.pdf</strong>.
     </li>
+=======
+        <h2 className="text-2xl text-center font-bold mb-4">
+          Instructions for Preparing the Copyright Form
+        </h2>
+        <div className="border p-4 rounded-lg bg-gray-50">
+          <ol className="list-decimal list-inside mb-4">
+            <li>Copyright form can be downloaded here</li>
+            <li>Fill the following details as per the information submitted earlier to ICTCon 2025. Any changes in the paper title and name of authors will not be entertained.
+            </li>
+            <li> Proposed title of the contribution </li>
+            <li> Author(s) Full Name(s) </li>
+            <li> Corresponding Author Name </li>
+ 
+            <li>
+              At least one author for an accepted paper is compulsory.
+            </li>
+
+            <li>Sign the copyright form and fill the other details such as date, address, E-mail id, name, etc.</li>
+            <li>Please don't change any pre-filled information in the copyright form.</li>
+            
+        
+        <h2 className="text-2xl text-center font-bold mb-4">
+          Step-by-Step Submission
+        </h2>
+>>>>>>> 0a6af35a4b583b68d6407e69fb341c78c37a5f2e
 
     <li>
       Login to the CMT site:{" "}

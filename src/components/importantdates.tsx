@@ -26,7 +26,7 @@ const ImportantDates = () => {
                   </>
                 ],
                 ["Notification of Acceptance", "Announced Soon"],
-                ["Author Registration", "5th August, 2026"],
+                ["Author Registration", "10th August, 2026"],
                 ["Date of Conference (Hybrid Mode)", "2–4 November, 2026"],
               ].map(([label, date], index) => (
                 <tr
