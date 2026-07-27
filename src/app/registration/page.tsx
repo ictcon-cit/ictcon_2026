@@ -233,13 +233,13 @@ const RegistrationPage = () => {
     <li>
       Copyright form can be downloaded here (
       <DownloadButton
-        href={"/copyright-form-word.docx"} // Replace later
+        href={"/Copyright From_ICTCon2026 (1).docx"} // Replace later
         filename={"copyright-form-word.docx"}
         text={"Word"}
       />{" "}
       /{" "}
       <DownloadButton
-        href={"/copyright-form.pdf"} // Replace later
+        href={"/Copyright From_ICTCon2026.pdf"} // Replace later
         filename={"copyright-form.pdf"}
         text={"PDF"}
       />
