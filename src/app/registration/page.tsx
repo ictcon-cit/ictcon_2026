@@ -108,25 +108,6 @@ const RegistrationPage = () => {
               Once the registration fee is paid, enter the details in the
               Registration form and upload the receipt.
             </li>
-
-            <li>
-              To pay, click on the{" "}
-              {/* Disabled QR link */}
-              {/*
-              <a
-                href="/citkokrajhar@sbi.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 font-semibold underline"
-              >
-                QR code
-              </a>
-              */}
-              <span className="text-gray-400 font-semibold cursor-not-allowed">
-                QR code (TBD)
-              </span>
-              : (Remark as <strong>ICTCon2026 #paper id</strong>)
-            </li>
           </ol>
         </div>
 
