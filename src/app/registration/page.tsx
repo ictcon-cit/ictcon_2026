@@ -90,10 +90,10 @@ const RegistrationPage = () => {
                 */}
 
                 {/* Updated TBD */}
-                <li>Name: TBD</li>
-                <li>A/c No.: TBD</li>
-                <li>IFSC: TBD</li>
-                <li>Bank: TBD</li>
+                <li>Name: INDIAN INSTITUTE OF TECHNOLOGY GOA</li>
+                <li>A/c No.: 00000039748719346</li>
+                <li>IFSC: SBIN0000557</li>
+                <li>MICR Code: 403002025</li>
 
                 <li>(REMARK AS ICTCon2026 #paper id)</li>
               </ul>
