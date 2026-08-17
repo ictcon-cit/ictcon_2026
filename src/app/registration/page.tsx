@@ -65,7 +65,7 @@ const RegistrationPage = () => {
           </div>
 
           <div className="text-center text-red-500 font-semibold mt-2 animate-pulse">
-            Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia
+            Note: A late fee of ₹500 for students, ₹1000 for faculty/Academia/Industry
             and $15 Foreign members after the 10th August , 2026.
           </div>
         </div>
