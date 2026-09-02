@@ -117,7 +117,6 @@ export default function AboutSection() {
       <a
         href="/CFP_ICTCon 2026_new.pdf"
         target="_blank"
-        rel="noopener noreferrer"
         className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-3 sm:py-4 px-3 sm:px-4 rounded-lg inline-flex items-center justify-center shadow-sm transition duration-300 ease-in-out transform hover:scale-105 w-full uppercase text-sm sm:text-base"
         download
       >
@@ -136,7 +135,6 @@ export default function AboutSection() {
       <a
         href="https://www.springer.com/series/7899"
         target="_blank"
-        rel="noopener noreferrer"
       >
         <img
           src="/images/springer.webp"
@@ -175,7 +173,6 @@ export default function AboutSection() {
       <a
         href="https://cmt3.research.microsoft.com/ICTCon2026"
         target="_blank"
-        rel="noopener noreferrer"
         className="text-blue-500 underline flex items-center justify-center hover:text-blue-700 text-sm sm:text-base"
       >
         <FaHandPointRight className="mr-2" />

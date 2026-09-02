@@ -13,7 +13,6 @@ const HorizontalScroll: React.FC = () => {
         <a
           href="./ICTCon2025_IDXXX.pptx"
           target="_blank"
-          rel="noopener noreferrer"
           className="hover:underline hover:text-red-800"
         >
           Oral power point presentation template available
