@@ -121,7 +121,6 @@ const RegistrationPage = () => {
               <a
                 href="https://forms.gle/UPd6gwEfeuDHeby28"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="text-blue-500 font-semibold underline"
               >
                 Registration Form
@@ -311,7 +310,6 @@ const RegistrationPage = () => {
       <a
         href="https://cmt3.research.microsoft.com/ICTCon2026"
         target="_blank"
-        rel="noopener noreferrer"
         className="text-blue-600 underline"
       >
         https://cmt3.research.microsoft.com/ICTCon2026

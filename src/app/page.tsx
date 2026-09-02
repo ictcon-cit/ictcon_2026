@@ -455,7 +455,6 @@ export default function Home() {
                         <a
                           href={program.link}
                           target="_blank"
-                          rel="noopener noreferrer"
                           className="text-white bg-blue-600 hover:bg-blue-800 font-bold py-2 px-8 rounded-lg"
                         >
                           Join
@@ -555,7 +554,6 @@ export default function Home() {
                         <a
                           href={program.link}
                           target="_blank"
-                          rel="noopener noreferrer"
                           className="text-white bg-green-600 hover:bg-green-800 font-bold py-2 px-8 rounded-lg"
                         >
                           Join
@@ -658,7 +656,6 @@ export default function Home() {
                         <a
                           href={program.link}
                           target="_blank"
-                          rel="noopener noreferrer"
                           className="text-white bg-purple-600 hover:bg-purple-800 font-bold py-2 px-8 rounded-lg"
                         >
                           Join
@@ -829,7 +826,6 @@ export default function Home() {
           <a
             href="https://link.springer.com/book/9783032284778"
             target="_blank"
-            rel="noopener noreferrer"
             className="block"
           >
             <div className="h-[320px] flex items-center justify-center bg-white p-4 flex-shrink-0">
@@ -861,7 +857,6 @@ export default function Home() {
           <a
             href="https://link.springer.com/book/9783032102492"
             target="_blank"
-            rel="noopener noreferrer"
             className="block"
           >
             <div className="h-[320px] flex items-center justify-center bg-white p-4 flex-shrink-0">

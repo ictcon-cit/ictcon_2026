@@ -113,9 +113,6 @@ export default function Header() {
                           key={idx}
                           href={item.href}
                           target={item.external ? "_blank" : "_self"}
-                          rel={
-                            item.external ? "noopener noreferrer" : undefined
-                          }
                           className="block px-4 py-2 hover:bg-blue-100 text-black"
                         >
                           {item.label}
@@ -136,7 +133,6 @@ export default function Header() {
                     key={index}
                     href={link.href}
                     target={isExternal ? "_blank" : "_self"}
-                    rel={isExternal ? "noopener noreferrer" : undefined}
                     className={`px-3 h-12 flex items-center text-white rounded-md ${
                       pathname === link.href
                         ? "bg-blue-700"
@@ -188,11 +184,6 @@ export default function Header() {
                         key={idx}
                         href={item.href}
                         target={item.external ? "_blank" : "_self"}
-                        rel={
-                          item.external
-                            ? "noopener noreferrer"
-                            : undefined
-                        }
                         className="block ml-4 py-1"
                         onClick={() => setNavbarOpen(false)}
                       >
@@ -212,7 +203,6 @@ export default function Header() {
                     key={index}
                     href={link.href}
                     target={isExternal ? "_blank" : "_self"}
-                    rel={isExternal ? "noopener noreferrer" : undefined}
                     className="block py-2"
                     onClick={() => setNavbarOpen(false)}
                   >
