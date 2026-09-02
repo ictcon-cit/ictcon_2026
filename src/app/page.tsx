@@ -711,7 +711,17 @@ export default function Home() {
                 img: "/images/speakers/DRBB.jpeg",
                 title: "Centre of Machine Intelligence & Data Science (MInDS), IIT Bombay",
               },
-              
+              {
+                name: "Dr. Sharad Sinha",
+                img: "/images/speakers/DR.SS.jpeg",
+                title: "Associate Professor, Computer Science and Engineering Indian Institute of Technology (IIT), Goa",
+              },
+              {
+                name: "Dr. APARNA AKULA",
+                img: "/images/speakers/Screenshot 2026-09-03 012608.png",
+                title: "Scientist-F, Centre of Excellence for Intelligent Sensors and Systems (ISenS), CSIR-CSIO, Chandigarh",
+              }
+
             ].map((speaker, idx) => (
               <div
                 key={idx}
