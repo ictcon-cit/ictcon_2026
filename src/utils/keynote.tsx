@@ -31,6 +31,20 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/DRBB.jpeg",
     url: "#",
   },
+  {
+    type: "keynote",
+    name: "Dr. Sharad Sinha",
+    organization: "Associate Professor, Computer Science and Engineering Indian Institute of Technology (IIT), Goa",
+    image: "/images/speakers/DR.SS.jpeg",
+    url: "#",
+  },
+  {
+    type: "keynote",
+    name: "Dr. APARNA AKULA",
+    organization: "Scientist-F, Centre of Excellence for Intelligent Sensors and Systems (ISenS), CSIR-CSIO, Chandigarh",
+    image: "/images/speakers/Screenshot 2026-09-03 012608.png",
+    url: "#",
+  },
 
   {
     type: "industry",
