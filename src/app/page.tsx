@@ -717,7 +717,13 @@ export default function Home() {
                 name: "Dr. APARNA AKULA",
                 img: "/images/speakers/Screenshot 2026-09-03 012608.png",
                 title: "Scientist-F, Centre of Excellence for Intelligent Sensors and Systems (ISenS), CSIR-CSIO, Chandigarh",
+              },
+              {
+                name: "Prof. Manish Kumar",
+                img: "/images/speakers/Prof. Manish Kumar.jpg",
+                title: "IIIT Allahabad, India",
               }
+
 
             ].map((speaker, idx) => (
               <div
