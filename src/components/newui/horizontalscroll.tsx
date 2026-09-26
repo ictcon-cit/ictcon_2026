@@ -16,7 +16,12 @@ const images = [
 
 export default function HorizontalScrollA() {
   return (
-    <div className="overflow-hidden py-6 sm:py-10 flex items-center justify-center w-full">
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-6 sm:py-10">
+      <img
+        src="/images/sponsors/Netweb.jpeg"
+        alt="Netweb sponsor logo"
+        className="mb-5 max-h-32 max-w-[80%] object-contain sm:absolute sm:left-[5%] sm:top-1/2 sm:mb-0 sm:max-h-40 sm:max-w-[24%] sm:-translate-y-1/2 lg:left-[7%] lg:max-h-48"
+      />
       
       {/* ===== Existing Sponsor Marquee (Commented Out) ===== */}
       {/*
@@ -62,7 +67,7 @@ export default function HorizontalScrollA() {
       */}
 
       {/* ===== New Sponsorship Message ===== */}
-      <div className="text-center max-w-2xl px-4">
+      <div className="max-w-2xl px-4 text-center">
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-600 mb-3">
           Interested in Sponsoring?
         </h2>
