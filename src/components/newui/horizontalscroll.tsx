@@ -1,70 +1,31 @@
 import Link from "next/link";
-const images = [
-  // "/images/sponsors/IndianOil.png",
-  "/images/sponsors/doma.png",
-  "/images/sponsors/stihub.jpg",
-  "/images/sponsors/ARK.jpg",
-  "/images/sponsors/BMG.jpg",
-  "/images/sponsors/HP.jpg",
-  "/images/sponsors/IndianOil.jpg",
-  "/images/sponsors/nt.jpg",
-  "/images/sponsors/IndianOil_Bonagaigaon.jpg",
-
-  // "/images/sponsors/ntpc.jpg",
-  // "/images/sponsors/hplogo.png",
-];
 
 export default function HorizontalScrollA() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-6 sm:py-10">
-      <img
-        src="/images/sponsors/Netweb.jpeg"
-        alt="Netweb sponsor logo"
-        className="mb-5 max-h-32 max-w-[80%] object-contain sm:absolute sm:left-[5%] sm:top-1/2 sm:mb-0 sm:max-h-40 sm:max-w-[24%] sm:-translate-y-1/2 lg:left-[7%] lg:max-h-48"
-      />
-      
-      {/* ===== Existing Sponsor Marquee (Commented Out) ===== */}
-      {/*
-      <div className="marquee">
-        <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              className={`h-12 sm:h-16 lg:h-20 w-auto ${
-                src.includes("hplogo")
-                  ? "bg-white rounded-full"
-                  : "bg-transparent"
-              } flex items-center justify-center flex-shrink-0`}
-            >
-              <img
-                src={src}
-                alt={`Sponsor ${index + 1}`}
-                className="h-full w-auto object-contain max-w-[120px] sm:max-w-[150px] lg:max-w-none"
-              />
-            </div>
-          ))}
+    <div className="flex w-full flex-col items-center justify-center overflow-hidden py-6 sm:py-10">
+      <div className="mb-6 grid w-full max-w-7xl grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-4">
+        <div className="flex justify-center sm:justify-start sm:pl-[5%] lg:pl-[7%]">
+          <img
+            src="/images/sponsors/Netweb.jpeg"
+            alt="Netweb sponsor logo"
+            className="max-h-32 max-w-[min(80%,360px)] object-contain sm:max-h-36 sm:max-w-full"
+          />
         </div>
-
-        <div className="flex space-x-4 sm:space-x-6 lg:space-x-10">
-          {images.map((src, index) => (
-            <div
-              key={`duplicate-${index}`}
-              className={`h-12 sm:h-16 lg:h-20 w-auto ${
-                src.includes("hplogo")
-                  ? "bg-white rounded-full"
-                  : "bg-transparent"
-              } flex items-center justify-center flex-shrink-0`}
-            >
-              <img
-                src={src}
-                alt={`Sponsor ${index + 1}`}
-                className="h-full w-auto object-contain max-w-[120px] sm:max-w-[150px] lg:max-w-none"
-              />
-            </div>
-          ))}
+        <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-3 shadow-md">
+          <img
+            src="/images/sponsors/stihub.jpg"
+            alt="STIHUB CIT Kokrajhar sponsor logo"
+            className="h-full w-full object-contain"
+          />
+        </div>
+        <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-slate-800 p-4 shadow-md sm:mr-[5%] lg:mr-[7%]">
+          <img
+            src="/images/sponsors/doma.png"
+            alt="DigitalOma sponsor logo"
+            className="h-auto max-h-full w-full object-contain"
+          />
         </div>
       </div>
-      */}
 
       {/* ===== New Sponsorship Message ===== */}
       <div className="max-w-2xl px-4 text-center">
