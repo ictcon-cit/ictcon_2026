@@ -206,7 +206,7 @@ const CommitteePage = () => {
             <div>Dr. J. P. Singh, NIT Patna</div>
             <div>Dr. Madhusudan Singh, Pennsylvania State University, PA, USA</div>
             <div>Dr. Triloki Pant, IIIT Allahabad</div>
-            <div>Dr. Deepak Mishra, IISST, Trivandrum</div>
+            <div>Dr. Deepak Mishra, IIST, Trivandrum</div>
             <div>Dr. Piyush Kumar, NIT Patna</div>
             <div>Dr. Ferdous Ahmed Barbhuiyam, IIIT Guwahati</div>
             <div>Dr. Medalson Ronghang, BBEC Kokrajhar</div>
