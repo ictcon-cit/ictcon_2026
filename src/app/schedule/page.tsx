@@ -182,7 +182,7 @@ const SubmissionPage = () => {
                           16:15–17:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium bg-[#f4f8ed]">
-                          Parallel Technical Sessions (Tracks 4–6)
+                          Parallel Technical Sessions (Tracks-4 [138, 151. 188], Tracks-5 [127, 109, 202], Tracks-6 [19, 99, 87])
                         </td>
                       </tr>
 
