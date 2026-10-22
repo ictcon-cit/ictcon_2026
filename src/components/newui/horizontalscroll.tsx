@@ -25,6 +25,22 @@ export default function HorizontalScrollA() {
             className="h-auto max-h-full w-full object-contain"
           />
         </div>
+        <div className="flex flex-col items-center justify-center gap-6 sm:col-span-3 sm:flex-row">
+          <div className="flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
+            <img
+              src="/images/sponsors/mathworks.jpeg"
+              alt="MathWorks sponsor logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
+            <img
+              src="/images/sponsors/benchmark.jpeg"
+              alt="Benchmark Computer Solutions Limited sponsor logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
+        </div>
       </div>
 
       {/* ===== New Sponsorship Message ===== */}

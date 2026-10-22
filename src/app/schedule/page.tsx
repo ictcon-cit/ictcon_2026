@@ -25,6 +25,24 @@ const SubmissionPage = () => {
               <div className="w-16 h-[2px] bg-[#3d6f91] mx-auto mt-4 rounded-full" />
             </div>
 
+            <div className="mb-8 flex flex-col items-center justify-between gap-4 rounded-xl border border-[#d7e0e7] bg-white p-5 shadow-sm sm:flex-row">
+              <div>
+                <h2 className="text-lg font-semibold text-[#17365d]">
+                  Conference Schedule
+                </h2>
+                <p className="mt-1 text-sm text-gray-500">
+                  View the full program below or download the schedule for offline use.
+                </p>
+              </div>
+              <a
+                href="/ICTCon_2026_Program%20Schedule.pdf"
+                download="ICTCon_2026_Program_Schedule.pdf"
+                className="inline-flex shrink-0 items-center gap-2 rounded-full bg-red-500 px-5 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2"
+              >
+                <FaDownload aria-hidden="true" />
+                Download Schedule PDF
+              </a>
+            </div>
 
             {/* =====================================================
                 DAY 1
