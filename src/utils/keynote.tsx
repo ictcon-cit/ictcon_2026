@@ -52,6 +52,13 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/Prof. Manish Kumar.jpg",
     url: "#",
   },
+  {
+    type: "keynote",
+    name: "Dr. V . Sakthivel Samy",
+    organization: "Scientist-G, Scientist -in-Charge, Polar Data Services Section National Centre for Polar and Ocean Research (NCPOR), Goa",
+    image: "/images/speakers/drvss.jpeg",
+    url: "#",
+  },
 
   {
     type: "industry",
