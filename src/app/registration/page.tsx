@@ -348,18 +348,17 @@ const RegistrationPage = () => {
         <div className="text-center font-semibold mt-4 flex flex-col">
           Oral PowerPoint presentation slides template:
 
-          {/* Disabled PPT link */}
-          {/*
+          {}
+          {
           <a
-            href="/PID_xx_ICTCon_2025.pptx"
+            href="/PID_xx_ICTCon_2026.pptx"
             download
             className="text-blue-500 underline font-bold"
           >
-            ICTCon2025_IDXXX.pptx
+            ICTCon2026_IDXXX.pptx
           </a>
-          */}
+          }
           <span className="text-gray-400 underline font-bold cursor-not-allowed">
-            TBD
           </span>
         </div>
       </div>

@@ -3,40 +3,49 @@ import Link from "next/link";
 export default function HorizontalScrollA() {
   return (
     <div className="flex w-full flex-col items-center justify-center overflow-hidden py-6 sm:py-10">
-      <div className="mb-6 grid w-full max-w-7xl grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-4">
-        <div className="flex justify-center sm:justify-start sm:pl-[5%] lg:pl-[7%]">
-          <img
-            src="/images/sponsors/Netweb.jpeg"
-            alt="Netweb sponsor logo"
-            className="max-h-32 max-w-[min(80%,360px)] object-contain sm:max-h-36 sm:max-w-full"
-          />
-        </div>
-        <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-3 shadow-md">
-          <img
-            src="/images/sponsors/stihub.jpg"
-            alt="STIHUB CIT Kokrajhar sponsor logo"
-            className="h-full w-full object-contain"
-          />
-        </div>
-        <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-slate-800 p-4 shadow-md sm:mr-[5%] lg:mr-[7%]">
-          <img
-            src="/images/sponsors/doma.png"
-            alt="DigitalOma sponsor logo"
-            className="h-auto max-h-full w-full object-contain"
-          />
-        </div>
-        <div className="flex flex-col items-center justify-center gap-6 sm:col-span-3 sm:flex-row">
-          <div className="flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
+      <div className="mb-6 flex w-full max-w-7xl flex-col gap-6">
+        <div className="grid grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-4">
+          <div className="flex justify-center sm:justify-start sm:pl-[5%] lg:pl-[7%]">
+            <img
+              src="/images/sponsors/Netweb.jpeg"
+              alt="Netweb sponsor logo"
+              className="max-h-32 max-w-[min(80%,360px)] object-contain sm:max-h-36 sm:max-w-full"
+            />
+          </div>
+          <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
             <img
               src="/images/sponsors/mathworks.jpeg"
               alt="MathWorks sponsor logo"
               className="h-full w-full object-contain"
             />
           </div>
-          <div className="flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
+          <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
             <img
               src="/images/sponsors/benchmark.jpeg"
               alt="Benchmark Computer Solutions Limited sponsor logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
+        </div>
+        <div className="grid grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-4">
+          <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-3 shadow-md">
+            <img
+              src="/images/sponsors/stihub.jpg"
+              alt="STIHUB CIT Kokrajhar sponsor logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-slate-800 p-4 shadow-md">
+            <img
+              src="/images/sponsors/doma.png"
+              alt="DigitalOma sponsor logo"
+              className="h-auto max-h-full w-full object-contain"
+            />
+          </div>
+          <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-lg bg-white p-4 shadow-md">
+            <img
+              src="/images/sponsors/digisol.jpeg"
+              alt="Digisol sponsor logo"
               className="h-full w-full object-contain"
             />
           </div>
