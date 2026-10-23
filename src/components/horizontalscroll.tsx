@@ -1,26 +1,21 @@
 import React from "react";
+import Link from "next/link";
 
 const HorizontalScroll: React.FC = () => {
   const textContent = (
-    <p className="text-blue-500 text-sm md:text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-
-       <span className="ml-2 font-semibold text-blue-600">
-  The proceedings of the conference will be published by Scopus Indexed ‐ Springer in Communications in Computer and Information Science series (CCIS), ( Final Acceptance of Springer CCIS Proceedings).
-</span>
-
-      {/* <span className="font-bold text-red-500">
-        [
-        <a
-          href="./ICTCon2025_IDXXX.pptx"
-          target="_blank"
-          className="hover:underline hover:text-red-800"
-        >
-          Oral power point presentation template available
-        </a>
-        ]
-      </span> */}
+    <p className="text-sm md:text-lg whitespace-nowrap">
+      <span className="ml-2 font-semibold text-blue-600">
+        The proceedings of the conference will be published by Scopus Indexed ‐
+        Springer in Communications in Computer and Information Science series
+        (CCIS), ( Final Acceptance of Springer CCIS Proceedings).
+      </span>
+      <Link
+        href="/schedule"
+        className="ml-10 font-bold text-red-600 hover:text-red-800 hover:underline"
+      >
+        Full Program Schedule Updated
+      </Link>
     </p>
-    
   );
 
   return (
