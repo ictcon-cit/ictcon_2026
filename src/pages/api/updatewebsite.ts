@@ -10,82 +10,102 @@ export default async function handler(
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { secret } = req.body;
+  const body =
+    typeof req.body === "string" ? JSON.parse(req.body) : req.body ?? {};
+  const secret = typeof body.secret === "string" ? body.secret : "";
 
-  // Load environment variables
   const expectedSecret = process.env.NEXT_PRIVATE_SECRET;
   const owner = process.env.NEXT_PRIVATE_OWNER;
   const repo = process.env.NEXT_PRIVATE_REPO;
-  const branch = "master";
-  const path = "package.json";
   const accessToken = process.env.NEXT_PRIVATE_GITHUB_API_KEY;
+  const path = "package.json";
 
-  // Validate environment variables
   if (!expectedSecret || !owner || !repo || !accessToken) {
     return res
       .status(400)
       .json({ error: "Missing required environment variables" });
   }
 
-  // Validate secret
   if (secret !== expectedSecret) {
     return res.status(401).json({ error: "Unauthorized" });
   }
 
   try {
-    // Fetch the current file details to get the SHA and content
-    const { data } = await axios.get(
-      `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`,
+    const repoResponse = await axios.get(
+      `https://api.github.com/repos/${owner}/${repo}`,
       {
         headers: {
-          Authorization: `token ${accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
+          Accept: "application/vnd.github+json",
         },
       }
     );
 
-    // Decode the existing content
-    const decodedContent = base64.decode(data.content);
+    const branch =
+      process.env.NEXT_PRIVATE_BRANCH?.trim() ||
+      repoResponse.data?.default_branch ||
+      "main";
+
+    const { data } = await axios.get(
+      `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(
+        branch
+      )}`,
+      {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+          Accept: "application/vnd.github+json",
+        },
+      }
+    );
+
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      throw new Error("Package file is unavailable");
+    }
+
+    const decodedContent = base64.decode(data.content ?? "");
     const packageJson = JSON.parse(decodedContent);
 
-    // Increment the patch version
+    if (!packageJson || typeof packageJson.version !== "string") {
+      throw new Error("package.json is missing a valid version field");
+    }
+
     const versionParts = packageJson.version.split(".");
-    versionParts[2] = (parseInt(versionParts[2], 10) + 1).toString();
+    versionParts[2] = (parseInt(versionParts[2] || "0", 10) + 1).toString();
     packageJson.version = versionParts.join(".");
 
-    // Encode the updated content
     const updatedContent = base64.encode(
       JSON.stringify(packageJson, null, 2) + "\n"
     );
+    const currentTime = new Date().toISOString();
 
-    const currenttime = new Date().toISOString();
-
-    // Update the file with new content
     const response = await axios.put(
       `https://api.github.com/repos/${owner}/${repo}/contents/${path}`,
       {
-        message: `chore: increment version to ${packageJson.version} at ${currenttime}`,
+        message: `chore: increment version to ${packageJson.version} at ${currentTime}`,
         content: updatedContent,
         sha: data.sha,
         branch,
       },
       {
         headers: {
-          Authorization: `token ${accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
+          Accept: "application/vnd.github+json",
+          "Content-Type": "application/json",
         },
       }
     );
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       message: `Version incremented to ${packageJson.version}`,
       data: response.data,
     });
   } catch (error) {
     console.error("Error updating version:", error);
-    res.status(500).json({
+    return res.status(500).json({
       error: "Failed to update version",
       details:
-        "Check if the repository's package.json file exists and is accessible",
+        "Check if the repository's package.json file exists, the default branch is correct, and the GitHub token has permission to edit it.",
     });
   }
 }

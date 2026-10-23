@@ -75,4 +75,12 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/DR_PA.jpeg", // optional
     url: "#",
   },
+  {
+    type: "industry",
+    name: "Industry talk (DIGISOL)",
+    designation: "",
+    organization: "",
+    image: "/images/sponsors/digisol.jpeg", // optional
+    url: "#",
+  },
 ];
