@@ -59,6 +59,13 @@ export const KeyNoteData: KeynoteDataType[] = [
     image: "/images/speakers/drvss.jpeg",
     url: "#",
   },
+  {
+    type: "keynote",
+    name: "Parshu Ram Dhungyel",
+    organization: "HoD, CTD/Programme leader BEIT/Lecturer at CST,  Royal University of Bhutan, Phuntsholing, Bhutan",
+    image: "/images/speakers/prd.jpeg",
+    url: "#",
+  },
 
   {
     type: "industry",
