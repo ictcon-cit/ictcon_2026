@@ -31,6 +31,63 @@ function Popup({ onClose, children }: PopupProps) {
   );
 }
 
+const conferenceTracks = [
+  {
+    day: "Day 1",
+    date: "November 2, 2026",
+    tracks: [
+      {
+        name: "Track 1: Artificial Intelligence & Machine Learning",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=me4a2f6935c7adbc0a12e63d148e49706",
+      },
+      {
+        name: "Track 2: Cybersecurity & Digital Forensics",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=ma6d37806a1190a48b20612a087cf6fdc",
+      },
+      {
+        name: "Track 3: Intelligent Computing & IoT",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=m992815290f3f799cab2ca4752059d6cc",
+      },
+    ],
+  },
+  {
+    day: "Day 2",
+    date: "November 3, 2026",
+    tracks: [
+      {
+        name: "Track 1: Deep Learning & Computer Vision",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=md6e1911b0db75872854d6563dd8104b2",
+      },
+      {
+        name: "Track 2: Network Security & Blockchain",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=m963a60f2ec27c07e3fa4be91d3ae54c6",
+      },
+      {
+        name: "Track 3: Signal Processing & Data Science",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=m1a658b1fabfec615fff0622b58f5021a",
+      },
+    ],
+  },
+  {
+    day: "Day 3",
+    date: "November 4, 2026",
+    tracks: [
+      {
+        name: "Track 1: Forensics & Biometrics Analytics",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=mddb05d16347b47e46b0c9c7ac467233e",
+      },
+      {
+        name: "Track 2: Cloud Computing & Smart Systems",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=m674423fccc29c359024f19c9727052f7",
+      },
+      {
+        name: "Track 3: Hands-on Workshop / Industrial Session",
+        link: "https://nfsu.webex.com/nfsu/j.php?MTID=mfbd14f9409efa80b3a1d6390983451fd",
+      },
+    ],
+  },
+];
+
 export default function Home() {
   const [showPopup1, setShowPopup1] = useState(false);
   const [showPopup2, setShowPopup2] = useState(false);
@@ -309,6 +366,49 @@ export default function Home() {
       <div className="mb-3 px-4 sm:px-16">
         <HorizontalScroll />
       </div>
+      <section
+        aria-labelledby="join-conference-heading"
+        className="mx-4 mb-6 rounded-lg bg-white p-4 shadow-md sm:mx-16 sm:p-6"
+      >
+        <h2
+          id="join-conference-heading"
+          className="mb-2 text-center text-2xl font-bold text-blue-900 sm:text-3xl"
+        >
+          Join the Conference
+        </h2>
+        <p className="mb-5 text-center text-gray-600">
+          Join your track online on the corresponding conference day.
+        </p>
+        <div className="grid gap-4 lg:grid-cols-3">
+          {conferenceTracks.map((day) => (
+            <section
+              key={day.day}
+              aria-label={`${day.day}, ${day.date}`}
+              className="rounded-lg border border-blue-100 bg-blue-50 p-4"
+            >
+              <h3 className="mb-3 text-center text-lg font-bold text-blue-900">
+                {day.day}
+                <span className="ml-2 text-sm font-medium text-gray-600">
+                  ({day.date})
+                </span>
+              </h3>
+              <div className="grid gap-3">
+                {day.tracks.map((track) => (
+                  <a
+                    key={track.name}
+                    href={track.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex min-h-14 items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-center font-bold text-white transition-colors hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  >
+                    {track.name}
+                  </a>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </section>
       {/* Awards Section */}
       {/* <div className="mx-4 sm:mx-16 px-5 py-3 bg-blue-50 border border-blue-300 rounded-md shadow-md my-6 text-center">
   <h2 className="text-2xl font-bold mb-3 text-blue-900">🏆 Awards</h2>
