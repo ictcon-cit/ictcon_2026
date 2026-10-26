@@ -35,6 +35,7 @@ const conferenceTracks = [
   {
     day: "Day 1",
     date: "November 2, 2026",
+    additionalButtonLabel: "Inauguration and Keynote talks",
     tracks: [
       {
         name: "Track 1: Artificial Intelligence & Machine Learning",
@@ -53,6 +54,7 @@ const conferenceTracks = [
   {
     day: "Day 2",
     date: "November 3, 2026",
+    additionalButtonLabel: "Keynote talks and Workshop",
     tracks: [
       {
         name: "Track 1: Deep Learning & Computer Vision",
@@ -71,6 +73,7 @@ const conferenceTracks = [
   {
     day: "Day 3",
     date: "November 4, 2026",
+    additionalButtonLabel: "Keynote talks and Valedictory",
     tracks: [
       {
         name: "Track 1: Forensics & Biometrics Analytics",
@@ -393,6 +396,14 @@ export default function Home() {
                 </span>
               </h3>
               <div className="grid gap-3">
+                <a
+                  href={day.tracks[0].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-h-14 items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-center font-bold text-white transition-colors hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                >
+                  {day.additionalButtonLabel}
+                </a>
                 {day.tracks.map((track) => (
                   <a
                     key={track.name}

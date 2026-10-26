@@ -351,11 +351,11 @@ const RegistrationPage = () => {
           {}
           {
           <a
-            href="/PID_xx_ICTCon_2026.pptx"
+            href="/ICTCon2026_PID_XXX.pptx"
             download
             className="text-blue-500 underline font-bold"
           >
-            ICTCon2026_IDXXX.pptx
+            ICTCon2026_PID_XXX.pptx
           </a>
           }
           <span className="text-gray-400 underline font-bold cursor-not-allowed">
