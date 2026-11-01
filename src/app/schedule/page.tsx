@@ -276,7 +276,7 @@ const SubmissionPage = () => {
                           11:30 AM–12:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-4 [207, 115, 135], Tracks-5 [69, 194, 88], Tracks-6 [76, 141, 78])
+                          Parallel Technical Sessions (Tracks-4 [207, 115, 167], Tracks-5 [69, 194, 88], Tracks-6 [76, 141, 78])
                         </td>
                       </tr>
 
@@ -381,7 +381,7 @@ const SubmissionPage = () => {
                           10:00–11:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [6, 85, 167], Tracks-2 [84, 181, 196], Tracks–3 [124, 183])
+                          Parallel Technical Sessions (Tracks-1 [6, 85, 135], Tracks-2 [84, 181, 196], Tracks–3 [124, 183])
                         </td>
                       </tr>
                       
