@@ -237,7 +237,7 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          08:45–09:00 AM
+                          08:45–09:15 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Registration/Virtual Check-in &amp; Welcome Tea
@@ -246,16 +246,25 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          09:00–09:45 AM
+                          09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 4
+                          Industrial Talk 1: DigiSol  Keynote Talk 4
                         </td>
                       </tr>
 
+                      <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          10:00–11:00 AM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#466d10] font-medium">
+                          Parallel Technical Sessions (Tracks-1 [154, 156, 205], Tracks-2 [150, 185, 189], Tracks-3 [12, 195, 184] )
+                        </td>
+                      </tr>
+                      
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          09:45–10:00 AM
+                          11:00–11:30 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Tea / Networking
@@ -264,61 +273,53 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          10:00–11:30 AM
-                        </td>
-                        <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [154, 156, 205], Tracks-2 [150, 185, 189], Tracks-3 [12, 195, 184] )
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
-                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          11:30–12:15 PM
-                        </td>
-                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 5
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
-                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          12:15–13:00 PM
-                        </td>
-                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 6
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-[#e1e7eb]">
-                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          13:00–14:15 PM
-                        </td>
-                        <td className="px-4 py-2.5 text-gray-700">
-                          Lunch
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-[#e1e7eb]">
-                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          14:15–15:00 PM
-                        </td>
-                        <td className="px-4 py-2.5 text-gray-700">
-                          Workshop
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
-                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          15:00–16:30 PM
+                          11:30 AM–12:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
                           Parallel Technical Sessions (Tracks-4 [207, 115, 135], Tracks-5 [69, 194, 88], Tracks-6 [76, 141, 78])
                         </td>
                       </tr>
 
+                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          12:30 PM–13:15 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
+                          Keynote Talk 4
+                        </td>
+                      </tr>
+
+                     <tr className="border-b border-[#e1e7eb]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          13:15–14:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-gray-700">
+                          Lunch
+                        </td>
+                      </tr>
+                      
+                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          14:30–15:15 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
+                          Keynote Talk 5
+                        </td>
+                      </tr>
+
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:30–16:45 PM
+                          15:15–16:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-gray-700">
+                          Matlab Workshop
+                        </td>
+                      </tr>
+
+
+                      <tr className="border-b border-[#e1e7eb]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          16:30–17:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Tea / Networking
@@ -327,10 +328,10 @@ const SubmissionPage = () => {
 
                       <tr>
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:45–18:15 PM
+                          18:30–21:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium bg-[#f4f8ed]">
-                          Parallel Technical Sessions (Tracks 7–9)
+                          Cultural Program and Dinner
                         </td>
                       </tr>
 
