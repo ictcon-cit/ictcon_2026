@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <Header />
         <div className="bg-tertiary sm:mt-24 mt-16">{children}</div>
         <Footer footerItems={FooterItems} />
