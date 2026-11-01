@@ -249,7 +249,7 @@ const SubmissionPage = () => {
                           09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Industrial Talk 1: DigiSol  Keynote Talk 4
+                          Industrial Talk 1: DigiSol
                         </td>
                       </tr>
 
@@ -368,16 +368,26 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          09:00–09:45 AM
+                          09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 7
+                          Keynote Talk 6
                         </td>
                       </tr>
 
+                      
+                      <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          10:00–11:00 AM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#466d10] font-medium">
+                          Parallel Technical Sessions (Tracks-1 [6, 85, 167], Tracks-2 [84, 181, 196], Tracks–3 [124, 183])
+                        </td>
+                      </tr>
+                      
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          09:45–10:00 AM
+                          11:00–11:30 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Tea / Networking
@@ -386,32 +396,55 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          10:00–10:45 AM
+                          11:30–12:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 8
+                          Keynote Talk 7: Mr. Pashu Ram
                         </td>
                       </tr>
 
-                      <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
+
+                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          10:45–11:30 AM
+                          12:00–13:00 PM
                         </td>
-                        <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [6, 85, 167], Tracks-2 [84, 181, 196], Tracks–3 [124, 183])
+                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
+                          Keybite Talk 8:: Prof. Manish Kumar, IIIT Allahabad
                         </td>
                       </tr>
 
+                      
+                     <tr className="border-b border-[#e1e7eb]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          13:00–14:15 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-gray-700">
+                          Lunch
+                        </td>
+                      </tr>
+                   
+
+                      <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          14:15–15:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#765b00] font-medium">
+                          Industrial Talk 3
+                        </td>
+                      </tr>
+
+
+                      
                       <tr className="border-b border-[#e1e7eb]">
                         <td
                           rowSpan={5}
                           className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8] align-middle"
                         >
-                          11:30–12:45 PM
+                          15:30–16:15 PM
                         </td>
 
                         <td className="px-4 py-2.5 text-gray-700">
-                          Conference Highlights &amp; Statistics
+                          Valedictory Session: &amp; Statistics
                         </td>
                       </tr>
 
@@ -441,7 +474,7 @@ const SubmissionPage = () => {
 
                       <tr>
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          12:45 PM
+                          16:15-16:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700 font-medium">
                           Formal Closing of ICTCon 2026
