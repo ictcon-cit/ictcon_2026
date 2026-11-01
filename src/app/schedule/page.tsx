@@ -31,16 +31,16 @@ const SubmissionPage = () => {
                   Conference Schedule
                 </h2>
                 <p className="mt-1 text-sm text-gray-500">
-                  View the full program below or download the schedule for offline use.
+                  View the programme below or download the conference booklet, including the full schedule.
                 </p>
               </div>
               <a
-                href="/ICTCon_2026_Program%20Schedule.pdf"
-                download="ICTCon_2026_Program_Schedule.pdf"
+                href="/ICTCon_2026_Conference_Abstract_Booklet%20%282%29.pdf"
+                download="ICTCon_2026_Conference_Abstract_Booklet.pdf"
                 className="inline-flex shrink-0 items-center gap-2 rounded-full bg-red-500 px-5 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2"
               >
                 <FaDownload aria-hidden="true" />
-                Download Schedule PDF
+                Download Programme &amp; Schedule
               </a>
             </div>
 
@@ -70,7 +70,7 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          08:30–09:30 AM
+                          08:30–09:45 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Registration &amp; Welcome Tea
@@ -82,7 +82,7 @@ const SubmissionPage = () => {
                           rowSpan={8}
                           className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8] align-middle"
                         >
-                          09:30–11:10 AM
+                          09:45–11:10 AM
                         </td>
 
                         <td className="px-4 py-2.5 text-gray-700">
@@ -110,34 +110,34 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-gray-700">
-                          Address by Director, IIT Goa
+                          Address by Chief Guest and Director, IIT Goa
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-gray-700">
-                          Address by Director, NFSU Goa
+                          Address by Campus Director, NFSU Goa
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-gray-700">
-                          Address by Chief Guest / General Chair
+                          Address by Vice Chancellor, Goa University
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-gray-700">
-                          Formal Inauguration
+                          Address by the General Chair
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          11:10–11:20 AM
+                          11:10–11:25 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Tea / Networking
+                          High Tea / Networking
                         </td>
                       </tr>
 
@@ -146,7 +146,7 @@ const SubmissionPage = () => {
                           11:25–12:10 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 1
+                          Keynote Talk 1: Prof. Sebastiano Battiato, University of Catania, Italy — The Mirage Problem: When AI-Generated Content Breaks Reality
                         </td>
                       </tr>
 
@@ -155,40 +155,40 @@ const SubmissionPage = () => {
                           12:10–12:55 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 2
+                          Keynote Talk 2: Dr. Gaurav Pandey, Texas A&amp;M University — Autonomous Vehicles: From DARPA Challenges to Robotaxis
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          13:00–14:15 PM
+                          1:00–2:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Lunch
+                          Lunch Break
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          14:15–15:00 PM
+                          2:15–3:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 3
+                          Keynote Talk 3: Dr. Aparna Akula, CSIR-CSIO, Chandigarh — Intelligent Thermal Imaging System and its Applications
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb] bg-[#f4f8ed]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          15:00–16:00 PM
+                          3:00–4:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [66, 77, 117, 119], Track-2 [23, 145, 186, 74], Track-3 [153, 164, 180])
+                          Parallel Paper Session I (Halls 1, 2, and 3)
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:00–16:15 PM
+                          4:00–4:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Tea / Networking
@@ -197,10 +197,28 @@ const SubmissionPage = () => {
 
                       <tr>
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:15–17:00 PM
+                          4:15–5:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium bg-[#f4f8ed]">
-                          Parallel Technical Sessions (Tracks-4 [138, 151, 188], Tracks-5 [127, 109, 202], Tracks–6 [19, 99, 87])
+                          Parallel Paper Session II (Halls 1, 2, and 3)
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-[#e1e7eb]">
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          5:15–5:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-gray-700">
+                          Day 1 Summary and Announcements
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          5:45–10:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-[#466d10] font-medium bg-[#f4f8ed]">
+                          Gala Dinner and Networking
                         </td>
                       </tr>
 
@@ -240,7 +258,7 @@ const SubmissionPage = () => {
                           08:45–09:15 AM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Registration/Virtual Check-in &amp; Welcome Tea
+                          Registration and Welcome Tea
                         </td>
                       </tr>
 
@@ -249,7 +267,7 @@ const SubmissionPage = () => {
                           09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Industrial Talk 1: DigiSol
+                          Industrial Talk 1: Mr. Tanmay Bandodkar — IT and HPC Solutions by DIGISol
                         </td>
                       </tr>
 
@@ -258,7 +276,7 @@ const SubmissionPage = () => {
                           10:00–11:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [154, 156, 205], Tracks-2 [150, 185, 189], Tracks-3 [12, 195, 184] )
+                          Parallel Paper Session III (Halls 1, 2, and 3)
                         </td>
                       </tr>
                       
@@ -276,22 +294,22 @@ const SubmissionPage = () => {
                           11:30 AM–12:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-4 [207, 115, 167], Tracks-5 [69, 194, 88], Tracks-6 [76, 141, 78])
+                          Parallel Paper Session IV (Halls 1, 2, and 3)
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          12:30 PM–13:15 PM
+                          12:30–1:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 4
+                          Keynote Talk 4: Dr. Biplab Banerjee, IIT Bombay — The JEPA Paradigm in Remote Sensing
                         </td>
                       </tr>
 
                      <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          13:15–14:30 PM
+                          1:15–2:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
                           Lunch
@@ -300,35 +318,35 @@ const SubmissionPage = () => {
                       
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          14:30–15:15 PM
+                          2:30–3:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 5
+                          Keynote Talk 5: Prof. Sharad Sinha, IIT Goa — Complementary Relationship Between AI and Computing Systems Design
                         </td>
                       </tr>
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          15:15–16:30 PM
+                          3:15–4:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Matlab Workshop
+                          MATLAB Workshop: Mr. Nikhil Sonavane — AI+ MedTech: From Medical Images to Intelligent Clinical Research Workflows
                         </td>
                       </tr>
 
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:30–17:00 PM
+                          4:30–5:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Tea / Networking
+                          Tea / Networking and Day 2 Announcements
                         </td>
                       </tr>
 
                       <tr>
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          18:30–21:00 PM
+                          6:30–9:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium bg-[#f4f8ed]">
                           Cultural Program and Dinner
@@ -371,7 +389,7 @@ const SubmissionPage = () => {
                           09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 6
+                          Keynote Talk 6: Dr. V S Samy, NCPOR Goa — Advancing Antarctic Weather and Climate Research through AI and Machine Learning
                         </td>
                       </tr>
 
@@ -381,7 +399,7 @@ const SubmissionPage = () => {
                           10:00–11:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#466d10] font-medium">
-                          Parallel Technical Sessions (Tracks-1 [6, 85, 135], Tracks-2 [84, 181, 196], Tracks–3 [124, 183])
+                          Parallel Paper Session V (Halls 1, 2, and 3)
                         </td>
                       </tr>
                       
@@ -396,40 +414,40 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          11:30–12:00 PM
+                          11:30 AM–12:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 7: Mr. Pashu Ram
+                          Keynote Talk 7: Mr. Parshu Ram Dhungyel — Smart Greenhouse Automation System
                         </td>
                       </tr>
 
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          12:00–13:00 PM
+                          12:00–1:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keybite Talk 8:: Prof. Manish Kumar, IIIT Allahabad
+                          Keynote Talk 8: Prof. Manish Kumar, IIIT Allahabad — Gen-AI Pipeline in Data Analytics
                         </td>
                       </tr>
 
                       
                      <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          13:00–14:15 PM
+                          1:00–2:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700">
-                          Lunch
+                          Lunch Break
                         </td>
                       </tr>
                    
 
                       <tr className="border-b border-[#e1e7eb] bg-[#fffaf0]">
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          14:15–15:30 PM
+                          2:15–3:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Industrial Talk 3
+                          Industrial Talk 2: Dr. Prashant Aparajeva — Learning by Doing: An Intuitive Journey into Reinforcement Learning
                         </td>
                       </tr>
 
@@ -440,11 +458,11 @@ const SubmissionPage = () => {
                           rowSpan={5}
                           className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8] align-middle"
                         >
-                          15:30–16:15 PM
+                          3:30–4:15 PM
                         </td>
 
                         <td className="px-4 py-2.5 text-gray-700">
-                          Valedictory Session: &amp; Statistics
+                          Valedictory Session: Conference Highlights and Statistics
                         </td>
                       </tr>
 
@@ -456,7 +474,7 @@ const SubmissionPage = () => {
 
                       <tr className="border-b border-[#e1e7eb]">
                         <td className="px-4 py-2.5 text-gray-700">
-                          Organizing Chair Report
+                          Organizing Chair’s Report
                         </td>
                       </tr>
 
@@ -474,10 +492,19 @@ const SubmissionPage = () => {
 
                       <tr>
                         <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
-                          16:15-16:30 PM
+                          4:15–4:30 PM
                         </td>
                         <td className="px-4 py-2.5 text-gray-700 font-medium">
-                          Formal Closing of ICTCon 2026
+                          Formal Closing of ICTCon 2026 and Group Photo
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td className="px-4 py-2.5 text-[#334e68] font-medium bg-[#f3f6f8]">
+                          4:30 PM
+                        </td>
+                        <td className="px-4 py-2.5 text-gray-700">
+                          Tea / Networking
                         </td>
                       </tr>
 
