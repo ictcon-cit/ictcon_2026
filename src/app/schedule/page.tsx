@@ -40,7 +40,7 @@ const SubmissionPage = () => {
                 className="inline-flex shrink-0 items-center gap-2 rounded-full bg-red-500 px-5 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2"
               >
                 <FaDownload aria-hidden="true" />
-                Download Programme &amp; Schedule
+                Download Programme Schedule
               </a>
             </div>
 
