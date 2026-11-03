@@ -76,15 +76,15 @@ const conferenceTracks = [
     additionalButtonLabel: "Keynote talks and Valedictory",
     tracks: [
       {
-        name: "Track 1: Forensics & Biometrics Analytics",
+        name: "Track 1",
         link: "https://nfsu.webex.com/nfsu/j.php?MTID=mddb05d16347b47e46b0c9c7ac467233e",
       },
       {
-        name: "Track 2: Cloud Computing & Smart Systems",
+        name: "Track 2",
         link: "https://nfsu.webex.com/nfsu/j.php?MTID=m674423fccc29c359024f19c9727052f7",
       },
       {
-        name: "Track 3: Hands-on Workshop / Industrial Session",
+        name: "Track 3",
         link: "https://nfsu.webex.com/nfsu/j.php?MTID=mfbd14f9409efa80b3a1d6390983451fd",
       },
     ],
