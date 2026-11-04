@@ -267,7 +267,7 @@ const SubmissionPage = () => {
                           09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Industrial Talk 1: Mr. Tanmay Bandodkar — IT and HPC Solutions by DIGISol
+                           Keynote Talk 4: Mr. Parshu Ram Dhungyel — Smart Greenhouse Automation System
                         </td>
                       </tr>
 
@@ -303,7 +303,7 @@ const SubmissionPage = () => {
                           12:30–1:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 4: Dr. Biplab Banerjee, IIT Bombay — The JEPA Paradigm in Remote Sensing
+                          Keynote Talk 5: Dr. Biplab Banerjee, IIT Bombay — The JEPA Paradigm in Remote Sensing
                         </td>
                       </tr>
 
@@ -321,7 +321,7 @@ const SubmissionPage = () => {
                           2:30–3:15 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 5: Prof. Sharad Sinha, IIT Goa — Complementary Relationship Between AI and Computing Systems Design
+                          Keynote Talk 6: Prof. Sharad Sinha, IIT Goa — Complementary Relationship Between AI and Computing Systems Design
                         </td>
                       </tr>
 
@@ -389,7 +389,7 @@ const SubmissionPage = () => {
                           09:15–10:00 AM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 6: Dr. V S Samy, NCPOR Goa — Advancing Antarctic Weather and Climate Research through AI and Machine Learning
+                          Keynote Talk 7: Dr. V S Samy, NCPOR Goa — Advancing Antarctic Weather and Climate Research through AI and Machine Learning
                         </td>
                       </tr>
 
@@ -417,7 +417,7 @@ const SubmissionPage = () => {
                           11:30 AM–12:00 PM
                         </td>
                         <td className="px-4 py-2.5 text-[#765b00] font-medium">
-                          Keynote Talk 7: Mr. Parshu Ram Dhungyel — Smart Greenhouse Automation System
+                            Industrial Talk 1: Mr. Tanmay Bandodkar — IT and HPC Solutions by DIGISol 
                         </td>
                       </tr>
 
