@@ -370,6 +370,44 @@ export default function Home() {
         <HorizontalScroll />
       </div>
       <section
+        aria-labelledby="awards-heading"
+        className="mx-4 my-6 rounded-md border border-blue-300 bg-blue-50 px-5 py-3 text-center shadow-md sm:mx-16"
+      >
+        <h2
+          id="awards-heading"
+          className="mb-3 text-2xl font-bold text-blue-900"
+        >
+          🏆 Awards
+        </h2>
+        <div className="space-y-4 text-gray-800">
+          <div>
+            <h3 className="font-bold">Best Paper Award</h3>
+            <p>
+              Paper ID 194 - LMM-Assisted Multi-Modal Framework for Automated
+              Forensic 3D Reconstruction
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold">Best Application Papers</h3>
+            <ul className="space-y-1">
+              <li>
+                Paper ID 69 - An Interactive Real-Time Mixed Reality System for
+                Multimodal Forensic Crime Scene Analysis
+              </li>
+              <li>
+                Paper ID 84 - Robust Visual SLAM for UAV Navigation in
+                GPS-Denied and Degraded Environments: A Multi-Paradigm
+                Evaluation and Deployment Study
+              </li>
+              <li>
+                Paper ID 180 - KWG-RFE: A Tri-Stage Hybrid Feature Reduction
+                Framework for Android Malware Detection
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
         aria-labelledby="join-conference-heading"
         className="mx-4 mb-6 rounded-lg bg-white p-4 shadow-md sm:mx-16 sm:p-6"
       >
@@ -420,24 +458,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-      {/* Awards Section */}
-      {/* <div className="mx-4 sm:mx-16 px-5 py-3 bg-blue-50 border border-blue-300 rounded-md shadow-md my-6 text-center">
-  <h2 className="text-2xl font-bold mb-3 text-blue-900">🏆 Awards</h2>
-
-  <p className="text-lg font-semibold text-gray-800">
-    <span className="font-bold">Best Paper:</span> Paper ID 135 – Advanced Fake News Detection Using Hybrid CNN-BiLSTM with Class Balancing
-  </p>
-
-  <p className="text-lg font-semibold text-gray-800 mt-3">
-    <span className="font-bold">Best Application Award:</span>
-  </p>
-
-  <p className="text-gray-800">Paper ID 139 – Classification and Interpretability of Palm Leaf Diseases Using Deep Learning and Explainable AI</p>
-  <p className="text-gray-800">Paper ID 28 – Hybrid Multi-View 3D Object Detection from 2D Images: Fusion of Structure-from-Motion and Learned Depth Priors</p>
-</div>     */}
-
-
-
     {/*  <div className="mb-3 mx-4 sm:mx-16 px-5 py-3 bg-white rounded-md shadow-md">
         <h2 className="text-3xl font-bold mb-4 text-center">
           Join the Conference
