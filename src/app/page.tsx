@@ -388,7 +388,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <h3 className="font-bold">Best Application Papers</h3>
+            <h3 className="font-bold">Best Application Paper Awards</h3>
             <ul className="space-y-1">
               <li>
                 Paper ID 69 - An Interactive Real-Time Mixed Reality System for
